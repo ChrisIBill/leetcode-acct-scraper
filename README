@@ -1,0 +1,5 @@
+Simple python webscraper to scrape LeetCode user submission data and store it in a csv file.
+Requires a config.ini file with the following format:
+[LeetCode Info]:
+Username = <LeetCode username>
+Password = <LeetCode password>
