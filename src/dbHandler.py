@@ -1,6 +1,17 @@
 import csv
 
 
+def readDictFromCSV(csv_file):
+    csv_columns = ["link", "title", "runtime",
+                   "language", "runtime-perf", "memory-perf"]
+    reader = csv.DictReader(csv_file, fieldnames=csv_columns)
+    dict_data = {}
+    for row in reader:
+        dict_data[row['link']] = [
+            row['title'], row['runtime'], row['language'], row['runtime-perf'], row['memory-perf']]
+    return dict_data
+
+
 def writeDictToCSV(csv_file, csv_columns, dict_data):
     writer = csv.DictWriter(csv_file, fieldnames=csv_columns)
     for d in dict_data:
@@ -22,7 +33,19 @@ def writeDictToCSV(csv_file, csv_columns, dict_data):
             })
 
 
+def readSubmissionsFromCSV():
+    with open('data.csv', 'r') as csvfile:
+        submissionsDict = readDictFromCSV(csvfile)
+    return submissionsDict
+
+
 def writeSubmissionsToCSV(dict_data):
     with open('data.csv', 'w', newline='') as csvfile:
+        writeDictToCSV(csvfile, ["link", "title",
+                       "runtime", "language", "runtime-perf", "memory-perf"], dict_data)
+
+
+def appendSubmissionToCSV(dict_data):
+    with open('data.csv', 'a', newline='') as csvfile:
         writeDictToCSV(csvfile, ["link", "title",
                        "runtime", "language", "runtime-perf", "memory-perf"], dict_data)
