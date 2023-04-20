@@ -10,9 +10,11 @@ Leetcode Problem DB Format:
         "title": Problem title,
         "tags": Problem tags,
         "difficulty": Problem difficulty,
-        "update-time": db value last update time,
+        "partial-update-time": db value last update time,
+        "total-update-time":
         "problem-data": {
             #Stores data that needs to be updated frequently
+            
             "acceptance": Problem acceptance rate,
             "runtime-distribution": { 
                 "mode":

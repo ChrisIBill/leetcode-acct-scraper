@@ -220,10 +220,9 @@ def problemsScrapper(existingProblems):
 
     def getProblemLinks(sitePrepped=False):
         print("Getting problem links")
-        overGrid = driver.find_element(
-            By.CSS_SELECTOR, value=".grid .col-span-4")
-        problemsGrid = overGrid.find_elements(By.XPATH, value="*")[-1]
-        problemsGridElements = problemsGrid.find_elements(By.XPATH, value="*")
+        problemsGridElements = driver.find_element(
+            By.CSS_SELECTOR, value=".grid .col-span-4").find_elements(
+                By.XPATH, value="*")[-1].find_elements(By.XPATH, value="*")
         problemsHeader = problemsGridElements[0]
         problemsBody = problemsGridElements[1]
         problemsFooter = problemsGridElements[2]
@@ -249,11 +248,11 @@ def problemsScrapper(existingProblems):
             prepSite(settingsElement, elemsPerPageElement, navBar)
             sitePrepped = True
 
-        transitive = problemsBody.find_element(By.XPATH, value="*")
-        transitive = transitive.find_element(By.XPATH, value="*")
-        problemsBodyComponents = transitive.find_elements(
+        problemsBodyComponents = problemsBody.find_element(
+            By.XPATH, value="*").find_element(By.XPATH, value="*").find_elements(
             By.XPATH, value="*")
         problemsList = problemsBodyComponents[1]
+
         for p in problemsList.find_elements(By.XPATH, value="*"):
             try:
                 handleProblemElement(p)
