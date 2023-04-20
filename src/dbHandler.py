@@ -1,6 +1,7 @@
 import csv
 import os
-
+import pandas as pd
+import numpy as np
 from pymongo import MongoClient
 
 from Utils import validateSubmission, validateProblem
@@ -31,16 +32,31 @@ def readSubmissionsFromDB():
     return submissions
 
 
-def writeSubmissionsToDB(submissions):
-    print("Writing submissions to DB")
-    for submission in submissions:
-        print("Attempting to write submission: " + submission)
-        print(submissions.get(submission))
-        if validateSubmission(submissions[submission]):
-            getSubmissionsCollection().insert_one(
-                [submissions.get(submission)])
-        else:
-            print("Invalid submission: " + submission)
+def getDataframeFromSubmissions():
+    return pd.read_csv(SUBMISSIONS_CSV)
+
+
+def writeSubmissionsToDB(df):
+    # print(df.info())
+    # print(df.shape)
+    # print(df.size)
+    # print(df.head())
+    # df.reset_index(inplace=True)
+    # d = df.to_dict('records')
+    # print(d)
+    try:
+        getSubmissionsCollection().insert_many(df.to_dict('records'))
+    except Exception as e:
+        print("Error writing submissions to DB")
+        print(e)
+
+
+def writeProblemsToDB(df):
+    try:
+        getProblemsCollection().insert_many(df.to_dict('records'))
+    except Exception as e:
+        print("Error writing problems to DB")
+        print(e)
 
 
 def readDictFromCSV(csv_file, csv_columns):

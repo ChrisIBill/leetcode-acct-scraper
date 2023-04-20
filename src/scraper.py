@@ -1,3 +1,5 @@
+import pandas as pd
+import numpy as np
 import time
 import configparser
 import validators
@@ -7,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-from dbHandler import appendSubmissionToCSV, readDictFromCSV, readSubmissionsFromCSV, readSubmissionsFromDB, writeSubmissionsToCSV, writeSubmissionsToDB
+from dbHandler import appendSubmissionToCSV, getDataframeFromSubmissions, readDictFromCSV, readSubmissionsFromCSV, readSubmissionsFromDB, writeProblemsToDB, writeSubmissionsToCSV, writeSubmissionsToDB
 
 
 # executor_url = driver.command_executor._url
@@ -183,7 +185,7 @@ def problemsScrapper(existingProblems):
             tags = [e.text for e in cols[1].find_elements(
                 By.TAG_NAME, value="span")]
         except:
-            tags = "N/A"
+            tags = "None"
         acceptance = cols[3].text
         difficulty = cols[4].text
         if len(tags) < 4 or isPremium:
@@ -197,8 +199,24 @@ def problemsScrapper(existingProblems):
         else:
             print("Not all tags visible: ", title)
             print(tags)
+            probsDict.update(
+                {link: [num, title, tags, acceptance, difficulty]})
             probsLinksList.append(link)
         return
+
+    def handleProblemLinks():
+        for link in probsLinksList:
+            driver.get(link)
+            time.sleep(2)
+            TopicsTab = driver.find_elements(
+                By.XPATH, value="//*[text()='Related Topics']")[0]
+            clickable = TopicsTab.find_element(
+                By.XPATH, value="./..")
+            expandableTab = clickable.find_element(By.XPATH, value="./..")
+            clickable.click()
+            time.sleep(1)
+            topics = expandableTab.find_elements(By.XPATH, value="*")[1:]
+            probsDict[link][2] = [n.text for n in topics]
 
     def getProblemLinks(sitePrepped=False):
         print("Getting problem links")
@@ -210,9 +228,10 @@ def problemsScrapper(existingProblems):
         problemsBody = problemsGridElements[1]
         problemsFooter = problemsGridElements[2]
         # Handling Problems List Header
-        headerChild = problemsHeader.find_element(By.XPATH, value="*")
-        headerComponents = headerChild.find_element(By.XPATH, value="*")
-        headerList = headerComponents.find_elements(By.XPATH, value="*")
+        headerChild = problemsHeader.find_element(
+            By.XPATH, value="*").find_element(By.XPATH, value="*")
+        # headerComponents = headerChild.find_element(By.XPATH, value="*")
+        headerList = headerChild.find_elements(By.XPATH, value="*")
         listsBtn = headerList[0].find_element(By.TAG_NAME, value="button")
         difficultyBtn = headerList[1].find_element(
             By.TAG_NAME, value="button")
@@ -241,16 +260,21 @@ def problemsScrapper(existingProblems):
             except Exception as e:
                 print("Error in handleProblemElement: ", e)
                 print("Suspect problem element: ", p.text)
-            # link = p.find_element(By.XPATH, value="*").get_attribute("href")
-            # if link in existingProblems:
-            #     print("Already in DB, skipping, ", link)
-            #     continue
-            # if not validators.url(link):
-            #     print("Not a valid URL, skipping, ", link)
-            #     continue
-            # print("Adding to list: ", link)
-            # probsLinksList.append(link)
-            # probsDict[link] = []
+        prevBtn = navBar.find_elements(By.TAG_NAME, value="button")[0]
+        if prevBtn.get_attribute("disabled") == "true":
+            return
+        prevBtn.click()
+        getProblemLinks(sitePrepped=True)
+        # link = p.find_element(By.XPATH, value="*").get_attribute("href")
+        # if link in existingProblems:
+        #     print("Already in DB, skipping, ", link)
+        #     continue
+        # if not validators.url(link):
+        #     print("Not a valid URL, skipping, ", link)
+        #     continue
+        # print("Adding to list: ", link)
+        # probsLinksList.append(link)
+        # probsDict[link] = []
         # Handling Problems List Footer
 
         # prevBtn = navBar.find_eleme
@@ -269,6 +293,10 @@ def problemsScrapper(existingProblems):
         # # Setting elements per page to 100
 
     getProblemLinks()
+    handleProblemLinks()
+    writeProblemsToDB(pd.DataFrame.from_dict(probsDict, orient="index").rename(
+        columns={0: "Number", 1: "Title", 2: "Tags", 3: "Acceptance", 4: "Difficulty"}))
+
     driver.quit()
 
 
@@ -311,12 +339,13 @@ def getLoggedInAcctSubmissions():
 
 
 def moveFileToDB():
-    submissionsDict = readSubmissionsFromCSV()
-    print("Submissions: ")
-    print(submissionsDict)
-    writeSubmissionsToDB(submissionsDict)
+    submDF = getDataframeFromSubmissions()
+    submDF['RuntimeRank'] = submDF['RuntimeRank'].fillna("None")
+    submDF['MemoryRank'] = submDF['MemoryRank'].fillna("None")
+
+    writeSubmissionsToDB(submDF)
 
 
-# problemsScrapper(set())
+problemsScrapper(set())
 # getLoggedInAcctSubmissions()
-moveFileToDB()
+# moveFileToDB()
