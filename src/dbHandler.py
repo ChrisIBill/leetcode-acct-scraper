@@ -3,6 +3,7 @@ import os
 
 from pymongo import MongoClient
 
+from Utils import validateSubmission, validateProblem
 SUBMISSIONS_CSV = "submissions.csv"
 PROBLEMS_CSV = "problems.csv"
 SUBMISSION_COLUMNS = ["link", "title", "runtime",
@@ -15,6 +16,31 @@ def getDatabase():
     MONGODB_URI = os.environ.get('MNGODB_URI')
     client = MongoClient(MONGODB_URI)
     return client['leetcode']
+
+
+def getSubmissionsCollection():
+    return getDatabase()['submissions']
+
+
+def getProblemsCollection():
+    return getDatabase()['problems']
+
+
+def readSubmissionsFromDB():
+    submissions = getSubmissionsCollection().find()
+    return submissions
+
+
+def writeSubmissionsToDB(submissions):
+    print("Writing submissions to DB")
+    for submission in submissions:
+        print("Attempting to write submission: " + submission)
+        print(submissions.get(submission))
+        if validateSubmission(submissions[submission]):
+            getSubmissionsCollection().insert_one(
+                [submissions.get(submission)])
+        else:
+            print("Invalid submission: " + submission)
 
 
 def readDictFromCSV(csv_file, csv_columns):

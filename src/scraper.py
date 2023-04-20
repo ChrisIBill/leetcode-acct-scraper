@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-from dbHandler import appendSubmissionToCSV, readDictFromCSV, readSubmissionsFromCSV, writeSubmissionsToCSV
+from dbHandler import appendSubmissionToCSV, readDictFromCSV, readSubmissionsFromCSV, readSubmissionsFromDB, writeSubmissionsToCSV, writeSubmissionsToDB
 
 
 # executor_url = driver.command_executor._url
@@ -61,6 +61,7 @@ def acctScraper(existingSubmissions):
     # Building list of links to submission performance pages
 
     def getSubmissionsLinks():
+        print("Getting submissions links")
         submissionsBox = driver.find_element(
             By.ID, value="submission-list-app")
         submissionsTable = submissionsBox.find_element(
@@ -289,7 +290,9 @@ def loadDataFromDB():
 
 def getLoggedInAcctSubmissions():
     subsLinksList = []
-    submissionsDict = loadDataFromDB()
+    # submissionsDict = loadDataFromDB()
+    # submissionsDict = readSubmissionsFromDB()
+    submissionsDict = {}
     visitedLinks = set(submissionsDict.keys())
     print(subsLinksList)
     print(submissionsDict)
@@ -298,7 +301,8 @@ def getLoggedInAcctSubmissions():
     print(visitedLinks)
     submissionsDict = acctScraper(visitedLinks)
     print("New Submissions: ", submissionsDict)
-    appendSubmissionToCSV(submissionsDict)
+    # appendSubmissionToCSV(submissionsDict)
+    writeSubmissionsToDB(submissionsDict)
 
     # loadDataFromDB()
     # getSubmissionsLinks()
@@ -306,4 +310,13 @@ def getLoggedInAcctSubmissions():
     # writeSubmissionsToCSV(submissionsDict)
 
 
-problemsScrapper(set())
+def moveFileToDB():
+    submissionsDict = readSubmissionsFromCSV()
+    print("Submissions: ")
+    print(submissionsDict)
+    writeSubmissionsToDB(submissionsDict)
+
+
+# problemsScrapper(set())
+# getLoggedInAcctSubmissions()
+moveFileToDB()
