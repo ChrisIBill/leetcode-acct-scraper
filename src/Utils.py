@@ -58,4 +58,18 @@ def test():
     return compareTimes(time2, time1)
 
 
-print(test())
+def greaterThanWeek(delta):
+    return delta.days > 7
+
+
+def greaterThanDay(delta):
+    return delta.days > 1
+
+
+def lessThanHour(delta):
+    return delta.seconds < 3600
+
+
+print(lessThanHour(test()))
+print(lessThanHour(datetime.timedelta(seconds=3600)))
+print(lessThanHour(datetime.timedelta(days=1, seconds=3500)))
