@@ -1,6 +1,8 @@
 import datetime
 import time
 
+ZERO_DATE = datetime.datetime(1970, 1, 1)
+
 
 def validateSubmission(sub):
     if not sub or len(sub) != 6:
@@ -40,13 +42,11 @@ def getCurrentTime():
 
 
 def compareTimes(t1, t2):
-    t1_delta = datetime.timedelta(t1)
-    t2_delta = datetime.timedelta(t2)
     print("T1 time: ", t1)
-    print("T1 delta: ", t1_delta)
     print("T2 time: ", t2)
-    print("T2 delta: ", t2_delta)
-    return t1_delta - t2_delta
+    comp = t1 - t2
+    print("Comp: ", comp)
+    return comp
 
 
 def test():
@@ -58,4 +58,18 @@ def test():
     return compareTimes(time2, time1)
 
 
-print(test())
+def greaterThanWeek(delta):
+    return delta.days > 7
+
+
+def greaterThanDay(delta):
+    return delta.days > 1
+
+
+def lessThanHour(delta):
+    return delta.seconds < 3600
+
+
+print(lessThanHour(test()))
+print(lessThanHour(datetime.timedelta(seconds=3600)))
+print(lessThanHour(datetime.timedelta(days=1, seconds=3500)))
