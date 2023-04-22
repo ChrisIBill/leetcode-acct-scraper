@@ -34,5 +34,16 @@ Leetcode Problem DB Format:
                 "minimum":
                 "maximum":
             },
+            "submissions": [
+                {
+                    username:
+                    submission-id:
+                    runtime:
+                    memory:
+                    language:
+                    runtime-percentile:
+                    memory-percentile:
+                }
+            ]
         }
     }
