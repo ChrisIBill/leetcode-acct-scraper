@@ -27,13 +27,12 @@ def getProblemsCollection():
     return getDatabase()['problems']
 
 
-def readSubmissionsFromDB():
-    submissions = getSubmissionsCollection().find()
-    return submissions
+def getUserdataCollection():
+    return getDatabase()['userdata']
 
 
-def getDataframeFromSubmissions():
-    return pd.read_csv(SUBMISSIONS_CSV)
+def getUserdataFromDB(username):
+    return getUserdataCollection().find_one({"_id": username})
 
 
 def writeSubmissionsToDB(df):
@@ -52,6 +51,12 @@ def writeProblemsToDB(df):
         print(e)
 
 
+def writeUserdataToDB(username, df):
+    try:
+        getUserdataCollection().update_one({"_id": username}, {"$set": df.to_dict('records')[0]}, upsert=True
+    except Exception as e:
+        print("Error writing userdata to DB")
+        print(e)
 # def readDictFromCSV(csv_file, csv_columns):
 #     reader = csv.DictReader(csv_file, fieldnames=csv_columns)
 #     dict_data = {}

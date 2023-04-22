@@ -68,8 +68,3 @@ def greaterThanDay(delta):
 
 def lessThanHour(delta):
     return delta.seconds < 3600
-
-
-print(lessThanHour(test()))
-print(lessThanHour(datetime.timedelta(seconds=3600)))
-print(lessThanHour(datetime.timedelta(days=1, seconds=3500)))

@@ -10,7 +10,7 @@ from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
 
-def problemsScrapper(existingProblems):
+def problemsScraper(existingProblems):
     probsLinksList = []
     probsDict = {}
     config = configparser.ConfigParser()
@@ -104,24 +104,15 @@ def problemsScrapper(existingProblems):
 
     def getProblemLinks(sitePrepped=False):
         print("Getting problem links")
+        # The Grid contains the problems list, as well as the nav bar and pager
         problemsGridElements = driver.find_element(
             By.CSS_SELECTOR, value=".grid .col-span-4").find_elements(
                 By.XPATH, value="*")[-1].find_elements(By.XPATH, value="*")
         problemsHeader = problemsGridElements[0]
         problemsBody = problemsGridElements[1]
         problemsFooter = problemsGridElements[2]
-        # Handling Problems List Header
-        headerChild = problemsHeader.find_element(
-            By.XPATH, value="*").find_element(By.XPATH, value="*")
-        # headerComponents = headerChild.find_element(By.XPATH, value="*")
-        headerList = headerChild.find_elements(By.XPATH, value="*")
-        listsBtn = headerList[0].find_element(By.TAG_NAME, value="button")
-        difficultyBtn = headerList[1].find_element(
-            By.TAG_NAME, value="button")
-        statusBtn = headerList[2].find_element(By.TAG_NAME, value="button")
-        tagsBtn = headerList[3].find_element(By.TAG_NAME, value="button")
-        searchBar = headerList[4].find_element(By.XPATH, value="*")
-
+        headerList = problemsHeader.find_elements(
+            By.XPATH, value="./div/div/div")
         footerComponents = problemsFooter.find_elements(By.XPATH, value="*")
         navBar = footerComponents[1]
 
@@ -132,10 +123,8 @@ def problemsScrapper(existingProblems):
             prepSite(settingsElement, elemsPerPageElement, navBar)
             sitePrepped = True
 
-        problemsBodyComponents = problemsBody.find_element(
-            By.XPATH, value="*").find_element(By.XPATH, value="*").find_elements(
-            By.XPATH, value="*")
-        problemsList = problemsBodyComponents[1]
+        problemsList = problemsBody.find_element(
+            By.XPATH, value="./div/div/div[@role]")
 
         for p in problemsList.find_elements(By.XPATH, value="*"):
             try:
@@ -152,4 +141,6 @@ def problemsScrapper(existingProblems):
     getProblemLinks()
     handleProblemLinks()
     driver.quit()
+    print("Scraping complete")
+    print(probsDict)
     return probsDict
