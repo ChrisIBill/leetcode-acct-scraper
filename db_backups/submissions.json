@@ -1,0 +1,1421 @@
+[{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c665"
+  },
+  "Link": "https://leetcode.com/submissions/detail/931618393/",
+  "Title": "Removing Stars From a String",
+  "ExecutionTime": "291 ms",
+  "Language": "python3",
+  "RuntimeRank": 34.33,
+  "MemoryRank": 40.09
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c666"
+  },
+  "Link": "https://leetcode.com/submissions/detail/931484620/",
+  "Title": "Valid Parentheses",
+  "ExecutionTime": "29 ms",
+  "Language": "python3",
+  "RuntimeRank": 81.77,
+  "MemoryRank": 16.17
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c667"
+  },
+  "Link": "https://leetcode.com/submissions/detail/930958154/",
+  "Title": "Convert Sorted Array to Binary Search Tree",
+  "ExecutionTime": "64 ms",
+  "Language": "python3",
+  "RuntimeRank": 47.65,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c668"
+  },
+  "Link": "https://leetcode.com/submissions/detail/930942944/",
+  "Title": "Largest Color Value in a Directed Graph",
+  "ExecutionTime": "3305 ms",
+  "Language": "python3",
+  "RuntimeRank": 34.3,
+  "MemoryRank": 96.72
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c669"
+  },
+  "Link": "https://leetcode.com/submissions/detail/930378357/",
+  "Title": "Clone Graph",
+  "ExecutionTime": "51 ms",
+  "Language": "python3",
+  "RuntimeRank": 8.26,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c66a"
+  },
+  "Link": "https://leetcode.com/submissions/detail/930378238/",
+  "Title": "Clone Graph",
+  "ExecutionTime": "55 ms",
+  "Language": "python3",
+  "RuntimeRank": 8.26,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c66b"
+  },
+  "Link": "https://leetcode.com/submissions/detail/929354364/",
+  "Title": "Number of Enclaves",
+  "ExecutionTime": "772 ms",
+  "Language": "python3",
+  "RuntimeRank": 35.69,
+  "MemoryRank": 53.08
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c66c"
+  },
+  "Link": "https://leetcode.com/submissions/detail/929353157/",
+  "Title": "Number of Enclaves",
+  "ExecutionTime": "903 ms",
+  "Language": "python3",
+  "RuntimeRank": 17.42,
+  "MemoryRank": 7
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c66d"
+  },
+  "Link": "https://leetcode.com/submissions/detail/929352765/",
+  "Title": "Number of Enclaves",
+  "ExecutionTime": "964 ms",
+  "Language": "python3",
+  "RuntimeRank": 10.75,
+  "MemoryRank": 7.24
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c66e"
+  },
+  "Link": "https://leetcode.com/submissions/detail/929196683/",
+  "Title": "Number of Closed Islands",
+  "ExecutionTime": "128 ms",
+  "Language": "python3",
+  "RuntimeRank": 63.18,
+  "MemoryRank": 69.58
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c66f"
+  },
+  "Link": "https://leetcode.com/submissions/detail/928598380/",
+  "Title": "Minimize Maximum of Array",
+  "ExecutionTime": "819 ms",
+  "Language": "python3",
+  "RuntimeRank": 54.91,
+  "MemoryRank": 73.89
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c670"
+  },
+  "Link": "https://leetcode.com/submissions/detail/928052019/",
+  "Title": "Optimal Partition of String",
+  "ExecutionTime": "91 ms",
+  "Language": "python3",
+  "RuntimeRank": 93.25,
+  "MemoryRank": 87.37
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c671"
+  },
+  "Link": "https://leetcode.com/submissions/detail/928049340/",
+  "Title": "Optimal Partition of String",
+  "ExecutionTime": "203 ms",
+  "Language": "python3",
+  "RuntimeRank": 22.62,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c672"
+  },
+  "Link": "https://leetcode.com/submissions/detail/927449623/",
+  "Title": "Boats to Save People",
+  "ExecutionTime": "509 ms",
+  "Language": "python3",
+  "RuntimeRank": 9.47,
+  "MemoryRank": 97
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c673"
+  },
+  "Link": "https://leetcode.com/submissions/detail/926756298/",
+  "Title": "Successful Pairs of Spells and Potions",
+  "ExecutionTime": "2394 ms",
+  "Language": "python3",
+  "RuntimeRank": 54.7,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c674"
+  },
+  "Link": "https://leetcode.com/submissions/detail/926233356/",
+  "Title": "Binary Search",
+  "ExecutionTime": "242 ms",
+  "Language": "python3",
+  "RuntimeRank": 62.95,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c675"
+  },
+  "Link": "https://leetcode.com/submissions/detail/925594406/",
+  "Title": "Subsets",
+  "ExecutionTime": "36 ms",
+  "Language": "python3",
+  "RuntimeRank": 55.87,
+  "MemoryRank": 95.41
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c676"
+  },
+  "Link": "https://leetcode.com/submissions/detail/925594322/",
+  "Title": "Subsets",
+  "ExecutionTime": "44 ms",
+  "Language": "python3",
+  "RuntimeRank": 8.96,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c677"
+  },
+  "Link": "https://leetcode.com/submissions/detail/924993442/",
+  "Title": "Permutations",
+  "ExecutionTime": "49 ms",
+  "Language": "python3",
+  "RuntimeRank": 14.65,
+  "MemoryRank": 49.59
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c678"
+  },
+  "Link": "https://leetcode.com/submissions/detail/924442797/",
+  "Title": "Strictly Palindromic Number",
+  "ExecutionTime": "30 ms",
+  "Language": "python3",
+  "RuntimeRank": 71.45,
+  "MemoryRank": 91.2
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c679"
+  },
+  "Link": "https://leetcode.com/submissions/detail/924440538/",
+  "Title": "Sort Colors",
+  "ExecutionTime": "42 ms",
+  "Language": "python3",
+  "RuntimeRank": 17.11,
+  "MemoryRank": 50.3
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c67a"
+  },
+  "Link": "https://leetcode.com/submissions/detail/924416105/",
+  "Title": "Reducing Dishes",
+  "ExecutionTime": "41 ms",
+  "Language": "python3",
+  "RuntimeRank": 70.01,
+  "MemoryRank": 68.98
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c67b"
+  },
+  "Link": "https://leetcode.com/submissions/detail/923876053/",
+  "Title": "Minimum Cost For Tickets",
+  "ExecutionTime": "53 ms",
+  "Language": "python3",
+  "RuntimeRank": 29.6,
+  "MemoryRank": 21.79
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c67c"
+  },
+  "Link": "https://leetcode.com/submissions/detail/923452684/",
+  "Title": "Find First and Last Position of Element in Sorted Array",
+  "ExecutionTime": "87 ms",
+  "Language": "python3",
+  "RuntimeRank": 62.25,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c67d"
+  },
+  "Link": "https://leetcode.com/submissions/detail/923228102/",
+  "Title": "Minimum Path Sum",
+  "ExecutionTime": "99 ms",
+  "Language": "python3",
+  "RuntimeRank": 61.81,
+  "MemoryRank": 79.21
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c67e"
+  },
+  "Link": "https://leetcode.com/submissions/detail/921459999/",
+  "Title": "Search a 2D Matrix",
+  "ExecutionTime": "52 ms",
+  "Language": "python3",
+  "RuntimeRank": 17.74,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c67f"
+  },
+  "Link": "https://leetcode.com/submissions/detail/921173823/",
+  "Title": "Remove Nth Node From End of List",
+  "ExecutionTime": "25 ms",
+  "Language": "python3",
+  "RuntimeRank": 97.74,
+  "MemoryRank": 55.86
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c680"
+  },
+  "Link": "https://leetcode.com/submissions/detail/921163368/",
+  "Title": "Reorder Routes to Make All Paths Lead to the City Zero",
+  "ExecutionTime": "1256 ms",
+  "Language": "python3",
+  "RuntimeRank": 43.43,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c681"
+  },
+  "Link": "https://leetcode.com/submissions/detail/920915792/",
+  "Title": "Swap Nodes in Pairs",
+  "ExecutionTime": "38 ms",
+  "Language": "python3",
+  "RuntimeRank": 21.09,
+  "MemoryRank": 52.57
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c682"
+  },
+  "Link": "https://leetcode.com/submissions/detail/920910889/",
+  "Title": "Number of Operations to Make Network Connected",
+  "ExecutionTime": "542 ms",
+  "Language": "python3",
+  "RuntimeRank": 21.55,
+  "MemoryRank": 28.56
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c683"
+  },
+  "Link": "https://leetcode.com/submissions/detail/920595386/",
+  "Title": "Three Consecutive Odds",
+  "ExecutionTime": "43 ms",
+  "Language": "python3",
+  "RuntimeRank": 88.59,
+  "MemoryRank": 50.45
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c684"
+  },
+  "Link": "https://leetcode.com/submissions/detail/920345445/",
+  "Title": "Letter Combinations of a Phone Number",
+  "ExecutionTime": "43 ms",
+  "Language": "python3",
+  "RuntimeRank": 5.31,
+  "MemoryRank": 65.28
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c685"
+  },
+  "Link": "https://leetcode.com/submissions/detail/920308418/",
+  "Title": "Minimum Score of a Path Between Two Cities",
+  "ExecutionTime": "1625 ms",
+  "Language": "python3",
+  "RuntimeRank": 74.38,
+  "MemoryRank": 33.08
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c686"
+  },
+  "Link": "https://leetcode.com/submissions/detail/919749457/",
+  "Title": "String to Integer (atoi)",
+  "ExecutionTime": "34 ms",
+  "Language": "python3",
+  "RuntimeRank": 76.92,
+  "MemoryRank": 63.77
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c687"
+  },
+  "Link": "https://leetcode.com/submissions/detail/919322272/",
+  "Title": "Number of Zero-Filled Subarrays",
+  "ExecutionTime": "1034 ms",
+  "Language": "python3",
+  "RuntimeRank": 98.78,
+  "MemoryRank": 75.42
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c688"
+  },
+  "Link": "https://leetcode.com/submissions/detail/918988910/",
+  "Title": "Can Place Flowers",
+  "ExecutionTime": "177 ms",
+  "Language": "python3",
+  "RuntimeRank": 19.08,
+  "MemoryRank": 63.4
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c689"
+  },
+  "Link": "https://leetcode.com/submissions/detail/918379046/",
+  "Title": "Design Add and Search Words Data Structure",
+  "ExecutionTime": "7649 ms",
+  "Language": "python3",
+  "RuntimeRank": 70.85,
+  "MemoryRank": 44.47
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c68a"
+  },
+  "Link": "https://leetcode.com/submissions/detail/917084490/",
+  "Title": "Maximum Depth of Binary Tree",
+  "ExecutionTime": "53 ms",
+  "Language": "python3",
+  "RuntimeRank": 6.04,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c68b"
+  },
+  "Link": "https://leetcode.com/submissions/detail/917076284/",
+  "Title": "Implement Trie (Prefix Tree)",
+  "ExecutionTime": "180 ms",
+  "Language": "python3",
+  "RuntimeRank": 50.03,
+  "MemoryRank": 47.43
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c68c"
+  },
+  "Link": "https://leetcode.com/submissions/detail/917073399/",
+  "Title": "Implement Trie (Prefix Tree)",
+  "ExecutionTime": "525 ms",
+  "Language": "python3",
+  "RuntimeRank": 6.38,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c68d"
+  },
+  "Link": "https://leetcode.com/submissions/detail/916622492/",
+  "Title": "Merge Sorted Array",
+  "ExecutionTime": "43 ms",
+  "Language": "python3",
+  "RuntimeRank": 27.83,
+  "MemoryRank": 73.22
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c68e"
+  },
+  "Link": "https://leetcode.com/submissions/detail/916550272/",
+  "Title": "Same Tree",
+  "ExecutionTime": "35 ms",
+  "Language": "python3",
+  "RuntimeRank": 40.95,
+  "MemoryRank": 60.74
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c68f"
+  },
+  "Link": "https://leetcode.com/submissions/detail/916541286/",
+  "Title": "Construct Binary Tree from Inorder and Postorder Traversal",
+  "ExecutionTime": "212 ms",
+  "Language": "python3",
+  "RuntimeRank": 15.61,
+  "MemoryRank": 28.02
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c690"
+  },
+  "Link": "https://leetcode.com/submissions/detail/915870749/",
+  "Title": "Check Completeness of a Binary Tree",
+  "ExecutionTime": "36 ms",
+  "Language": "python3",
+  "RuntimeRank": 63.23,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c691"
+  },
+  "Link": "https://leetcode.com/submissions/detail/915870165/",
+  "Title": "Check Completeness of a Binary Tree",
+  "ExecutionTime": "112 ms",
+  "Language": "python3",
+  "RuntimeRank": "None",
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c692"
+  },
+  "Link": "https://leetcode.com/submissions/detail/915215686/",
+  "Title": "Longest Substring Without Repeating Characters",
+  "ExecutionTime": "315 ms",
+  "Language": "python3",
+  "RuntimeRank": 16.84,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c693"
+  },
+  "Link": "https://leetcode.com/submissions/detail/914872457/",
+  "Title": "Recyclable and Low Fat Products",
+  "ExecutionTime": "946 ms",
+  "Language": "mysql",
+  "RuntimeRank": 79.78,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c694"
+  },
+  "Link": "https://leetcode.com/submissions/detail/914871918/",
+  "Title": "Sum Root to Leaf Numbers",
+  "ExecutionTime": "29 ms",
+  "Language": "python3",
+  "RuntimeRank": 80.25,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c695"
+  },
+  "Link": "https://leetcode.com/submissions/detail/914650081/",
+  "Title": "Merge k Sorted Lists",
+  "ExecutionTime": "234 ms",
+  "Language": "python3",
+  "RuntimeRank": 15.28,
+  "MemoryRank": 6.42
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c696"
+  },
+  "Link": "https://leetcode.com/submissions/detail/914631219/",
+  "Title": "Symmetric Tree",
+  "ExecutionTime": "40 ms",
+  "Language": "python3",
+  "RuntimeRank": 27.95,
+  "MemoryRank": 11.17
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c697"
+  },
+  "Link": "https://leetcode.com/submissions/detail/914630922/",
+  "Title": "Symmetric Tree",
+  "ExecutionTime": "40 ms",
+  "Language": "python3",
+  "RuntimeRank": 27.95,
+  "MemoryRank": 47.9
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c698"
+  },
+  "Link": "https://leetcode.com/submissions/detail/913422033/",
+  "Title": "Convert Sorted List to Binary Search Tree",
+  "ExecutionTime": "110 ms",
+  "Language": "python3",
+  "RuntimeRank": 98.24,
+  "MemoryRank": 75.2
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c699"
+  },
+  "Link": "https://leetcode.com/submissions/detail/913332059/",
+  "Title": "Middle of the Linked List",
+  "ExecutionTime": "34 ms",
+  "Language": "python3",
+  "RuntimeRank": 46.09,
+  "MemoryRank": 43.31
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c69a"
+  },
+  "Link": "https://leetcode.com/submissions/detail/913331165/",
+  "Title": "Middle of the Linked List",
+  "ExecutionTime": "32 ms",
+  "Language": "python3",
+  "RuntimeRank": 60.17,
+  "MemoryRank": 91.59
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c69b"
+  },
+  "Link": "https://leetcode.com/submissions/detail/913317512/",
+  "Title": "Middle of the Linked List",
+  "ExecutionTime": "37 ms",
+  "Language": "python3",
+  "RuntimeRank": 22.27,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c69c"
+  },
+  "Link": "https://leetcode.com/submissions/detail/912949673/",
+  "Title": "Binary Tree Inorder Traversal",
+  "ExecutionTime": "35 ms",
+  "Language": "python3",
+  "RuntimeRank": 40.44,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c69d"
+  },
+  "Link": "https://leetcode.com/submissions/detail/912916830/",
+  "Title": "Find the Index of the First Occurrence in a String",
+  "ExecutionTime": "38 ms",
+  "Language": "python3",
+  "RuntimeRank": 16.49,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c69e"
+  },
+  "Link": "https://leetcode.com/submissions/detail/912911744/",
+  "Title": "Linked List Random Node",
+  "ExecutionTime": "73 ms",
+  "Language": "python3",
+  "RuntimeRank": 74.04,
+  "MemoryRank": 49.12
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c69f"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911812157/",
+  "Title": "Linked List Cycle II",
+  "ExecutionTime": "57 ms",
+  "Language": "python3",
+  "RuntimeRank": 33.79,
+  "MemoryRank": 29.3
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a0"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911790159/",
+  "Title": "Linked List Cycle",
+  "ExecutionTime": "66 ms",
+  "Language": "python3",
+  "RuntimeRank": 13.53,
+  "MemoryRank": 93.39
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a1"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911741003/",
+  "Title": "Remove Duplicates from Sorted List",
+  "ExecutionTime": "43 ms",
+  "Language": "python3",
+  "RuntimeRank": 62.03,
+  "MemoryRank": 59.09
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a2"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911740846/",
+  "Title": "Remove Duplicates from Sorted List",
+  "ExecutionTime": "87 ms",
+  "Language": "python3",
+  "RuntimeRank": "None",
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a3"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911228809/",
+  "Title": "Koko Eating Bananas",
+  "ExecutionTime": "466 ms",
+  "Language": "python3",
+  "RuntimeRank": 54.7,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a4"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911127933/",
+  "Title": "Minimum Time to Complete Trips",
+  "ExecutionTime": "2874 ms",
+  "Language": "python3",
+  "RuntimeRank": 24.39,
+  "MemoryRank": 21.86
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a5"
+  },
+  "Link": "https://leetcode.com/submissions/detail/911127894/",
+  "Title": "Minimum Time to Complete Trips",
+  "ExecutionTime": "2813 ms",
+  "Language": "python3",
+  "RuntimeRank": 30.26,
+  "MemoryRank": 21.86
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a6"
+  },
+  "Link": "https://leetcode.com/submissions/detail/907987625/",
+  "Title": "String Compression",
+  "ExecutionTime": "66 ms",
+  "Language": "python3",
+  "RuntimeRank": 18.27,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a7"
+  },
+  "Link": "https://leetcode.com/submissions/detail/907945981/",
+  "Title": "String Compression",
+  "ExecutionTime": "50 ms",
+  "Language": "python3",
+  "RuntimeRank": 97.89,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a8"
+  },
+  "Link": "https://leetcode.com/submissions/detail/907916924/",
+  "Title": "String Compression",
+  "ExecutionTime": "69 ms",
+  "Language": "python3",
+  "RuntimeRank": 6.58,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6a9"
+  },
+  "Link": "https://leetcode.com/submissions/detail/907289295/",
+  "Title": "Reverse Integer",
+  "ExecutionTime": "41 ms",
+  "Language": "python3",
+  "RuntimeRank": 15.01,
+  "MemoryRank": 94.72
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6aa"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906873618/",
+  "Title": "Reverse Linked List",
+  "ExecutionTime": "29 ms",
+  "Language": "python3",
+  "RuntimeRank": 95.81,
+  "MemoryRank": 21.11
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ab"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906723181/",
+  "Title": "Valid Sudoku",
+  "ExecutionTime": "92 ms",
+  "Language": "python3",
+  "RuntimeRank": 84.37,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ac"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906292405/",
+  "Title": "Smallest Even Multiple",
+  "ExecutionTime": "31 ms",
+  "Language": "python3",
+  "RuntimeRank": 65.29,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ad"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906291911/",
+  "Title": "Smallest Even Multiple",
+  "ExecutionTime": "31 ms",
+  "Language": "python3",
+  "RuntimeRank": 65.29,
+  "MemoryRank": 89.95
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ae"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906288748/",
+  "Title": "Richest Customer Wealth",
+  "ExecutionTime": "51 ms",
+  "Language": "python3",
+  "RuntimeRank": 85.4,
+  "MemoryRank": 61.65
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6af"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906283701/",
+  "Title": "Running Sum of 1d Array",
+  "ExecutionTime": "40 ms",
+  "Language": "python3",
+  "RuntimeRank": 71.76,
+  "MemoryRank": 63.45
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b0"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906281969/",
+  "Title": "Running Sum of 1d Array",
+  "ExecutionTime": "56 ms",
+  "Language": "python3",
+  "RuntimeRank": 10.43,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b1"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906277217/",
+  "Title": "Number of Good Pairs",
+  "ExecutionTime": "33 ms",
+  "Language": "python3",
+  "RuntimeRank": 73.95,
+  "MemoryRank": 92.7
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b2"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906254976/",
+  "Title": "Add Two Integers",
+  "ExecutionTime": "31 ms",
+  "Language": "python3",
+  "RuntimeRank": 68.11,
+  "MemoryRank": 91.33
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b3"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906254428/",
+  "Title": "Final Value of Variable After Performing Operations",
+  "ExecutionTime": "51 ms",
+  "Language": "python3",
+  "RuntimeRank": 74.81,
+  "MemoryRank": 44.17
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b4"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906254141/",
+  "Title": "Final Value of Variable After Performing Operations",
+  "ExecutionTime": "56 ms",
+  "Language": "python3",
+  "RuntimeRank": 40.33,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b5"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906250927/",
+  "Title": "Left and Right Sum Differences",
+  "ExecutionTime": "72 ms",
+  "Language": "python3",
+  "RuntimeRank": 81.56,
+  "MemoryRank": 92.03
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b6"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906222104/",
+  "Title": "Shuffle the Array",
+  "ExecutionTime": "66 ms",
+  "Language": "python3",
+  "RuntimeRank": 32.58,
+  "MemoryRank": 99.43
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b7"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906215328/",
+  "Title": "Defanging an IP Address",
+  "ExecutionTime": "38 ms",
+  "Language": "python3",
+  "RuntimeRank": 12.75,
+  "MemoryRank": 89.32
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b8"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906210837/",
+  "Title": "Convert the Temperature",
+  "ExecutionTime": "27 ms",
+  "Language": "python3",
+  "RuntimeRank": 86.32,
+  "MemoryRank": 89.65
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6b9"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906210601/",
+  "Title": "Convert the Temperature",
+  "ExecutionTime": "40 ms",
+  "Language": "python3",
+  "RuntimeRank": 5.44,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ba"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906208625/",
+  "Title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+  "ExecutionTime": "39 ms",
+  "Language": "python3",
+  "RuntimeRank": 97.82,
+  "MemoryRank": 80.98
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6bb"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906206943/",
+  "Title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+  "ExecutionTime": "243 ms",
+  "Language": "python3",
+  "RuntimeRank": 16.37,
+  "MemoryRank": 80.98
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6bc"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906203050/",
+  "Title": "Concatenation of Array",
+  "ExecutionTime": "79 ms",
+  "Language": "python3",
+  "RuntimeRank": 94.51,
+  "MemoryRank": 93.13
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6bd"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906181701/",
+  "Title": "Build Array from Permutation",
+  "ExecutionTime": "131 ms",
+  "Language": "python3",
+  "RuntimeRank": 18.61,
+  "MemoryRank": 80.33
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6be"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906179175/",
+  "Title": "Number of Steps to Reduce a Number to Zero",
+  "ExecutionTime": "24 ms",
+  "Language": "python3",
+  "RuntimeRank": 95.12,
+  "MemoryRank": 91.62
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6bf"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906167853/",
+  "Title": "Product of Array Except Self",
+  "ExecutionTime": "259 ms",
+  "Language": "python3",
+  "RuntimeRank": 20.79,
+  "MemoryRank": 25.53
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c0"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906155455/",
+  "Title": "Top K Frequent Elements",
+  "ExecutionTime": "114 ms",
+  "Language": "python3",
+  "RuntimeRank": 29.74,
+  "MemoryRank": 64.65
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c1"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906147211/",
+  "Title": "Top K Frequent Elements",
+  "ExecutionTime": "178 ms",
+  "Language": "python3",
+  "RuntimeRank": 6.62,
+  "MemoryRank": 87.69
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c2"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906130934/",
+  "Title": "Group Anagrams",
+  "ExecutionTime": "93 ms",
+  "Language": "python3",
+  "RuntimeRank": 89.6,
+  "MemoryRank": 52.77
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c3"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906129768/",
+  "Title": "Group Anagrams",
+  "ExecutionTime": "108 ms",
+  "Language": "python3",
+  "RuntimeRank": 45.22,
+  "MemoryRank": 82.2
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c4"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906101225/",
+  "Title": "Climbing Stairs",
+  "ExecutionTime": "30 ms",
+  "Language": "python3",
+  "RuntimeRank": 70.76,
+  "MemoryRank": 93.03
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c5"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906097351/",
+  "Title": "Climbing Stairs",
+  "ExecutionTime": "29 ms",
+  "Language": "python3",
+  "RuntimeRank": 74.54,
+  "MemoryRank": 6.44
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c6"
+  },
+  "Link": "https://leetcode.com/submissions/detail/906096198/",
+  "Title": "Climbing Stairs",
+  "ExecutionTime": "33 ms",
+  "Language": "python3",
+  "RuntimeRank": 45.23,
+  "MemoryRank": 44.12
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c7"
+  },
+  "Link": "https://leetcode.com/submissions/detail/905437863/",
+  "Title": "Plus One",
+  "ExecutionTime": "29 ms",
+  "Language": "python3",
+  "RuntimeRank": 88.64,
+  "MemoryRank": 45.45
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c8"
+  },
+  "Link": "https://leetcode.com/submissions/detail/905437053/",
+  "Title": "Plus One",
+  "ExecutionTime": "37 ms",
+  "Language": "python3",
+  "RuntimeRank": 40.6,
+  "MemoryRank": 45.45
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6c9"
+  },
+  "Link": "https://leetcode.com/submissions/detail/905422490/",
+  "Title": "Length of Last Word",
+  "ExecutionTime": "26 ms",
+  "Language": "python3",
+  "RuntimeRank": 90.2,
+  "MemoryRank": 97.5
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ca"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904918749/",
+  "Title": "Search Insert Position",
+  "ExecutionTime": "46 ms",
+  "Language": "python3",
+  "RuntimeRank": 90.21,
+  "MemoryRank": 71.06
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6cb"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904887598/",
+  "Title": "Search Insert Position",
+  "ExecutionTime": "56 ms",
+  "Language": "python3",
+  "RuntimeRank": 28.91,
+  "MemoryRank": 71.06
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6cc"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904841428/",
+  "Title": "Remove Element",
+  "ExecutionTime": "24 ms",
+  "Language": "python3",
+  "RuntimeRank": 98.35,
+  "MemoryRank": 48.93
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6cd"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904836244/",
+  "Title": "Remove Duplicates from Sorted Array",
+  "ExecutionTime": "87 ms",
+  "Language": "python3",
+  "RuntimeRank": 70.77,
+  "MemoryRank": 94.3
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ce"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904828713/",
+  "Title": "Remove Duplicates from Sorted Array",
+  "ExecutionTime": "152 ms",
+  "Language": "python3",
+  "RuntimeRank": 13.58,
+  "MemoryRank": 49.25
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6cf"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904827655/",
+  "Title": "Remove Duplicates from Sorted Array",
+  "ExecutionTime": "149 ms",
+  "Language": "python3",
+  "RuntimeRank": 15.55,
+  "MemoryRank": 94.3
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d0"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904810009/",
+  "Title": "Remove Duplicates from Sorted Array",
+  "ExecutionTime": "146 ms",
+  "Language": "python3",
+  "RuntimeRank": 17.4,
+  "MemoryRank": 49.25
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d1"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904795241/",
+  "Title": "Merge Two Sorted Lists",
+  "ExecutionTime": "40 ms",
+  "Language": "python3",
+  "RuntimeRank": 49.46,
+  "MemoryRank": 98.09
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d2"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904793744/",
+  "Title": "Merge Two Sorted Lists",
+  "ExecutionTime": "44 ms",
+  "Language": "python3",
+  "RuntimeRank": 22.45,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d3"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904780803/",
+  "Title": "Add Two Numbers",
+  "ExecutionTime": "73 ms",
+  "Language": "python3",
+  "RuntimeRank": 37.82,
+  "MemoryRank": 31.21
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d4"
+  },
+  "Link": "https://leetcode.com/submissions/detail/904347914/",
+  "Title": "Add Binary",
+  "ExecutionTime": "39 ms",
+  "Language": "python3",
+  "RuntimeRank": 36.9,
+  "MemoryRank": 62.48
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d5"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903925816/",
+  "Title": "Jewels and Stones",
+  "ExecutionTime": "36 ms",
+  "Language": "python3",
+  "RuntimeRank": 35.67,
+  "MemoryRank": 45.2
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d6"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903925481/",
+  "Title": "Jewels and Stones",
+  "ExecutionTime": "33 ms",
+  "Language": "python3",
+  "RuntimeRank": 55.47,
+  "MemoryRank": 45.2
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d7"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903924936/",
+  "Title": "Jewels and Stones",
+  "ExecutionTime": "37 ms",
+  "Language": "python3",
+  "RuntimeRank": 25.75,
+  "MemoryRank": 94.05
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d8"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903923737/",
+  "Title": "Jewels and Stones",
+  "ExecutionTime": "39 ms",
+  "Language": "python3",
+  "RuntimeRank": 14.41,
+  "MemoryRank": 45.2
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6d9"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903818032/",
+  "Title": "Valid Parentheses",
+  "ExecutionTime": "38 ms",
+  "Language": "python3",
+  "RuntimeRank": 25.85,
+  "MemoryRank": 58.05
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6da"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903786993/",
+  "Title": "Move Zeroes",
+  "ExecutionTime": "179 ms",
+  "Language": "python3",
+  "RuntimeRank": 35.24,
+  "MemoryRank": 50.81
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6db"
+  },
+  "Link": "https://leetcode.com/submissions/detail/903067459/",
+  "Title": "Valid Palindrome",
+  "ExecutionTime": "56 ms",
+  "Language": "python3",
+  "RuntimeRank": 30.69,
+  "MemoryRank": 45.43
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6dc"
+  },
+  "Link": "https://leetcode.com/submissions/detail/882454225/",
+  "Title": "Valid Anagram",
+  "ExecutionTime": "101 ms",
+  "Language": "python3",
+  "RuntimeRank": 5.54,
+  "MemoryRank": 32.41
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6dd"
+  },
+  "Link": "https://leetcode.com/submissions/detail/882450787/",
+  "Title": "Valid Anagram",
+  "ExecutionTime": "65 ms",
+  "Language": "python3",
+  "RuntimeRank": 11.13,
+  "MemoryRank": 94.96
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6de"
+  },
+  "Link": "https://leetcode.com/submissions/detail/882371331/",
+  "Title": "Contains Duplicate",
+  "ExecutionTime": "590 ms",
+  "Language": "python3",
+  "RuntimeRank": 24.9,
+  "MemoryRank": 42.1
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6df"
+  },
+  "Link": "https://leetcode.com/submissions/detail/882370609/",
+  "Title": "Contains Duplicate",
+  "ExecutionTime": "566 ms",
+  "Language": "python3",
+  "RuntimeRank": 52.68,
+  "MemoryRank": 78.62
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e0"
+  },
+  "Link": "https://leetcode.com/submissions/detail/882368643/",
+  "Title": "Contains Duplicate",
+  "ExecutionTime": "606 ms",
+  "Language": "python3",
+  "RuntimeRank": 13.95,
+  "MemoryRank": 78.62
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e1"
+  },
+  "Link": "https://leetcode.com/submissions/detail/876178585/",
+  "Title": "Longest Common Prefix",
+  "ExecutionTime": "69 ms",
+  "Language": "typescript",
+  "RuntimeRank": 61.13,
+  "MemoryRank": 97.87
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e2"
+  },
+  "Link": "https://leetcode.com/submissions/detail/876142211/",
+  "Title": "Roman to Integer",
+  "ExecutionTime": "144 ms",
+  "Language": "typescript",
+  "RuntimeRank": 36.34,
+  "MemoryRank": 82.73
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e3"
+  },
+  "Link": "https://leetcode.com/submissions/detail/876140200/",
+  "Title": "Roman to Integer",
+  "ExecutionTime": "144 ms",
+  "Language": "typescript",
+  "RuntimeRank": 36.34,
+  "MemoryRank": 85.63
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e4"
+  },
+  "Link": "https://leetcode.com/submissions/detail/876082867/",
+  "Title": "Palindrome Number",
+  "ExecutionTime": "169 ms",
+  "Language": "typescript",
+  "RuntimeRank": 87.77,
+  "MemoryRank": 94.61
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e5"
+  },
+  "Link": "https://leetcode.com/submissions/detail/876081722/",
+  "Title": "Palindrome Number",
+  "ExecutionTime": "184 ms",
+  "Language": "typescript",
+  "RuntimeRank": 60.16,
+  "MemoryRank": 94.61
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e6"
+  },
+  "Link": "https://leetcode.com/submissions/detail/875303179/",
+  "Title": "Two Sum",
+  "ExecutionTime": "78 ms",
+  "Language": "typescript",
+  "RuntimeRank": 59.54,
+  "MemoryRank": 13.48
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e7"
+  },
+  "Link": "https://leetcode.com/submissions/detail/875301333/",
+  "Title": "Two Sum",
+  "ExecutionTime": "107 ms",
+  "Language": "typescript",
+  "RuntimeRank": 41.83,
+  "MemoryRank": 99.65
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e8"
+  },
+  "Link": "https://leetcode.com/submissions/detail/934360569/",
+  "Title": "Debounce",
+  "ExecutionTime": "65 ms",
+  "Language": "javascript",
+  "RuntimeRank": 33.83,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6e9"
+  },
+  "Link": "https://leetcode.com/submissions/detail/934360337/",
+  "Title": "Debounce",
+  "ExecutionTime": "69 ms",
+  "Language": "javascript",
+  "RuntimeRank": 15.61,
+  "MemoryRank": 82.53
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ea"
+  },
+  "Link": "https://leetcode.com/submissions/detail/934358749/",
+  "Title": "Apply Transform Over Each Element in Array",
+  "ExecutionTime": "61 ms",
+  "Language": "javascript",
+  "RuntimeRank": 39.35,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6eb"
+  },
+  "Link": "https://leetcode.com/submissions/detail/934357700/",
+  "Title": "Debounce",
+  "ExecutionTime": "64 ms",
+  "Language": "javascript",
+  "RuntimeRank": 40.15,
+  "MemoryRank": 73.61
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ec"
+  },
+  "Link": "https://leetcode.com/submissions/detail/934352418/",
+  "Title": "Maximum Value of K Coins From Piles",
+  "ExecutionTime": "5572 ms",
+  "Language": "python3",
+  "RuntimeRank": 73.29,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ed"
+  },
+  "Link": "https://leetcode.com/submissions/detail/933985898/",
+  "Title": "Longest Palindromic Subsequence",
+  "ExecutionTime": "2974 ms",
+  "Language": "python3",
+  "RuntimeRank": 17.34,
+  "MemoryRank": 43.33
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ee"
+  },
+  "Link": "https://leetcode.com/submissions/detail/933384929/",
+  "Title": "Pascal's Triangle",
+  "ExecutionTime": "30 ms",
+  "Language": "python3",
+  "RuntimeRank": 88.42,
+  "MemoryRank": 53.85
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6ef"
+  },
+  "Link": "https://leetcode.com/submissions/detail/933377043/",
+  "Title": "Longest Palindromic Subsequence",
+  "ExecutionTime": "3409 ms",
+  "Language": "python3",
+  "RuntimeRank": 8.39,
+  "MemoryRank": 46.15
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6f0"
+  },
+  "Link": "https://leetcode.com/submissions/detail/933185871/",
+  "Title": "Validate Stack Sequences",
+  "ExecutionTime": "71 ms",
+  "Language": "python3",
+  "RuntimeRank": 71.74,
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6f1"
+  },
+  "Link": "https://leetcode.com/submissions/detail/933185451/",
+  "Title": "Validate Stack Sequences",
+  "ExecutionTime": "319 ms",
+  "Language": "python3",
+  "RuntimeRank": "None",
+  "MemoryRank": "None"
+},{
+  "_id": {
+    "$oid": "644182ac544429dc6b00c6f2"
+  },
+  "Link": "https://leetcode.com/submissions/detail/932775734/",
+  "Title": "Simplify Path",
+  "ExecutionTime": "33 ms",
+  "Language": "python3",
+  "RuntimeRank": 71.07,
+  "MemoryRank": 94.59
+}]
