@@ -45,7 +45,7 @@ def submissionPageScraper(driver, id):
     time.sleep(2)
     perfCallouts = driver.find_elements(By.CLASS_NAME, value="callout")
     if len(perfCallouts) > 2:
-        print("Greater than 2 perf callouts, skipping: ", link)
+        print("Greater than 2 perf callouts, skipping submission-id: ", id)
         for n in perfCallouts:
             print(n.text)
         return None
@@ -54,7 +54,7 @@ def submissionPageScraper(driver, id):
         nums = [s for s in p.text.split(" ") if not s.isalpha()]
         perfs[i] = nums[1]
     stats = driver.find_elements(By.ID, value="ac_output")
-    stats = [s.text.split(" ")[-2:] for s in stats]
+    stats = [" ".join(s.text.split(" ")[-2:]) for s in stats]
     return perfs, stats
 
 

@@ -1,59 +1,62 @@
 Simple python webscraper to scrape LeetCode user submission data and store it in a csv file.
 Requires a config.ini file with the following format:
 [LeetCode Info]:
-Username = <LeetCode username>
-Password = <LeetCode password>
+    Username = <LeetCode username>
+    Password = <LeetCode password>
 
 Scrapers:
-acctScraper - Scrapes a logged in users acct
-params: - existing submissions -
+    acctScraper - Scrapes a logged in users acct
+    params: - existing submissions -
 
 Leetcode Problem DB Format:
 {
-"\_id": problem title,
-"number":
-"link":
-"tags": Problem tags,
-"difficulty": Problem difficulty,
-"update-time": db value last update time,
-"sample-submission-id": Required to poll for performance distribution info
-"problem-data": {
-#Stores data that needs to be updated frequently
-"acceptance": Problem acceptance rate,
-"runtime-distribution": {
-"mode":
-"mean":
-"q1": First Quartile,
-"q2":
-"q3":Third Quartile,
-"minimum":
-"maximum":
-},
-"memory-distribution": {
-"mode":
-"mean":
-"q1": First Quartile,
-"q2":
-"q3":Third Quartile,
-"minimum":
-"maximum":
-},
-}
+    "_id": problem title,
+    "number":
+    "link":
+    "tags": Problem tags,
+    "difficulty": Problem difficulty,
+    "update-time": db value last update time,
+    "sample-submission-id": Required to poll for performance distribution info
+    "problem-data": 
+    {
+        #Stores data that needs to be updated frequently
+        "acceptance": Problem acceptance rate,
+        "runtime-distribution": 
+        {
+            "mode":
+            "mean":
+            "q1": First Quartile,
+            "q2":
+            "q3":Third Quartile,
+            "minimum":
+            "maximum":
+        },
+        "memory-distribution": 
+        {
+            "mode":
+            "mean":
+            "q1": First Quartile,
+            "q2":
+            "q3":Third Quartile,
+            "minimum":
+            "maximum":
+        },
+    }
 }
 User Data DB Format:
 {
-"\_id": username,
+"_id": username,
 "submissions": list of id's of user submissions
 }
 
 Submissions DB Format:
 {
-\_id: submission id
-problem-title:
-problem-number:
-runtime:
-memory:
-language:
-runtime-percentile:
-memory-percentile:
+    _id: submission id
+    problem-title:
+    problem-number:
+    runtime:
+    memory:
+    language:
+    runtime-percentile:
+    memory-percentile:
 }
