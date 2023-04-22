@@ -35,9 +35,9 @@ def acctScraper(existingSubmissions):
     # Building list of links to submission performance pages
     def getSubmissionsLinks():
         print("Getting submissions links")
-        submissions2 = driver.find_elements(
+        submissions = driver.find_elements(
             By.CSS_SELECTOR, value="#submission-list-app table tr")
-        for s in submissions2:
+        for s in submissions:
             tabs = s.find_elements(By.TAG_NAME, value="td")
             if (len(tabs) != 5):
                 print({"Weird Tab Length, skipping": print(tabs)})
@@ -60,15 +60,14 @@ def acctScraper(existingSubmissions):
             subsLinksList.append(link)
             submissionsDict[link] = [
                 tabs[1].text, tabs[3].text, tabs[4].text]
-        pager = driver.find_element(By.CLASS_NAME, value="pager")
-        next = pager.find_element(By.CLASS_NAME, value="next")
-        if next.get_attribute("class") == "next disabled":
+        next2 = driver.find_element(By.CSS_SELECTOR, value=".pager .next")
+        if next2.get_attribute("class") == "next disabled":
             print("Completed collecting all submissions")
             return
-        nextButton = next.find_element(By.TAG_NAME, value="a")
+        nextButton = next2.find_element(By.TAG_NAME, value="a")
         nextButton.click()
         time.sleep(2)
-        # getSubmissionsLinks()
+        getSubmissionsLinks()
 
     def getPerformanceData():
         for link in subsLinksList:
@@ -92,7 +91,3 @@ def acctScraper(existingSubmissions):
     driver.quit()
     print(submissionsDict)
     return submissionsDict
-
-
-def acctScraperTest():
-    acctScraper(set())
