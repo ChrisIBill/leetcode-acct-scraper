@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-from dbHandler import appendSubmissionToCSV, getDataframeFromSubmissions, readDictFromCSV, readSubmissionsFromCSV, readSubmissionsFromDB, writeProblemsToDB, writeSubmissionsToCSV, writeSubmissionsToDB
+from utils.dbHandler import appendSubmissionToCSV, getDataframeFromSubmissions, readDictFromCSV, readSubmissionsFromCSV, readSubmissionsFromDB, writeProblemsToDB, writeSubmissionsToCSV, writeSubmissionsToDB
 
 
 # executor_url = driver.command_executor._url
@@ -264,39 +264,11 @@ def problemsScrapper(existingProblems):
             return
         prevBtn.click()
         getProblemLinks(sitePrepped=True)
-        # link = p.find_element(By.XPATH, value="*").get_attribute("href")
-        # if link in existingProblems:
-        #     print("Already in DB, skipping, ", link)
-        #     continue
-        # if not validators.url(link):
-        #     print("Not a valid URL, skipping, ", link)
-        #     continue
-        # print("Adding to list: ", link)
-        # probsLinksList.append(link)
-        # probsDict[link] = []
-        # Handling Problems List Footer
-
-        # prevBtn = navBar.find_eleme
-        # # Preparing Site for Efficient Scrape
-        # prepSite(settingsElement, elemsPerPageBtn)
-        # # Setting Show Topic Tags to On
-        # settingsBtn.click()
-        # time.sleep(1)
-        # settingsMenu = headerList[5].find_elements(
-        #     By.XPATH, value="*")[-1]
-        # print(settingsMenu.text)
-        # topicTagsBox = settingsMenu.find_element(
-        #     By.XPATH, value="*")
-        # topicCheckBox = topicTagsBox.find_element(By.XPATH, value="*")
-        # topicCheckBox.click()
-        # # Setting elements per page to 100
 
     getProblemLinks()
     handleProblemLinks()
-    writeProblemsToDB(pd.DataFrame.from_dict(probsDict, orient="index").rename(
-        columns={0: "Number", 1: "Title", 2: "Tags", 3: "Acceptance", 4: "Difficulty"}))
-
     driver.quit()
+    return probsDict
 
 
 def loadDataFromDB():
@@ -336,6 +308,29 @@ def getLoggedInAcctSubmissions():
     # getPerformanceData()
     # writeSubmissionsToCSV(submissionsDict)
 
+# Complete Scrape of all problems
+
+
+def getAllProblems():
+    # problemsDict = readProblemsFromDB()
+    problemsDict = problemsScrapper(set())
+    writeProblemsToDB(pd.DataFrame.from_dict(problemsDict, orient="index").rename(
+        columns={0: "Number", 1: "Title", 2: "Tags", 3: "Acceptance", 4: "Difficulty"}))
+
+
+def getNewProblems():
+    problemsDict = readProblemsFromDB()
+    newProblems = problemsScrapper(problemsDict.keys())
+    writeProblemsToDB(pd.DataFrame.from_dict(newProblems, orient="index").rename(
+        columns={0: "Number", 1: "Title", 2: "Tags", 3: "Acceptance", 4: "Difficulty"}))
+
+
+def getProblemPerformanceDistributions():
+    problemsDict = readProblemsFromDB()
+    for link in problemsDict:
+        # check if perf data has been scraped
+        print("BROKEN")
+
 
 def moveFileToDB():
     submDF = getDataframeFromSubmissions()
@@ -345,6 +340,6 @@ def moveFileToDB():
     writeSubmissionsToDB(submDF)
 
 
-problemsScrapper(set())
+# problemsScrapper(set())
 # getLoggedInAcctSubmissions()
 # moveFileToDB()

@@ -4,3 +4,4 @@ config.ini
 *.csv
 *.pyc
 *.~lock.*
+src/__pycache__/dbHandler.cpython-39.pyc
