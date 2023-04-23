@@ -8,7 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from src.utils.Utils import getCurrentTime
+from src.utils.Utils import dateTimeToStr, getCurrentTime
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 def problemsScraper(existingProblems):
@@ -45,7 +46,6 @@ def problemsScraper(existingProblems):
         time.sleep(1)
         lastBtn = navBarElement.find_elements(By.TAG_NAME, value="button")[-2]
         lastBtn.click()
-        time.sleep(3)
         return True
 
     def handleProblemElement(problemElement):
@@ -65,7 +65,7 @@ def problemsScraper(existingProblems):
         isPremium = True if len(titleElement.find_elements(
             By.TAG_NAME, value="svg")) > 0 else False
         temp = cols[1].find_element(By.TAG_NAME, value="a")
-        num, title = temp.text.split(".")
+        num, title = [_.strip() for _ in temp.text.split(".")]
         link = temp.get_attribute("href")
         try:
             tags = [e.text for e in cols[1].find_elements(
@@ -81,12 +81,25 @@ def problemsScraper(existingProblems):
                 print("All tags visible: ", title)
                 print(tags)
             probsDict.update(
-                {title: [num, link, tags, acceptance, difficulty]})
+                {title: {
+                    "number": num,
+                    "link": link,
+                    "tags": tags,
+                    "difficulty": difficulty,
+                    "acceptance": acceptance,
+                    "update-time": CURRENT_TIME,
+                }})
         else:
             print("Not all tags visible: ", title)
             print(tags)
             probsDict.update(
-                {title: [num, link, tags, acceptance, difficulty]})
+                {title: {
+                    "number": num,
+                    "link": link,
+                    "difficulty": difficulty,
+                    "acceptance": acceptance,
+                    "update-time": CURRENT_TIME,
+                }})
             probsLinksList.append(link)
         return
 
@@ -94,6 +107,8 @@ def problemsScraper(existingProblems):
         for link in probsLinksList:
             driver.get(link)
             time.sleep(2)
+            title = driver.title.split(" - ")[0]
+            print(title)
             TopicsTab = driver.find_elements(
                 By.XPATH, value="//*[text()='Related Topics']")[0]
             clickable = TopicsTab.find_element(
@@ -101,15 +116,17 @@ def problemsScraper(existingProblems):
             expandableTab = clickable.find_element(By.XPATH, value="./..")
             clickable.click()
             time.sleep(1)
-            topics = expandableTab.find_elements(By.XPATH, value="*")[1:]
-            probsDict[link][2] = [n.text for n in topics]
+            topics = expandableTab.text.split("\n")[1:]
+            probsDict[title]["tags"] = topics
 
     def getProblemLinks(sitePrepped=False):
         print("Getting problem links")
         # The Grid contains the problems list, as well as the nav bar and pager
-        problemsGridElements = driver.find_element(
+        WebDriverWait(driver, timeout=4).until(lambda d: d.find_element(
+            By.CSS_SELECTOR, value="img[alt='SQL Study Plan']"))
+        problemsGridElements = WebDriverWait(driver, timeout=4).until(lambda d: d.find_element(
             By.CSS_SELECTOR, value=".grid .col-span-4").find_elements(
-                By.XPATH, value="*")[-1].find_elements(By.XPATH, value="*")
+                By.XPATH, value="*")[-1].find_elements(By.XPATH, value="*"))
         problemsHeader = problemsGridElements[0]
         problemsBody = problemsGridElements[1]
         problemsFooter = problemsGridElements[2]
@@ -122,8 +139,10 @@ def problemsScraper(existingProblems):
             settingsElement = headerList[5]
             elemsPerPageElement = problemsFooter.find_element(
                 By.XPATH, value="*")
-            prepSite(settingsElement, elemsPerPageElement, navBar)
-            sitePrepped = True
+            sitePrepped = prepSite(
+                settingsElement, elemsPerPageElement, navBar)
+            getProblemLinks(sitePrepped)
+            return
 
         problemsList = problemsBody.find_element(
             By.XPATH, value="./div/div/div[@role]")
@@ -138,9 +157,11 @@ def problemsScraper(existingProblems):
         if prevBtn.get_attribute("disabled") == "true":
             return
         prevBtn.click()
-        # getProblemLinks(sitePrepped=True)
+        getProblemLinks(sitePrepped)
 
     getProblemLinks()
+    print("Problem links scraped, now scraping problem pages")
+    print(probsDict)
     handleProblemLinks()
     driver.quit()
     print("Scraping complete")
