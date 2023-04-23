@@ -5,6 +5,12 @@ name = "pypi"
 
 [packages]
 requests = "*"
+pymongo = "*"
+validators = "*"
+selenium = "*"
+pandas = "*"
+numpy = "*"
+webdriver-manager = "*"
 
 [dev-packages]
 

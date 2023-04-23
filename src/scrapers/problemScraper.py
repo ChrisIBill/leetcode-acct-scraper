@@ -8,16 +8,18 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
+from src.utils.Utils import getCurrentTime
 
 
 def problemsScraper(existingProblems):
     probsLinksList = []
     probsDict = {}
+    CURRENT_TIME = getCurrentTime()
     config = configparser.ConfigParser()
     driver = webdriver.Chrome(service=ChromeService(
         ChromeDriverManager().install()))
     driver.get("https://leetcode.com/problemset/all/")
-    time.sleep(3)
+    input("Press Enter to continue...")
 
     def prepSite(settingsElement, elemsPerPageElement, navBarElement):
         settingsBtn = settingsElement.find_element(By.TAG_NAME, value="button")
@@ -79,12 +81,12 @@ def problemsScraper(existingProblems):
                 print("All tags visible: ", title)
                 print(tags)
             probsDict.update(
-                {link: [num, title, tags, acceptance, difficulty]})
+                {title: [num, link, tags, acceptance, difficulty]})
         else:
             print("Not all tags visible: ", title)
             print(tags)
             probsDict.update(
-                {link: [num, title, tags, acceptance, difficulty]})
+                {title: [num, link, tags, acceptance, difficulty]})
             probsLinksList.append(link)
         return
 
@@ -136,11 +138,10 @@ def problemsScraper(existingProblems):
         if prevBtn.get_attribute("disabled") == "true":
             return
         prevBtn.click()
-        getProblemLinks(sitePrepped=True)
+        # getProblemLinks(sitePrepped=True)
 
     getProblemLinks()
     handleProblemLinks()
     driver.quit()
     print("Scraping complete")
-    print(probsDict)
     return probsDict

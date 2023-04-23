@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from pymongo import MongoClient
 
-from utils.Utils import validateSubmission, validateProblem
+from src.utils.Utils import validateSubmission, validateProblem
 SUBMISSIONS_CSV = "submissions.csv"
 PROBLEMS_CSV = "problems.csv"
 SUBMISSION_COLUMNS = ["link", "title", "runtime",
@@ -51,9 +51,17 @@ def writeProblemsToDB(df):
         print(e)
 
 
-def writeUserdataToDB(username, df):
+def writeUserdataToDB(username, subsIDList):
     try:
-        getUserdataCollection().update_one({"_id": username}, {"$set": df.to_dict('records')[0]}, upsert=True
+        getUserdataCollection().update(
+            {"_id": username},
+            {"$push": {
+                "submissions": {
+                    "$each": subsIDList,
+                    "$position": 0
+                }
+            }}
+        )
     except Exception as e:
         print("Error writing userdata to DB")
         print(e)

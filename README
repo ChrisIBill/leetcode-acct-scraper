@@ -15,12 +15,11 @@ Leetcode Problem DB Format:
     "link":
     "tags": Problem tags,
     "difficulty": Problem difficulty,
+    "acceptance": Problem acceptance rate,
     "update-time": db value last update time,
     "sample-submission-id": Required to poll for performance distribution info
     "problem-data": 
     {
-        #Stores data that needs to be updated frequently
-        "acceptance": Problem acceptance rate,
         "runtime-distribution": 
         {
             "mode":

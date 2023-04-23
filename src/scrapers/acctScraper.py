@@ -3,7 +3,6 @@ import numpy as np
 import time
 import configparser
 import validators
-import configparser
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService

@@ -9,8 +9,10 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
+from src.scrapers.pageHandlers import loginPageHandler, submissionPageHandler
 
 from src.scrapers.scraper import submissionPageScraper
+# from utils.dbHandler import writeSubmissionsToDB, writeUserdataToDB
 
 
 def profileScraper(username, existingSubmissions=set()):
@@ -20,18 +22,7 @@ def profileScraper(username, existingSubmissions=set()):
     driver = webdriver.Chrome(service=ChromeService(
         ChromeDriverManager().install()))
     driver.get(f'https://leetcode.com/{username}/')
-    DUMMY_USERNAME = os.environ.get('LEETCODE_USERNAME')
-    DUMMY_PASSWORD = os.environ.get('LEETCODE_PASSWORD')
     time.sleep(3)
-
-    def login():
-        usernameBox = driver.find_element(By.ID, value="id_login")
-        passwordBox = driver.find_element(By.ID, value="id_password")
-        submit_button = driver.find_element(By.ID, value="signin_btn")
-        usernameBox.send_keys(DUMMY_USERNAME)
-        passwordBox.send_keys(DUMMY_PASSWORD)
-        submit_button.click()
-        input("Press Enter to continue...")
 
     def getSubmissionsListElement():
         # This is some goooooood code
@@ -42,8 +33,7 @@ def profileScraper(username, existingSubmissions=set()):
     signInButton = driver.find_elements(By.ID, value="navbar_sign_in_button")
     if (len(signInButton) > 0):
         signInButton[0].click()
-        time.sleep(3)
-        login()
+        loginPageHandler(driver)
     # Get submissions
     submissionsListElement = getSubmissionsListElement()
     print(len(submissionsListElement))
@@ -64,14 +54,13 @@ def profileScraper(username, existingSubmissions=set()):
         }})
     for s in subsDict:
         print(s)
-        perf, stats = submissionPageScraper(driver, s)
-        subsDict[s].update({
-            "runtime": stats[0],
-            "memory": stats[1],
-            "runtime-percentile": perf[0],
-            "memory-percentile": perf[1],
-        })
-    for s in subsDict:
-        print(s, subsDict[s])
+        try:
+            subsDict[s].update(submissionPageHandler(driver, s))
+        except Exception as e:
+            print("Error scraping submission page: ", e)
+            subsIDSet.remove(s)
+            del subsDict[s]
     driver.quit()
+    # writeUserdataToDB(username, list(subsIDSet))
+    # writeSubmissionsToDB(subsDict)
     return subsDict, subsIDSet
