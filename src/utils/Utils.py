@@ -1,7 +1,21 @@
 import datetime
 import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+
 
 ZERO_DATE = datetime.datetime(1970, 1, 1)
+
+
+def launchDriver():
+    return webdriver.Chrome(service=ChromeService(
+        ChromeDriverManager().install()))
+
+
+def closeDriver(driver):
+    driver.close()
 
 
 def validateSubmission(sub):

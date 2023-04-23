@@ -11,6 +11,8 @@ selenium = "*"
 pandas = "*"
 numpy = "*"
 webdriver-manager = "*"
+jupyterlab = "*"
+notebook = "*"
 
 [dev-packages]
 

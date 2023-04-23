@@ -12,13 +12,11 @@ from src.utils.Utils import dateTimeToStr, getCurrentTime
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-def problemsScraper(existingProblems):
+def problemScraper(driver, existingProblems):
     probsLinksList = []
     probsDict = {}
     CURRENT_TIME = getCurrentTime()
     config = configparser.ConfigParser()
-    driver = webdriver.Chrome(service=ChromeService(
-        ChromeDriverManager().install()))
     driver.get("https://leetcode.com/problemset/all/")
     input("Press Enter to continue...")
 

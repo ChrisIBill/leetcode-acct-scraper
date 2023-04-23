@@ -81,3 +81,7 @@ def chartModalHandler(driver):
         print(label.text)
         distributions.append(label.text)
     return distributions
+
+
+def test():
+    print("Testing pageHandlers.py")
