@@ -1,6 +1,7 @@
 import os
 import time
 from selenium.webdriver.common.by import By
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 def loginPageHandler(driver, username=os.environ.get("LEETCODE_USERNAME"), password=os.environ.get("LEETCODE_PASSWORD")):
@@ -81,6 +82,59 @@ def chartModalHandler(driver):
         print(label.text)
         distributions.append(label.text)
     return distributions
+
+
+def prepProblemPage(driver, startPage=1, elemsPerPage=100):
+    driver.get(f"https://leetcode.com/problemset/all/?page={startPage}")
+    alerts = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
+        By.TAG_NAME, value="section"))
+    for a in alerts:
+        print("Alert Detected: ", a.text)
+        a.find_element(By.CSS_SELECTOR, value="button").click()
+    try:
+        pageCore = WebDriverWait(driver, 3).until(lambda d: d.find_element(
+            By.CSS_SELECTOR, value="div.grid >div:first-child >div:last-child"))
+        header = pageCore.find_element(By.CSS_SELECTOR, value="div.mb-3")
+        body = pageCore.find_element(By.CSS_SELECTOR, value="div.-mx-4")
+        footer = pageCore.find_element(By.CSS_SELECTOR, value="div.mt-4")
+        # Sorting by default by number from greatest to least
+        # TODO: Many improvements can be made here
+        titleColumnSorter = body.find_element(
+            By.CSS_SELECTOR, value="div[role='row'] > div:nth-child(2)")
+        titleColumnSorter.click()
+        # Setting number of problems per page
+        elemsPerPageParent = footer.find_element(
+            By.CSS_SELECTOR, value="div.relative")
+        if elemsPerPageParent.text.split(" / ")[0] != str(elemsPerPage):
+            elemsPerPageBtn = elemsPerPageParent.find_element(
+                By.CSS_SELECTOR, value="button")
+            elemsPerPageBtn.click()
+            elemsPerPageList = WebDriverWait(elemsPerPageParent, 3).until(lambda d: d.find_elements(
+                By.CSS_SELECTOR, value="ul > li"))
+            for e in elemsPerPageList:
+                if e.text.split(" / ")[0] == str(elemsPerPage):
+                    e.click()
+                    break
+            else:  # If no match found
+                raise Exception("No match found for elemsPerPage")
+
+        # Setting tags view to all
+        settingsBtn = header.find_element(
+            By.CSS_SELECTOR, value="button[aria-label='settings']")
+        settingsBtn.click()
+        settingsMenu = WebDriverWait(settingsBtn, 3).until(lambda d: d.find_element(
+            By.XPATH, value="./following-sibling::div"))
+        tagsToggle = settingsMenu.find_element(
+            By.CSS_SELECTOR, value="div > div")
+        toggleState = tagsToggle.find_element(By.TAG_NAME, value="div").get_attribute(
+            'aria-checked')
+        if toggleState != "true":
+            tagsToggle.click()
+
+        return pageCore
+    except Exception as e:
+        print("Error in prepProblemPage: ", e)
+        raise e
 
 
 def test():

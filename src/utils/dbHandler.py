@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from pymongo import MongoClient
 
-from src.utils.Utils import validateSubmission, validateProblem
+from .Utils import validateSubmission, validateProblem
 SUBMISSION_COLUMNS = ["link", "title", "runtime",
                       "language", "runtime-perf", "memory-perf"]
 PROBLEM_COLUMNS = ["link", "number", "title",

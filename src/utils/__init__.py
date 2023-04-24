@@ -1,2 +1,2 @@
-from . import Utils
-from . import dbHandler
+from .Utils import *
+from .dbHandler import *

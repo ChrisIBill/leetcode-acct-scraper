@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from src.scrapers.pageHandlers import loginPageHandler, submissionPageHandler
+from .pageHandlers import loginPageHandler, submissionPageHandler
 # from utils.dbHandler import writeSubmissionsToDB, writeUserdataToDB
 
 
