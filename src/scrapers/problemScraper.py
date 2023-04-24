@@ -8,7 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from src.utils.Utils import dateTimeToStr, getCurrentTime
+from utils.Utils import dateTimeToStr, getCurrentTime
 from selenium.webdriver.support.wait import WebDriverWait
 
 
