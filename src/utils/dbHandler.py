@@ -12,7 +12,7 @@ PROBLEM_COLUMNS = ["link", "number", "title",
 
 
 def getDatabase():
-    MONGODB_URI = os.environ.get('MNGODB_URI')
+    MONGODB_URI = os.environ.get('MONGODB_URI')
     client = MongoClient(MONGODB_URI)
     return client['leetcode']
 
@@ -26,8 +26,16 @@ def getProblemsCollection():
 
 
 def writeProblemsToDB(probsDict):
+    db = getProblemsCollection()
     try:
-        getProblemsCollection().insert_many(probsDict)
+        for prob in probsDict:
+            print(prob)
+            # if not validateProblem(prob):
+            #     print("Invalid problem, skipping")
+            #     continue
+            db.update_one({"title": prob}, {
+                "$set": probsDict[prob]}, upsert=True)
+        # getProblemsCollection().insert_many(probsDict)
     except Exception as e:
         print("Error writing problems to DB")
         print(e)

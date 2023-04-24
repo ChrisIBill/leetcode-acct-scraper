@@ -59,7 +59,7 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
                 print(tags)
             probsDict.update(
                 {title: {
-                    "number": num,
+                    "number": int(num),
                     "link": link,
                     "tags": tags,
                     "difficulty": difficulty,
@@ -71,7 +71,7 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
             print(tags)
             probsDict.update(
                 {title: {
-                    "number": num,
+                    "number": int(num),
                     "link": link,
                     "difficulty": difficulty,
                     "acceptance": acceptance,
@@ -114,12 +114,12 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
             except Exception as e:
                 print("Error in handleProblemElement: ", e)
                 print("Suspect problem element: ", p.text)
-        prevBtn = navBar.find_elements(By.TAG_NAME, value="button")[0]
+        nextBtn = navBar.find_elements(By.TAG_NAME, value="button")[-1]
         pagesToScrape -= 1
-        if pagesToScrape == 0 or prevBtn.get_attribute("disabled") == "true":
+        if pagesToScrape == 0 or nextBtn.get_attribute("disabled") == "true":
             return
-        prevBtn.click()
-        getProblemLinks()
+        nextBtn.click()
+        getProblemLinks(pagesToScrape)
 
     getProblemLinks(pagesToScrape)
     print("Problem links scraped, now scraping problem pages")
