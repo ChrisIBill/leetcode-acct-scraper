@@ -86,11 +86,17 @@ def chartModalHandler(driver):
 
 def prepProblemPage(driver, startPage=1, elemsPerPage=100):
     driver.get(f"https://leetcode.com/problemset/all/?page={startPage}")
-    alerts = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
-        By.TAG_NAME, value="section"))
-    for a in alerts:
-        print("Alert Detected: ", a.text)
-        a.find_element(By.CSS_SELECTOR, value="button").click()
+    # Checking for alerts and popups
+    try:
+        alerts = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
+            By.TAG_NAME, value="section"))
+        for a in alerts:
+            print("Alert Detected: ", a.text)
+            a.find_element(By.CSS_SELECTOR, value="button").click()
+    except:
+        # No alerts
+        pass
+
     try:
         pageCore = WebDriverWait(driver, 3).until(lambda d: d.find_element(
             By.CSS_SELECTOR, value="div.grid >div:first-child >div:last-child"))

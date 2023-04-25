@@ -16,6 +16,8 @@ Leetcode Problem DB Format:
     "tags": Problem tags,
     "difficulty": Problem difficulty,
     "acceptance": Problem acceptance rate,
+    "number-submitted": Number of submissions,
+    "number-accepted": Number of accepted submissions,
     "update-time": db value last update time,
     "sample-submission-id": Required to poll for performance distribution info
     "problem-data": 
