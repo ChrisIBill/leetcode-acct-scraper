@@ -52,11 +52,7 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
         acceptance = cols[3].text
         difficulty = cols[4].text
         if len(tags) < 4 or isPremium:
-            if isPremium:
-                print("Premium Problem: ", title)
-            else:
-                print("All tags visible: ", title)
-                print(tags)
+            # Either cant or dont need to look at problem page to gather tags
             probsDict.update(
                 {title: {
                     "number": int(num),
@@ -67,8 +63,6 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
                     "update-time": CURRENT_TIME,
                 }})
         else:
-            print("Not all tags visible: ", title)
-            print(tags)
             probsDict.update(
                 {title: {
                     "number": int(num),
@@ -106,9 +100,9 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
         navBar = footerComponents[1]
 
         problemsList = problemsBody.find_element(
-            By.XPATH, value="./div/div/div[@role]")
+            By.CSS_SELECTOR, value="div[role='rowgroup']")
 
-        for p in problemsList.find_elements(By.XPATH, value="*"):
+        for p in problemsList.find_elements(By.CSS_SELECTOR, value="div[role='row']"):
             try:
                 handleProblemElement(p)
             except Exception as e:
