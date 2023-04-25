@@ -2,6 +2,7 @@ import os
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions
 
 
 def loginPageHandler(driver, username=os.environ.get("LEETCODE_USERNAME"), password=os.environ.get("LEETCODE_PASSWORD")):
@@ -136,7 +137,9 @@ def prepProblemPage(driver, startPage=1, elemsPerPage=100):
             'aria-checked')
         if toggleState != "true":
             tagsToggle.click()
-
+        time.sleep(2)
+        pageCore = WebDriverWait(driver, 3).until(lambda d: d.find_element(
+            By.CSS_SELECTOR, value="div.grid >div:first-child >div:last-child"))
         return pageCore
     except Exception as e:
         print("Error in prepProblemPage: ", e)

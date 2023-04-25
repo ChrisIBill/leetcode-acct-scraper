@@ -12,9 +12,10 @@ from webdriver_manager.chrome import ChromeDriverManager
 from .pageHandlers import prepProblemPage
 from utils.Utils import dateTimeToStr, getCurrentTime
 from selenium.webdriver.support.wait import WebDriverWait
+from selenium.webdriver.support import expected_conditions
 
 
-def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=1):
+def problemScraper(driver, existingProblems=set(), problemsToScrape=100, pagesToScrape=inf, startPage=1):
     probsLinksList = []
     probsDict = {}
     CURRENT_TIME = getCurrentTime()
@@ -39,10 +40,13 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
         if link in existingProblems:
             print("Already in DB, skipping, ", titleElement.text, link)
             return
+        else:
+            problemsToScrape -= 1
         isPremium = True if len(titleElement.find_elements(
             By.TAG_NAME, value="svg")) > 0 else False
         temp = cols[1].find_element(By.TAG_NAME, value="a")
         num, title = [_.strip() for _ in temp.text.split(".")]
+        print(title)
         link = temp.get_attribute("href")
         try:
             tags = [e.text for e in cols[1].find_elements(
@@ -51,7 +55,7 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
             tags = "None"
         acceptance = cols[3].text
         difficulty = cols[4].text
-        if len(tags) < 4 or isPremium:
+        if isPremium:
             # Either cant or dont need to look at problem page to gather tags
             probsDict.update(
                 {title: {
@@ -77,20 +81,26 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
     def handleProblemLinks():
         for link in probsLinksList:
             driver.get(link)
-
             SubmissionsStatsElements = WebDriverWait(driver, 3).until(
                 lambda d: d.find_elements(By.CSS_SELECTOR, value="div.flex >div.text-label-1"))
-            TopicsTab = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
-                By.XPATH, value="//*[text()='Related Topics']"))[0]
-
+            topics = []
+            try:
+                TopicsTab = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
+                    By.XPATH, value="//*[text()='Related Topics']"))[0]
+                clickable = TopicsTab.find_element(
+                    By.XPATH, value="./..")
+                expandableTab = clickable.find_element(By.XPATH, value="./..")
+                topicsList = WebDriverWait(expandableTab, 3).until(lambda d: d.find_element(
+                    By.CSS_SELECTOR, value="div.overflow-hidden"))
+                topics = WebDriverWait(topicsList, 3).until(
+                    lambda d: d.find_elements(By.TAG_NAME, value="a"))
+                topics = [_.get_attribute("href").split("/")[-2]
+                          for _ in topics]
+            except Exception as e:
+                print("No Tags Found for: ", driver.title)
+                print(e)
+                topics = "None"
             title = driver.title.split(" - ")[0]
-            clickable = TopicsTab.find_element(
-                By.XPATH, value="./..")
-            expandableTab = clickable.find_element(By.XPATH, value="./..")
-            clickable.click()
-            topics = WebDriverWait(expandableTab, 3).until(lambda d: d.find_elements(
-                By.CSS_SELECTOR, value="div.overflow-hidden"))
-            topics = [_.text for _ in topics]
             probsDict[title].update({
                 "tags": topics,
                 "number-submitted": SubmissionsStatsElements[1].text,
@@ -105,11 +115,14 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
         problemsFooter = pageCoreElements[2]
         footerComponents = problemsFooter.find_elements(By.XPATH, value="*")
         navBar = footerComponents[1]
-
         problemsList = problemsBody.find_element(
             By.CSS_SELECTOR, value="div[role='rowgroup']")
-
+        check = problemsList.find_element(
+            By.CSS_SELECTOR, value="div[role='row'] >div:nth-child(2) >div")
         for p in problemsList.find_elements(By.CSS_SELECTOR, value="div[role='row']"):
+            if pagesToScrape == 0:
+                print("No more pages to scrape")
+                return
             try:
                 handleProblemElement(p)
             except Exception as e:
@@ -121,7 +134,8 @@ def problemScraper(driver, existingProblems=set(), pagesToScrape=inf, startPage=
             print("No more pages to scrape")
             return
         nextBtn.click()
-        time.sleep(0.5)
+        WebDriverWait(driver, 5).until(
+            expected_conditions.staleness_of(check))
         pageCore = WebDriverWait(driver, 3).until(lambda d: d.find_element(
             By.CSS_SELECTOR, value="div.grid >div:first-child >div:last-child"))
         getProblemLinks(pagesToScrape, pageCore)

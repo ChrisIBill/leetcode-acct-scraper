@@ -41,8 +41,8 @@ def writeProblemsToDB(probsDict):
         print(e)
 
 
-def test():
-    print("test")
+def getProblemsLinksFromDB():
+    return getProblemsCollection().distinct("link")
 
 
 def getProblemSampleSubmission(problemTitle):
