@@ -45,13 +45,24 @@ def getProblemsLinksFromDB():
     return getProblemsCollection().distinct("link")
 
 
-def getProblemSampleSubmission(problemTitle):
+def writeSampleSubmissionsToDB(subsDict):
+    print(subsDict)
+    for i, n in enumerate(subsDict):
+        print(i, n)
+        db = getProblemsCollection()
+        if db.find_one({"title": subsDict[n]}) is None:
+            print("Problem not in DB, skipping")
+            continue
+        db.update_one({"title": subsDict[n], 'sample-submissions': {'$exists': False}}, {
+            '$set': {'sample-submissions': n}})
+
+
+def getProblemDataFromTitle(problemTitle):
     try:
-        sample = getProblemsCollection().find_one(
-            {"_id": problemTitle})["sampleSubmission"]
-        return sample
+        return getProblemsCollection().find_one(
+            {"title": problemTitle})
     except Exception as e:
-        print("Error getting sample submission")
+        print("Error getting problem from DB")
         print(e)
         return None
 

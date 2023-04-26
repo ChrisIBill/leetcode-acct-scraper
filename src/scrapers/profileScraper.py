@@ -50,15 +50,17 @@ def profileScraper(username, existingSubmissions=set()):
         subsDict.update({id: {
             "title": title,
         }})
-    for s in subsDict:
+    print("Subs ID Set: ", subsIDSet)
+    print("Subs Dict: ", subsDict)
+    while subsIDSet:
+        s = subsIDSet.pop()
         print(s)
         try:
             subsDict[s].update(submissionPageHandler(driver, s))
         except Exception as e:
             print("Error scraping submission page: ", e)
-            subsIDSet.remove(s)
             del subsDict[s]
     driver.quit()
     # writeUserdataToDB(username, list(subsIDSet))
     # writeSubmissionsToDB(subsDict)
-    return subsDict, subsIDSet
+    return subsDict

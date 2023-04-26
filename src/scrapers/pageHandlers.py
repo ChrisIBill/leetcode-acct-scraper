@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
-from utils.Utils import getCurrentTime
+from utils.Utils import expandNumber, getCurrentTime
 
 
 def loginPageHandler(driver, username=os.environ.get("LEETCODE_USERNAME"), password=os.environ.get("LEETCODE_PASSWORD")):
@@ -34,8 +34,9 @@ def problemPageHandler(driver, title, link):
         By.TAG_NAME, value="span").text.split(".")[0].strip()
     difficulty = ProblemHeaderSection.find_element(
         By.CSS_SELECTOR, value="div.mt-3 >div:first-child").text
-    thumbsUp, thumbsDown = ProblemHeaderSection.find_element(
+    ratings = ProblemHeaderSection.find_element(
         By.CSS_SELECTOR, value="div.mt-3 >div.items-center").text.split("\n")
+    thumbsUp, thumbsDown = [expandNumber(rating) for rating in ratings]
     print("Ratings: ", difficulty, thumbsUp, thumbsDown)
     # Handling Submission/Acceptance Section of given problem page
     SubmissionSection = WebDriverWait(driver, 3).until(lambda d: d.find_element(
@@ -45,6 +46,8 @@ def problemPageHandler(driver, title, link):
     submissionsStats = [s for i, s in enumerate(
         submissionStatsText.split("\n")) if i % 2 == 1]
     print("Found Submissions Stats: ", submissionsStats)
+    numAccepted, numSubmitted = expandNumber(
+        submissionsStats[0]), expandNumber(submissionsStats[1])
     topics = []
     # try:
     TopicsTab = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
@@ -61,15 +64,13 @@ def problemPageHandler(driver, title, link):
     #     print("No Tags Found for: ", driver.title)
     #     print(e)
     #     topics = "None"
-    probNum = driver.find_element(
-        By.CSS_SELECTOR, value="span.text-lg").text.split(".")[0].strip()
     return {
         "number": probNum,
         "link": link,
         "tags": topics,
         "difficulty": difficulty,
-        "number-submitted": submissionsStats[1],
-        "number-accepted": submissionsStats[0],
+        "number-submitted": numSubmitted,
+        "number-accepted": numAccepted,
         "acceptance-rate": submissionsStats[2],
         "thumbs-up": thumbsUp,
         "thumbs-down": thumbsDown,
