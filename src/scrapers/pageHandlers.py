@@ -16,6 +16,44 @@ def loginPageHandler(driver, username=os.environ.get("LEETCODE_USERNAME"), passw
     input("Press Enter to continue...")
 
 
+def problemPageHandler(driver, title, link):
+    driver.get(link)
+    valid = WebDriverWait(driver, 3).until(
+        expected_conditions.title_contains(title))
+    if not valid:
+        print("Invalid problem page, skipping")
+        raise "Titles do not match"
+    SubmissionSection = WebDriverWait(driver, 3).until(lambda d: d.find_element(
+        By.XPATH, value="//*[text()='Accepted']/../.."))
+    print("Found Submissions Section: ", SubmissionSection.text)
+    AcceptedElement = SubmissionSection.find_element(
+        By.XPATH, value="div.items-center >div.text-label-1").text
+    SubmittedElement = SubmissionSection.find_element(
+        By.XPATH, value="div.items-center >div.text-label-1").text
+    topics = []
+    try:
+        TopicsTab = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
+            By.XPATH, value="//*[text()='Related Topics']"))[0]
+        clickable = TopicsTab.find_element(
+            By.XPATH, value="./..")
+        expandableTab = clickable.find_element(By.XPATH, value="./..")
+        topicsList = WebDriverWait(expandableTab, 3).until(lambda d: d.find_element(
+            By.CSS_SELECTOR, value="div.overflow-hidden"))
+        topics = WebDriverWait(topicsList, 3).until(
+            lambda d: d.find_elements(By.TAG_NAME, value="a"))
+        topics = [_.get_attribute("href").split("/")[-2] for _ in topics]
+    except Exception as e:
+        print("No Tags Found for: ", driver.title)
+        print(e)
+        topics = "None"
+    title = driver.title.split(" - ")[0]
+    return {
+        "tags": topics,
+        "number-submitted": SubmittedElement,
+        "number-accepted": AcceptedElement,
+    }
+
+
 def submissionPageHandler(driver, id):
     # Need to check if the submission perf data is in db, if not then
     # queue it for problem perf scraping
