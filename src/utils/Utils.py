@@ -82,3 +82,16 @@ def greaterThanDay(delta):
 
 def lessThanHour(delta):
     return delta.seconds < 3600
+
+
+def expandNumber(numString: str):
+    if numString.isnumeric():
+        return numString
+    numMap = {
+        'K': 1000,
+        'M': 1000000,
+        'B': 1000000000,
+    }
+
+    if numString[-1] in numMap:
+        return "{:.2e}".format(float(numString[:-1]) * numMap[numString[-1]])
