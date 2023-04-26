@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 
+from utils.Utils import getCurrentTime
+
 
 def loginPageHandler(driver, username=os.environ.get("LEETCODE_USERNAME"), password=os.environ.get("LEETCODE_PASSWORD")):
     time.sleep(3)
@@ -20,38 +22,68 @@ def problemPageHandler(driver, title, link):
     driver.get(link)
     valid = WebDriverWait(driver, 3).until(
         expected_conditions.title_contains(title))
+    CURRENT_TIME = getCurrentTime()
     if not valid:
         print("Invalid problem page, skipping")
         raise "Titles do not match"
+
+    # Handling Title/difficulty section of given problem page
+    ProblemHeaderSection = WebDriverWait(driver, 3).until(lambda d: d.find_element(
+        By.CSS_SELECTOR, value="div#qd-content div.overflow-y-auto >div.bg-layer-1 >div >div.w-full >div"))
+    probNum = ProblemHeaderSection.find_element(
+        By.TAG_NAME, value="span").text.split(".")[0].strip()
+    difficulty = ProblemHeaderSection.find_element(
+        By.CSS_SELECTOR, value="div.mt-3 >div:first-child").text
+    thumbsUp, thumbsDown = ProblemHeaderSection.find_element(
+        By.CSS_SELECTOR, value="div.mt-3 >div.items-center").text.split("\n")
+    print("Ratings: ", difficulty, thumbsUp, thumbsDown)
+    # Handling Submission/Acceptance Section of given problem page
     SubmissionSection = WebDriverWait(driver, 3).until(lambda d: d.find_element(
         By.XPATH, value="//*[text()='Accepted']/../.."))
-    print("Found Submissions Section: ", SubmissionSection.text)
-    AcceptedElement = SubmissionSection.find_element(
-        By.XPATH, value="div.items-center >div.text-label-1").text
-    SubmittedElement = SubmissionSection.find_element(
-        By.XPATH, value="div.items-center >div.text-label-1").text
+    submissionStatsText = SubmissionSection.text
+    print("Found Submissions Section: ", submissionStatsText)
+    submissionsStats = [s for i, s in enumerate(
+        submissionStatsText.split("\n")) if i % 2 == 1]
+    print("Found Submissions Stats: ", submissionsStats)
     topics = []
-    try:
-        TopicsTab = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
-            By.XPATH, value="//*[text()='Related Topics']"))[0]
-        clickable = TopicsTab.find_element(
-            By.XPATH, value="./..")
-        expandableTab = clickable.find_element(By.XPATH, value="./..")
-        topicsList = WebDriverWait(expandableTab, 3).until(lambda d: d.find_element(
-            By.CSS_SELECTOR, value="div.overflow-hidden"))
-        topics = WebDriverWait(topicsList, 3).until(
-            lambda d: d.find_elements(By.TAG_NAME, value="a"))
-        topics = [_.get_attribute("href").split("/")[-2] for _ in topics]
-    except Exception as e:
-        print("No Tags Found for: ", driver.title)
-        print(e)
-        topics = "None"
-    title = driver.title.split(" - ")[0]
+    # try:
+    TopicsTab = WebDriverWait(driver, 3).until(lambda d: d.find_elements(
+        By.XPATH, value="//*[text()='Related Topics']"))[0]
+    clickable = TopicsTab.find_element(
+        By.XPATH, value="./..")
+    expandableTab = clickable.find_element(By.XPATH, value="./..")
+    topicsList = WebDriverWait(expandableTab, 3).until(lambda d: d.find_element(
+        By.CSS_SELECTOR, value="div.overflow-hidden"))
+    topics = WebDriverWait(topicsList, 3).until(
+        lambda d: d.find_elements(By.TAG_NAME, value="a"))
+    topics = [_.get_attribute("href").split("/")[-2] for _ in topics]
+    # except Exception as e:
+    #     print("No Tags Found for: ", driver.title)
+    #     print(e)
+    #     topics = "None"
+    probNum = driver.find_element(
+        By.CSS_SELECTOR, value="span.text-lg").text.split(".")[0].strip()
     return {
+        "number": probNum,
+        "link": link,
         "tags": topics,
-        "number-submitted": SubmittedElement,
-        "number-accepted": AcceptedElement,
+        "difficulty": difficulty,
+        "number-submitted": submissionsStats[1],
+        "number-accepted": submissionsStats[0],
+        "acceptance-rate": submissionsStats[2],
+        "thumbs-up": thumbsUp,
+        "thumbs-down": thumbsDown,
+        "update-time": CURRENT_TIME,
     }
+
+
+def getNextProblemsPage(driver, nextBtn, check):
+    nextBtn.click()
+    WebDriverWait(driver, 3).until_not(expected_conditions.text_to_be_present_in_element(
+        (By.CSS_SELECTOR, "div[role='rowgroup'] >div:last-child >div:nth-child(2) >div"), check))
+    pageCore = WebDriverWait(driver, 3).until(lambda d: d.find_element(
+        By.CSS_SELECTOR, value="div.grid >div:first-child >div:last-child"))
+    return pageCore
 
 
 def submissionPageHandler(driver, id):
