@@ -3,6 +3,7 @@ import os
 import pandas as pd
 import numpy as np
 from pymongo import MongoClient
+from pymongo.collection import Collection
 
 from .Utils import validateSubmission, validateProblem
 SUBMISSION_COLUMNS = ["link", "title", "runtime",
@@ -11,21 +12,25 @@ PROBLEM_COLUMNS = ["link", "number", "title",
                    "acceptance", "difficulty", "tags"]
 
 
-def getDatabase():
+def getDatabase() -> MongoClient:
     MONGODB_URI = os.environ.get('MONGODB_URI')
     client = MongoClient(MONGODB_URI)
     return client['leetcode']
 
 
-def getSubmissionsCollection():
+def getSubmissionsCollection() -> Collection:
     return getDatabase()['submissions']
 
 
-def getProblemsCollection():
-    return getDatabase()['problems']
+def getProblemsCollection() -> Collection:
+    return getDatabase()['problems2']
 
 
-def writeProblemsToDB(probsDict):
+def getCollectionMetaData(coll: Collection):
+    return coll.find_one({"_id": "meta"})
+
+
+def writeProblemsToDB(probsDict, meta):
     db = getProblemsCollection()
     try:
         for prob in probsDict:
@@ -39,6 +44,8 @@ def writeProblemsToDB(probsDict):
     except Exception as e:
         print("Error writing problems to DB")
         print(e)
+        raise e
+    db.update_one({"_id": "meta"}, {"$set": meta}, upsert=True)
 
 
 def getProblemsLinksFromDB():
@@ -73,6 +80,10 @@ def getUserdataCollection():
 
 def getUserdataFromDB(username):
     return getUserdataCollection().find_one({"_id": username})
+
+
+def getUsersFromCollection():
+    return getUserdataCollection().distinct("username")
 
 
 def writeSubmissionsToDB(df):

@@ -1,3 +1,5 @@
+import pandas
+import numpy
 import datetime
 import time
 from selenium import webdriver
@@ -95,3 +97,25 @@ def expandNumber(numString: str):
 
     if numString[-1] in numMap:
         return "{:.2e}".format(float(numString[:-1]) * numMap[numString[-1]])
+
+
+def formatProblemSet(probsDict, time):
+    print(probsDict)
+
+    df = pandas.DataFrame.from_dict(
+        probsDict['data']['problemsetQuestionList']['questions'])
+    df = pandas.concat([df.drop(['stats'], axis=1), df['stats'].map(
+        eval).apply(pandas.Series)], axis=1)
+    df = pandas.concat([df.drop(['topicTags'], axis=1), pandas.DataFrame(
+        df['topicTags'].map(lambda x: [y['name'] for y in x] if x else []))], axis=1)
+    df.drop(['totalAccepted', 'totalSubmission',
+            'titleSlug'], axis=1, inplace=True)
+    df = df.rename(columns={'totalAcceptedRaw': 'totalAccepted',
+                            'totalSubmissionRaw': 'totalSubmission',
+                            'frontendQuestionId': 'problemNumber',
+                            'paidOnly': 'isPremium',
+                            'acRate': 'acceptanceRate'})
+    df.insert(0, 'update-time', time)
+    df.set_index('title', inplace=True)
+    df['problemNumber'] = df['problemNumber'].astype(int)
+    return df.to_dict(orient='index')

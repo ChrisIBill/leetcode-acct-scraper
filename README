@@ -19,7 +19,12 @@ Leetcode Problem DB Format:
     "number-submitted": Number of submissions,
     "number-accepted": Number of accepted submissions,
     "update-time": db value last update time,
-    "sample-submission-id": Required to poll for performance distribution info
+            "sample-submissions": {
+                Required to poll for performance distribution info
+                "python3-id":
+                "javascript-id":
+                "typescript-id":
+            }
     "problem-data": 
     {
         "runtime-distribution": 

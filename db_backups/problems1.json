@@ -1,0 +1,6181 @@
+[{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879881"
+  },
+  "title": "Smallest Number in Infinite Set",
+  "acceptance": "75.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-number-in-infinite-set/",
+  "number": 2336,
+  "number-accepted": "79.4K",
+  "number-submitted": "105.4K",
+  "tags": [
+    "hash-table",
+    "design",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879883"
+  },
+  "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+  "acceptance": "34.5%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-all-array-elements-equal-to-1/",
+  "number": 2654,
+  "number-accepted": "7.5K",
+  "number-submitted": "21.7K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879885"
+  },
+  "title": "Sliding Subarray Beauty",
+  "acceptance": "29.2%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sliding-subarray-beauty/",
+  "number": 2653,
+  "number-accepted": "10.7K",
+  "number-submitted": "36.5K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879887"
+  },
+  "title": "Sum Multiples",
+  "acceptance": "85.9%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sum-multiples/",
+  "number": 2652,
+  "number-accepted": "20.4K",
+  "number-submitted": "23.7K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879889"
+  },
+  "title": "Calculate Delayed Arrival Time",
+  "acceptance": "83.6%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-delayed-arrival-time/",
+  "number": 2651,
+  "number-accepted": "20.3K",
+  "number-submitted": "24.2K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387988b"
+  },
+  "title": "Design Cancellable Function",
+  "acceptance": "45.7%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/design-cancellable-function/",
+  "number": 2650,
+  "number-accepted": "138",
+  "number-submitted": "302",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387988d"
+  },
+  "title": "Nested Array Generator",
+  "acceptance": "82.9%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/nested-array-generator/",
+  "number": 2649,
+  "number-accepted": "519",
+  "number-submitted": "626",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387988f"
+  },
+  "title": "Generate Fibonacci Sequence",
+  "acceptance": "86.0%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/generate-fibonacci-sequence/",
+  "number": 2648,
+  "number-accepted": "1.2K",
+  "number-submitted": "1.4K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879891"
+  },
+  "title": "Color the Triangle Red",
+  "acceptance": "79.5%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/color-the-triangle-red/",
+  "number": 2647,
+  "tags": [],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879893"
+  },
+  "title": "Minimize the Total Price of the Trips",
+  "acceptance": "39.7%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimize-the-total-price-of-the-trips/",
+  "number": 2646,
+  "number-accepted": "4.6K",
+  "number-submitted": "11.6K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "tree",
+    "depth-first-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879895"
+  },
+  "title": "Minimum Additions to Make Valid String",
+  "acceptance": "48.9%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-additions-to-make-valid-string/",
+  "number": 2645,
+  "number-accepted": "17.1K",
+  "number-submitted": "35K",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "stack",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879897"
+  },
+  "title": "Find the Maximum Divisibility Score",
+  "acceptance": "48.4%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-maximum-divisibility-score/",
+  "number": 2644,
+  "number-accepted": "19.1K",
+  "number-submitted": "39.4K",
+  "tags": [
+    "array"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  },
+  "sample-submissions": "936682868"
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879899"
+  },
+  "title": "Row With Maximum Ones",
+  "acceptance": "75.9%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/row-with-maximum-ones/",
+  "number": 2643,
+  "number-accepted": "21.9K",
+  "number-submitted": "28.9K",
+  "tags": [
+    "array",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387989b"
+  },
+  "title": "Design Graph With Shortest Path Calculator",
+  "acceptance": "56.3%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/design-graph-with-shortest-path-calculator/",
+  "number": 2642,
+  "number-accepted": "7.3K",
+  "number-submitted": "12.9K",
+  "tags": [
+    "graph",
+    "design",
+    "heap-priority-queue",
+    "shortest-path"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387989d"
+  },
+  "title": "Cousins in Binary Tree II",
+  "acceptance": "67.9%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/cousins-in-binary-tree-ii/",
+  "number": 2641,
+  "number-accepted": "9.8K",
+  "number-submitted": "14.5K",
+  "tags": [
+    "hash-table",
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387989f"
+  },
+  "title": "Find the Score of All Prefixes of an Array",
+  "acceptance": "71.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array/",
+  "number": 2640,
+  "number-accepted": "16.3K",
+  "number-submitted": "22.9K",
+  "tags": [
+    "array",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798a1"
+  },
+  "title": "Find the Width of Columns of a Grid",
+  "acceptance": "65.1%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/",
+  "number": 2639,
+  "number-accepted": "16.4K",
+  "number-submitted": "25.2K",
+  "tags": [
+    "array",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798a3"
+  },
+  "title": "Count the Number of K-Free Subsets",
+  "acceptance": "57.2%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-k-free-subsets/",
+  "number": 2638,
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798a5"
+  },
+  "title": "Promise Time Limit",
+  "acceptance": "81.9%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/promise-time-limit/",
+  "number": 2637,
+  "number-accepted": "1.9K",
+  "number-submitted": "2.3K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798a7"
+  },
+  "title": "Promise Pool",
+  "acceptance": "78.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/promise-pool/",
+  "number": 2636,
+  "number-accepted": "714",
+  "number-submitted": "907",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798a9"
+  },
+  "title": "Apply Transform Over Each Element in Array",
+  "acceptance": "89.5%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/apply-transform-over-each-element-in-array/",
+  "number": 2635,
+  "number-accepted": "4K",
+  "number-submitted": "4.5K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798ab"
+  },
+  "title": "Filter Elements from Array",
+  "acceptance": "85.2%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/filter-elements-from-array/",
+  "number": 2634,
+  "number-accepted": "4.3K",
+  "number-submitted": "5.1K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798ad"
+  },
+  "title": "Convert Object to JSON String",
+  "acceptance": "71.1%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/convert-object-to-json-string/",
+  "number": 2633,
+  "number-accepted": "1.2K",
+  "number-submitted": "1.7K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798af"
+  },
+  "title": "Curry",
+  "acceptance": "89.1%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/curry/",
+  "number": 2632,
+  "number-accepted": "1.3K",
+  "number-submitted": "1.5K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798b1"
+  },
+  "title": "Group By",
+  "acceptance": "84.0%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/group-by/",
+  "number": 2631,
+  "number-accepted": "1.3K",
+  "number-submitted": "1.6K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798b3"
+  },
+  "title": "Memoize II",
+  "acceptance": "38.8%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/memoize-ii/",
+  "number": 2630,
+  "number-accepted": "629",
+  "number-submitted": "1.6K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798b5"
+  },
+  "title": "Function Composition",
+  "acceptance": "88.3%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/function-composition/",
+  "number": 2629,
+  "number-accepted": "3.8K",
+  "number-submitted": "4.3K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798b7"
+  },
+  "title": "JSON Deep Equal",
+  "acceptance": "30.2%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/json-deep-equal/",
+  "number": 2628,
+  "number-accepted": "1.1K",
+  "number-submitted": "3.8K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798b9"
+  },
+  "title": "Debounce",
+  "acceptance": "91.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/debounce/",
+  "number": 2627,
+  "number-accepted": "1.6K",
+  "number-submitted": "1.7K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798bb"
+  },
+  "title": "Array Reduce Transformation",
+  "acceptance": "87.0%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/array-reduce-transformation/",
+  "number": 2626,
+  "number-accepted": "4.1K",
+  "number-submitted": "4.7K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798bd"
+  },
+  "title": "Flatten Deeply Nested Array",
+  "acceptance": "63.6%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/flatten-deeply-nested-array/",
+  "number": 2625,
+  "number-accepted": "1.5K",
+  "number-submitted": "2.3K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798bf"
+  },
+  "title": "Snail Traversal",
+  "acceptance": "72.0%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/snail-traversal/",
+  "number": 2624,
+  "number-accepted": "1.2K",
+  "number-submitted": "1.6K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798c1"
+  },
+  "title": "Memoize",
+  "acceptance": "58.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/memoize/",
+  "number": 2623,
+  "number-accepted": "2.1K",
+  "number-submitted": "3.6K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798c3"
+  },
+  "title": "Cache With Time Limit",
+  "acceptance": "71.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/cache-with-time-limit/",
+  "number": 2622,
+  "number-accepted": "1.5K",
+  "number-submitted": "2K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798c5"
+  },
+  "title": "Sleep",
+  "acceptance": "86.6%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sleep/",
+  "number": 2621,
+  "number-accepted": "7.3K",
+  "number-submitted": "8.4K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798c7"
+  },
+  "title": "Counter",
+  "acceptance": "86.1%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/counter/",
+  "number": 2620,
+  "number-accepted": "13.2K",
+  "number-submitted": "15.3K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798c9"
+  },
+  "title": "Array Prototype Last",
+  "acceptance": "77.5%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/array-prototype-last/",
+  "number": 2619,
+  "number-accepted": "10.8K",
+  "number-submitted": "13.9K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798cb"
+  },
+  "title": "Check if Object Instance of Class",
+  "acceptance": "24.5%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-object-instance-of-class/",
+  "number": 2618,
+  "number-accepted": "2.5K",
+  "number-submitted": "10.4K",
+  "tags": "None",
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798cd"
+  },
+  "title": "Minimum Number of Visited Cells in a Grid",
+  "acceptance": "28.3%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/",
+  "number": 2617,
+  "number-accepted": "5.4K",
+  "number-submitted": "19.2K",
+  "tags": [
+    "array",
+    "binary-search",
+    "dynamic-programming",
+    "stack",
+    "union-find",
+    "binary-indexed-tree",
+    "segment-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798cf"
+  },
+  "title": "Minimize the Maximum Difference of Pairs",
+  "acceptance": "29.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/",
+  "number": 2616,
+  "number-accepted": "7.4K",
+  "number-submitted": "25K",
+  "tags": [
+    "array",
+    "binary-search",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798d1"
+  },
+  "title": "Sum of Distances",
+  "acceptance": "29.2%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-distances/",
+  "number": 2615,
+  "number-accepted": "11.6K",
+  "number-submitted": "39.6K",
+  "tags": [
+    "array",
+    "hash-table",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798d3"
+  },
+  "title": "Prime In Diagonal",
+  "acceptance": "32.4%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/prime-in-diagonal/",
+  "number": 2614,
+  "number-accepted": "22.8K",
+  "number-submitted": "70.3K",
+  "tags": [
+    "array",
+    "math",
+    "matrix",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798d5"
+  },
+  "title": "Beautiful Pairs",
+  "acceptance": "48.0%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/beautiful-pairs/",
+  "number": 2613,
+  "tags": [
+    "Array",
+    "Math",
+    "Divide and Conquer",
+    "3+"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798d7"
+  },
+  "title": "Minimum Reverse Operations",
+  "acceptance": "14.5%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-reverse-operations/",
+  "number": 2612,
+  "number-accepted": "2.3K",
+  "number-submitted": "16K",
+  "tags": [
+    "array",
+    "breadth-first-search",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798d9"
+  },
+  "title": "Mice and Cheese",
+  "acceptance": "42.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/mice-and-cheese/",
+  "number": 2611,
+  "number-accepted": "14.9K",
+  "number-submitted": "35K",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798db"
+  },
+  "title": "Convert an Array Into a 2D Array With Conditions",
+  "acceptance": "85.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions/",
+  "number": 2610,
+  "number-accepted": "22.2K",
+  "number-submitted": "25.8K",
+  "tags": [
+    "array",
+    "hash-table"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798dd"
+  },
+  "title": "Find the Longest Balanced Substring of a Binary String",
+  "acceptance": "45.8%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-longest-balanced-substring-of-a-binary-string/",
+  "number": 2609,
+  "number-accepted": "21.4K",
+  "number-submitted": "46.8K",
+  "tags": [
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798df"
+  },
+  "title": "Shortest Cycle in a Graph",
+  "acceptance": "38.1%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/shortest-cycle-in-a-graph/",
+  "number": 2608,
+  "number-accepted": "9.6K",
+  "number-submitted": "25.2K",
+  "tags": [
+    "breadth-first-search",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798e1"
+  },
+  "title": "Make K-Subarray Sums Equal",
+  "acceptance": "32.4%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-k-subarray-sums-equal/",
+  "number": 2607,
+  "number-accepted": "6K",
+  "number-submitted": "18.6K",
+  "tags": [
+    "array",
+    "math",
+    "sorting",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798e3"
+  },
+  "title": "Find the Substring With Maximum Cost",
+  "acceptance": "55.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-substring-with-maximum-cost/",
+  "number": 2606,
+  "number-accepted": "16.4K",
+  "number-submitted": "29.8K",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798e5"
+  },
+  "title": "Form Smallest Number From Two Digit Arrays",
+  "acceptance": "53.6%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/form-smallest-number-from-two-digit-arrays/",
+  "number": 2605,
+  "number-accepted": "22.4K",
+  "number-submitted": "41.7K",
+  "tags": [
+    "array",
+    "hash-table",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798e7"
+  },
+  "title": "Minimum Time to Eat All Grains",
+  "acceptance": "45.5%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-time-to-eat-all-grains/",
+  "number": 2604,
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798e9"
+  },
+  "title": "Collect Coins in a Tree",
+  "acceptance": "37.6%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/collect-coins-in-a-tree/",
+  "number": 2603,
+  "number-accepted": "3.1K",
+  "number-submitted": "8.3K",
+  "tags": [
+    "array",
+    "tree",
+    "graph",
+    "topological-sort"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798eb"
+  },
+  "title": "Minimum Operations to Make All Array Elements Equal",
+  "acceptance": "34.6%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-all-array-elements-equal/",
+  "number": 2602,
+  "number-accepted": "10.9K",
+  "number-submitted": "31.6K",
+  "tags": [
+    "array",
+    "binary-search",
+    "sorting",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798ed"
+  },
+  "title": "Prime Subtraction Operation",
+  "acceptance": "36.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/prime-subtraction-operation/",
+  "number": 2601,
+  "number-accepted": "12.1K",
+  "number-submitted": "33K",
+  "tags": [
+    "array",
+    "math",
+    "binary-search",
+    "greedy",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798ef"
+  },
+  "title": "K Items With the Maximum Sum",
+  "acceptance": "61.9%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/k-items-with-the-maximum-sum/",
+  "number": 2600,
+  "number-accepted": "23.6K",
+  "number-submitted": "38.1K",
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798f1"
+  },
+  "title": "Make the Prefix Sum Non-negative",
+  "acceptance": "51.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-the-prefix-sum-non-negative/",
+  "number": 2599,
+  "tags": [
+    "Array",
+    "Greedy",
+    "Heap (Priority Queue)"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798f3"
+  },
+  "title": "Smallest Missing Non-negative Integer After Operations",
+  "acceptance": "39.1%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/",
+  "number": 2598,
+  "number-accepted": "10.3K",
+  "number-submitted": "26.3K",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798f5"
+  },
+  "title": "The Number of Beautiful Subsets",
+  "acceptance": "29.2%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/the-number-of-beautiful-subsets/",
+  "number": 2597,
+  "number-accepted": "12.5K",
+  "number-submitted": "42.8K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "backtracking"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798f7"
+  },
+  "title": "Check Knight Tour Configuration",
+  "acceptance": "59.0%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-knight-tour-configuration/",
+  "number": 2596,
+  "number-accepted": "18.2K",
+  "number-submitted": "30.8K",
+  "tags": [
+    "array",
+    "depth-first-search",
+    "breadth-first-search",
+    "matrix",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798f9"
+  },
+  "title": "Number of Even and Odd Bits",
+  "acceptance": "70.9%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-even-and-odd-bits/",
+  "number": 2595,
+  "number-accepted": "26.6K",
+  "number-submitted": "37.5K",
+  "tags": [
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798fb"
+  },
+  "title": "Minimum Time to Repair Cars",
+  "acceptance": "43.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-time-to-repair-cars/",
+  "number": 2594,
+  "number-accepted": "9.2K",
+  "number-submitted": "21.1K",
+  "tags": [
+    "array",
+    "binary-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798fd"
+  },
+  "title": "Find Score of an Array After Marking All Elements",
+  "acceptance": "53.5%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-score-of-an-array-after-marking-all-elements/",
+  "number": 2593,
+  "number-accepted": "12.2K",
+  "number-submitted": "22.8K",
+  "tags": [
+    "array",
+    "sorting",
+    "heap-priority-queue",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe38798ff"
+  },
+  "title": "Maximize Greatness of an Array",
+  "acceptance": "56.5%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-greatness-of-an-array/",
+  "number": 2592,
+  "number-accepted": "14.7K",
+  "number-submitted": "26.1K",
+  "tags": [
+    "array",
+    "two-pointers",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879901"
+  },
+  "title": "Distribute Money to Maximum Children",
+  "acceptance": "18.4%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/distribute-money-to-maximum-children/",
+  "number": 2591,
+  "number-accepted": "16.2K",
+  "number-submitted": "88.1K",
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879903"
+  },
+  "title": "Design a Todo List",
+  "acceptance": "60.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-a-todo-list/",
+  "number": 2590,
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "2+"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879905"
+  },
+  "title": "Minimum Time to Complete All Tasks",
+  "acceptance": "37.2%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-time-to-complete-all-tasks/",
+  "number": 2589,
+  "number-accepted": "5.9K",
+  "number-submitted": "15.9K",
+  "tags": [
+    "array",
+    "binary-search",
+    "stack",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879907"
+  },
+  "title": "Count the Number of Beautiful Subarrays",
+  "acceptance": "49.6%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/",
+  "number": 2588,
+  "number-accepted": "12.6K",
+  "number-submitted": "25.4K",
+  "tags": [
+    "array",
+    "hash-table",
+    "bit-manipulation",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879909"
+  },
+  "title": "Rearrange Array to Maximize Prefix Score",
+  "acceptance": "39.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/",
+  "number": 2587,
+  "number-accepted": "21.9K",
+  "number-submitted": "55.2K",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387990b"
+  },
+  "title": "Count the Number of Vowel Strings in Range",
+  "acceptance": "76.9%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-the-number-of-vowel-strings-in-range/",
+  "number": 2586,
+  "number-accepted": "31.1K",
+  "number-submitted": "40.5K",
+  "tags": [
+    "array",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387990d"
+  },
+  "title": "Number of Ways to Earn Points",
+  "acceptance": "59.1%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-ways-to-earn-points/",
+  "number": 2585,
+  "number-accepted": "10.2K",
+  "number-submitted": "17.2K",
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387990f"
+  },
+  "title": "Split the Array to Make Coprime Products",
+  "acceptance": "22.0%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/split-the-array-to-make-coprime-products/",
+  "number": 2584,
+  "number-accepted": "8.7K",
+  "number-submitted": "39.8K",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879911"
+  },
+  "title": "Kth Largest Sum in a Binary Tree",
+  "acceptance": "46.9%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/",
+  "number": 2583,
+  "number-accepted": "20.4K",
+  "number-submitted": "43.6K",
+  "tags": [
+    "binary-search",
+    "tree",
+    "breadth-first-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879913"
+  },
+  "title": "Pass the Pillow",
+  "acceptance": "46.2%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/pass-the-pillow/",
+  "number": 2582,
+  "number-accepted": "24.8K",
+  "number-submitted": "53.6K",
+  "tags": [
+    "math",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879915"
+  },
+  "title": "Count Number of Possible Root Nodes",
+  "acceptance": "48.6%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-number-of-possible-root-nodes/",
+  "number": 2581,
+  "number-accepted": "3.6K",
+  "number-submitted": "7.4K",
+  "tags": [
+    "hash-table",
+    "dynamic-programming",
+    "tree",
+    "depth-first-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879917"
+  },
+  "title": "Count Ways to Group Overlapping Ranges",
+  "acceptance": "34.9%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-ways-to-group-overlapping-ranges/",
+  "number": 2580,
+  "number-accepted": "11.7K",
+  "number-submitted": "33.6K",
+  "tags": [
+    "array",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879919"
+  },
+  "title": "Count Total Number of Colored Cells",
+  "acceptance": "57.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-total-number-of-colored-cells/",
+  "number": 2579,
+  "number-accepted": "19.1K",
+  "number-submitted": "33.3K",
+  "tags": [
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387991b"
+  },
+  "title": "Split With Minimum Sum",
+  "acceptance": "70.0%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/split-with-minimum-sum/",
+  "number": 2578,
+  "number-accepted": "20.4K",
+  "number-submitted": "29.1K",
+  "tags": [
+    "math",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387991d"
+  },
+  "title": "Minimum Time to Visit a Cell In a Grid",
+  "acceptance": "34.8%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-time-to-visit-a-cell-in-a-grid/",
+  "number": 2577,
+  "number-accepted": "6.7K",
+  "number-submitted": "19.1K",
+  "tags": [
+    "array",
+    "breadth-first-search",
+    "graph",
+    "heap-priority-queue",
+    "matrix",
+    "shortest-path"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387991f"
+  },
+  "title": "Find the Maximum Number of Marked Indices",
+  "acceptance": "37.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-maximum-number-of-marked-indices/",
+  "number": 2576,
+  "number-accepted": "14.6K",
+  "number-submitted": "38.8K",
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879921"
+  },
+  "title": "Find the Divisibility Array of a String",
+  "acceptance": "31.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-divisibility-array-of-a-string/",
+  "number": 2575,
+  "number-accepted": "20.5K",
+  "number-submitted": "65.6K",
+  "tags": [
+    "array",
+    "math",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879923"
+  },
+  "title": "Left and Right Sum Differences",
+  "acceptance": "88.3%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/left-and-right-sum-differences/",
+  "number": 2574,
+  "number-accepted": "49.1K",
+  "number-submitted": "55.5K",
+  "tags": [
+    "array",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879925"
+  },
+  "title": "Find the String with LCP",
+  "acceptance": "34.9%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-string-with-lcp/",
+  "number": 2573,
+  "number-accepted": "3K",
+  "number-submitted": "8.7K",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "greedy",
+    "union-find"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879927"
+  },
+  "title": "Count the Number of Square-Free Subsets",
+  "acceptance": "20.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-square-free-subsets/",
+  "number": 2572,
+  "number-accepted": "5.3K",
+  "number-submitted": "25.4K",
+  "tags": [
+    "array",
+    "math",
+    "dynamic-programming",
+    "bit-manipulation",
+    "bitmask"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879929"
+  },
+  "title": "Minimum Operations to Reduce an Integer to 0",
+  "acceptance": "50.0%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0/",
+  "number": 2571,
+  "number-accepted": "16K",
+  "number-submitted": "32.1K",
+  "tags": [
+    "dynamic-programming",
+    "greedy",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387992b"
+  },
+  "title": "Merge Two 2D Arrays by Summing Values",
+  "acceptance": "73.5%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/",
+  "number": 2570,
+  "number-accepted": "24.6K",
+  "number-submitted": "33.5K",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387992d"
+  },
+  "title": "Handling Sum Queries After Update",
+  "acceptance": "26.8%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/handling-sum-queries-after-update/",
+  "number": 2569,
+  "number-accepted": "3.5K",
+  "number-submitted": "13K",
+  "tags": [
+    "array",
+    "segment-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387992f"
+  },
+  "title": "Minimum Impossible OR",
+  "acceptance": "57.5%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-impossible-or/",
+  "number": 2568,
+  "number-accepted": "11.5K",
+  "number-submitted": "20.1K",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "brainteaser"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879931"
+  },
+  "title": "Minimum Score by Changing Two Elements",
+  "acceptance": "47.7%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
+  "number": 2567,
+  "number-accepted": "13.2K",
+  "number-submitted": "27.6K",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879933"
+  },
+  "title": "Maximum Difference by Remapping a Digit",
+  "acceptance": "60.3%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-difference-by-remapping-a-digit/",
+  "number": 2566,
+  "number-accepted": "18.5K",
+  "number-submitted": "30.6K",
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879935"
+  },
+  "title": "Subsequence With the Minimum Score",
+  "acceptance": "31.8%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/subsequence-with-the-minimum-score/",
+  "number": 2565,
+  "number-accepted": "4.6K",
+  "number-submitted": "14.5K",
+  "tags": [
+    "two-pointers",
+    "string",
+    "binary-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879937"
+  },
+  "title": "Substring XOR Queries",
+  "acceptance": "33.6%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/substring-xor-queries/",
+  "number": 2564,
+  "number-accepted": "9.8K",
+  "number-submitted": "29.1K",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879939"
+  },
+  "title": "Count the Number of Fair Pairs",
+  "acceptance": "32.2%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-fair-pairs/",
+  "number": 2563,
+  "number-accepted": "17.5K",
+  "number-submitted": "54.4K",
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387993b"
+  },
+  "title": "Find the Array Concatenation Value",
+  "acceptance": "69.7%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-array-concatenation-value/",
+  "number": 2562,
+  "number-accepted": "30.5K",
+  "number-submitted": "43.8K",
+  "tags": [
+    "array",
+    "two-pointers",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387993d"
+  },
+  "title": "Rearranging Fruits",
+  "acceptance": "34.1%",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/rearranging-fruits/",
+  "number": 2561,
+  "number-accepted": "6.6K",
+  "number-submitted": "19.2K",
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe387993f"
+  },
+  "title": "House Robber IV",
+  "acceptance": "40.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/house-robber-iv/",
+  "number": 2560,
+  "number-accepted": "10.8K",
+  "number-submitted": "26.9K",
+  "tags": [
+    "array",
+    "binary-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879941"
+  },
+  "title": "Count Vowel Strings in Ranges",
+  "acceptance": "51.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-vowel-strings-in-ranges/",
+  "number": 2559,
+  "number-accepted": "20.5K",
+  "number-submitted": "40K",
+  "tags": [
+    "array",
+    "string",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879943"
+  },
+  "title": "Take Gifts From the Richest Pile",
+  "acceptance": "66.7%",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/take-gifts-from-the-richest-pile/",
+  "number": 2558,
+  "number-accepted": "28.6K",
+  "number-submitted": "42.9K",
+  "tags": [
+    "array",
+    "heap-priority-queue",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879945"
+  },
+  "title": "Maximum Number of Integers to Choose From a Range II",
+  "acceptance": "43.4%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-ii/",
+  "number": 2557,
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Greedy",
+    "1+"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879947"
+  },
+  "title": "Disconnect Path in a Binary Matrix by at Most One Flip",
+  "acceptance": "28.3%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/",
+  "number": 2556,
+  "number-accepted": "8.8K",
+  "number-submitted": "30.9K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "depth-first-search",
+    "breadth-first-search",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448483dc768bd1fe3879949"
+  },
+  "title": "Maximize Win From Two Segments",
+  "acceptance": "30.8%",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximize-win-from-two-segments/",
+  "number": 2555,
+  "number-accepted": "6.8K",
+  "number-submitted": "22.1K",
+  "tags": [
+    "array",
+    "binary-search",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682440215983"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf2a"
+  },
+  "title": "Add Digits",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/add-digits/",
+  "number": "258. Add Digits",
+  "number-accepted": "589K",
+  "number-submitted": "910.3K",
+  "tags": [
+    "math",
+    "simulation",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473767966"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf2c"
+  },
+  "title": "Maximum Number of Integers to Choose From a Range I",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/",
+  "number": "2554. Maximum Number of Integers to Choose From a Range I",
+  "number-accepted": "22K",
+  "number-submitted": "41.8K",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473769497"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf2e"
+  },
+  "title": "Separate the Digits in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/separate-the-digits-in-an-array/",
+  "number": "2553. Separate the Digits in an Array",
+  "number-accepted": "35.9K",
+  "number-submitted": "45.1K",
+  "tags": [
+    "array",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473770760"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf30"
+  },
+  "title": "Count Increasing Quadruplets",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-increasing-quadruplets/",
+  "number": "2552. Count Increasing Quadruplets",
+  "number-accepted": "4.9K",
+  "number-submitted": "16K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "binary-indexed-tree",
+    "enumeration",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473771957"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf32"
+  },
+  "title": "Put Marbles in Bags",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/put-marbles-in-bags/",
+  "number": "2551. Put Marbles in Bags",
+  "number-accepted": "9.1K",
+  "number-submitted": "17.2K",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473773198"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf34"
+  },
+  "title": "Count Collisions of Monkeys on a Polygon",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon/",
+  "number": "2550. Count Collisions of Monkeys on a Polygon",
+  "number-accepted": "15K",
+  "number-submitted": "56.6K",
+  "tags": [
+    "math",
+    "recursion"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473774444"
+    }
+  },
+  "sample-submissions": "512"
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf36"
+  },
+  "title": "Count Distinct Numbers on Board",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-distinct-numbers-on-board/",
+  "number": "2549. Count Distinct Numbers on Board",
+  "number-accepted": "27.6K",
+  "number-submitted": "46K",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473775703"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf38"
+  },
+  "title": "Minimum Cost to Split an Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-split-an-array/",
+  "number": "2547. Minimum Cost to Split an Array",
+  "number-accepted": "8.6K",
+  "number-submitted": "22.3K",
+  "tags": [
+    "array",
+    "hash-table",
+    "dynamic-programming",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473776926"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf3a"
+  },
+  "title": "Apply Bitwise Operations to Make Strings Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/apply-bitwise-operations-to-make-strings-equal/",
+  "number": "2546. Apply Bitwise Operations to Make Strings Equal",
+  "number-accepted": "15.5K",
+  "number-submitted": "38K",
+  "tags": [
+    "string",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473778377"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf3c"
+  },
+  "title": "Sort the Students by Their Kth Score",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sort-the-students-by-their-kth-score/",
+  "number": "2545. Sort the Students by Their Kth Score",
+  "number-accepted": "31.7K",
+  "number-submitted": "36.9K",
+  "tags": [
+    "array",
+    "sorting",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473779601"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf3e"
+  },
+  "title": "Alternating Digit Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/alternating-digit-sum/",
+  "number": "2544. Alternating Digit Sum",
+  "number-accepted": "34.6K",
+  "number-submitted": "49.9K",
+  "tags": [
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473780856"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf40"
+  },
+  "title": "Check if Point Is Reachable",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/check-if-point-is-reachable/",
+  "number": "2543. Check if Point Is Reachable",
+  "number-accepted": "4.9K",
+  "number-submitted": "11.6K",
+  "tags": [
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473782073"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf42"
+  },
+  "title": "Maximum Subsequence Score",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-subsequence-score/",
+  "number": "2542. Maximum Subsequence Score",
+  "number-accepted": "8.2K",
+  "number-submitted": "21.5K",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473783264"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf44"
+  },
+  "title": "Minimum Operations to Make Array Equal II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-operations-to-make-array-equal-ii/",
+  "number": "2541. Minimum Operations to Make Array Equal II",
+  "number-accepted": "17.2K",
+  "number-submitted": "55.8K",
+  "tags": [
+    "array",
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473784864"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf46"
+  },
+  "title": "Minimum Common Value",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-common-value/",
+  "number": "2540. Minimum Common Value",
+  "number-accepted": "33.5K",
+  "number-submitted": "65.5K",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers",
+    "binary-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473786100"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf48"
+  },
+  "title": "Difference Between Maximum and Minimum Price Sum",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum/",
+  "number": "2538. Difference Between Maximum and Minimum Price Sum",
+  "number-accepted": "5.2K",
+  "number-submitted": "15K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "tree",
+    "depth-first-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473787319"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf4a"
+  },
+  "title": "Count the Number of Good Subarrays",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-the-number-of-good-subarrays/",
+  "number": "2537. Count the Number of Good Subarrays",
+  "number-accepted": "12.4K",
+  "number-submitted": "25.8K",
+  "tags": [
+    "array",
+    "hash-table",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473788524"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf4c"
+  },
+  "title": "Increment Submatrices by One",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/increment-submatrices-by-one/",
+  "number": "2536. Increment Submatrices by One",
+  "number-accepted": "17K",
+  "number-submitted": "35.1K",
+  "tags": [
+    "array",
+    "matrix",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473789739"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf4e"
+  },
+  "title": "Difference Between Element Sum and Digit Sum of an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/",
+  "number": "2535. Difference Between Element Sum and Digit Sum of an Array",
+  "number-accepted": "59.7K",
+  "number-submitted": "70.4K",
+  "tags": [
+    "array",
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473790903"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf50"
+  },
+  "title": "Time to Cross a Bridge",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/time-to-cross-a-bridge/",
+  "number": "2532. Time to Cross a Bridge",
+  "number-accepted": "3.1K",
+  "number-submitted": "5.9K",
+  "tags": [
+    "array",
+    "heap-priority-queue",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473792124"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf52"
+  },
+  "title": "Make Number of Distinct Characters Equal",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/make-number-of-distinct-characters-equal/",
+  "number": "2531. Make Number of Distinct Characters Equal",
+  "number-accepted": "13.8K",
+  "number-submitted": "54.2K",
+  "tags": [
+    "hash-table",
+    "string",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473793312"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf54"
+  },
+  "title": "Maximal Score After Applying K Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximal-score-after-applying-k-operations/",
+  "number": "2530. Maximal Score After Applying K Operations",
+  "number-accepted": "21.5K",
+  "number-submitted": "49.4K",
+  "tags": [
+    "array",
+    "greedy",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473794530"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf56"
+  },
+  "title": "Maximum Count of Positive Integer and Negative Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/",
+  "number": "2529. Maximum Count of Positive Integer and Negative Integer",
+  "number-accepted": "51K",
+  "number-submitted": "68.8K",
+  "tags": [
+    "array",
+    "binary-search",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473795739"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf58"
+  },
+  "title": "Maximize the Minimum Powered City",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximize-the-minimum-powered-city/",
+  "number": "2528. Maximize the Minimum Powered City",
+  "number-accepted": "4.5K",
+  "number-submitted": "14.2K",
+  "tags": [
+    "array",
+    "binary-search",
+    "greedy",
+    "queue",
+    "sliding-window",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473796950"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf5a"
+  },
+  "title": "Find Xor-Beauty of Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-xor-beauty-of-array/",
+  "number": "2527. Find Xor-Beauty of Array",
+  "number-accepted": "14.2K",
+  "number-submitted": "20.3K",
+  "tags": [
+    "array",
+    "math",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473798217"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf5c"
+  },
+  "title": "Find Consecutive Integers from a Data Stream",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream/",
+  "number": "2526. Find Consecutive Integers from a Data Stream",
+  "number-accepted": "16.6K",
+  "number-submitted": "36.4K",
+  "tags": [
+    "hash-table",
+    "design",
+    "queue",
+    "counting",
+    "data-stream"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473799611"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf5e"
+  },
+  "title": "Categorize Box According to Criteria",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/categorize-box-according-to-criteria/",
+  "number": "2525. Categorize Box According to Criteria",
+  "number-accepted": "22.7K",
+  "number-submitted": "66.4K",
+  "tags": [
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473800939"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf60"
+  },
+  "title": "Closest Prime Numbers in Range",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/closest-prime-numbers-in-range/",
+  "number": "2523. Closest Prime Numbers in Range",
+  "number-accepted": "16.3K",
+  "number-submitted": "44.3K",
+  "tags": [
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473802267"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf62"
+  },
+  "title": "Partition String Into Substrings With Values at Most K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k/",
+  "number": "2522. Partition String Into Substrings With Values at Most K",
+  "number-accepted": "16K",
+  "number-submitted": "34.4K",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473803523"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf64"
+  },
+  "title": "Distinct Prime Factors of Product of Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/distinct-prime-factors-of-product-of-array/",
+  "number": "2521. Distinct Prime Factors of Product of Array",
+  "number-accepted": "20.7K",
+  "number-submitted": "41.2K",
+  "tags": [
+    "array",
+    "hash-table",
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473804805"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf66"
+  },
+  "title": "Count the Digits That Divide a Number",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
+  "number": "2520. Count the Digits That Divide a Number",
+  "number-accepted": "40.9K",
+  "number-submitted": "48.2K",
+  "tags": [
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473806035"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf68"
+  },
+  "title": "Number of Great Partitions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-great-partitions/",
+  "number": "2518. Number of Great Partitions",
+  "number-accepted": "5.4K",
+  "number-submitted": "16.5K",
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473807171"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf6a"
+  },
+  "title": "Maximum Tastiness of Candy Basket",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-tastiness-of-candy-basket/",
+  "number": "2517. Maximum Tastiness of Candy Basket",
+  "number-accepted": "11K",
+  "number-submitted": "17.1K",
+  "tags": [
+    "array",
+    "binary-search",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473808345"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf6c"
+  },
+  "title": "Take K of Each Character From Left and Right",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/take-k-of-each-character-from-left-and-right/",
+  "number": "2516. Take K of Each Character From Left and Right",
+  "number-accepted": "11.1K",
+  "number-submitted": "32.6K",
+  "tags": [
+    "hash-table",
+    "string",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473809549"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf6e"
+  },
+  "title": "Shortest Distance to Target String in a Circular Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/",
+  "number": "2515. Shortest Distance to Target String in a Circular Array",
+  "number-accepted": "20.9K",
+  "number-submitted": "42.8K",
+  "tags": [
+    "array",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473810761"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf70"
+  },
+  "title": "Count Anagrams",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-anagrams/",
+  "number": "2514. Count Anagrams",
+  "number-accepted": "6K",
+  "number-submitted": "17.7K",
+  "tags": [
+    "hash-table",
+    "math",
+    "string",
+    "combinatorics",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473812001"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf72"
+  },
+  "title": "Minimize the Maximum of Two Arrays",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/",
+  "number": "2513. Minimize the Maximum of Two Arrays",
+  "number-accepted": "4.7K",
+  "number-submitted": "17.8K",
+  "tags": [
+    "math",
+    "binary-search",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473813206"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf74"
+  },
+  "title": "Reward Top K Students",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reward-top-k-students/",
+  "number": "2512. Reward Top K Students",
+  "number-accepted": "13.1K",
+  "number-submitted": "28.2K",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473814521"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf76"
+  },
+  "title": "Maximum Enemy Forts That Can Be Captured",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-enemy-forts-that-can-be-captured/",
+  "number": "2511. Maximum Enemy Forts That Can Be Captured",
+  "number-accepted": "16K",
+  "number-submitted": "42.4K",
+  "tags": [
+    "array",
+    "two-pointers"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473815773"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf78"
+  },
+  "title": "Cycle Length Queries in a Tree",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/cycle-length-queries-in-a-tree/",
+  "number": "2509. Cycle Length Queries in a Tree",
+  "number-accepted": "8.7K",
+  "number-submitted": "15.3K",
+  "tags": [
+    "tree",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473817023"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf7a"
+  },
+  "title": "Add Edges to Make Degrees of All Nodes Even",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/",
+  "number": "2508. Add Edges to Make Degrees of All Nodes Even",
+  "number-accepted": "9.2K",
+  "number-submitted": "28.5K",
+  "tags": [
+    "hash-table",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473818273"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf7c"
+  },
+  "title": "Smallest Value After Replacing With Sum of Prime Factors",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-value-after-replacing-with-sum-of-prime-factors/",
+  "number": "2507. Smallest Value After Replacing With Sum of Prime Factors",
+  "number-accepted": "16.4K",
+  "number-submitted": "33.8K",
+  "tags": [
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473819496"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf7e"
+  },
+  "title": "Count Pairs Of Similar Strings",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-pairs-of-similar-strings/",
+  "number": "2506. Count Pairs Of Similar Strings",
+  "number-accepted": "26.8K",
+  "number-submitted": "38.1K",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473820714"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf80"
+  },
+  "title": "Maximum Number of Points From Grid Queries",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-points-from-grid-queries/",
+  "number": "2503. Maximum Number of Points From Grid Queries",
+  "number-accepted": "6.4K",
+  "number-submitted": "17.4K",
+  "tags": [
+    "array",
+    "breadth-first-search",
+    "union-find",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473821930"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf82"
+  },
+  "title": "Design Memory Allocator",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-memory-allocator/",
+  "number": "2502. Design Memory Allocator",
+  "number-accepted": "11.3K",
+  "number-submitted": "21.6K",
+  "tags": [
+    "array",
+    "hash-table",
+    "design",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473823279"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf84"
+  },
+  "title": "Longest Square Streak in an Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-square-streak-in-an-array/",
+  "number": "2501. Longest Square Streak in an Array",
+  "number-accepted": "19.7K",
+  "number-submitted": "50K",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "dynamic-programming",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473824516"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf86"
+  },
+  "title": "Delete Greatest Value in Each Row",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/delete-greatest-value-in-each-row/",
+  "number": "2500. Delete Greatest Value in Each Row",
+  "number-accepted": "31.7K",
+  "number-submitted": "39.3K",
+  "tags": [
+    "array",
+    "sorting",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473825709"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf88"
+  },
+  "title": "Minimum Total Cost to Make Arrays Unequal",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal/",
+  "number": "2499. Minimum Total Cost to Make Arrays Unequal",
+  "number-accepted": "2.8K",
+  "number-submitted": "6.5K",
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473826920"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf8a"
+  },
+  "title": "Frog Jump II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/frog-jump-ii/",
+  "number": "2498. Frog Jump II",
+  "number-accepted": "11.8K",
+  "number-submitted": "19.4K",
+  "tags": [
+    "array",
+    "binary-search",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473828255"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf8c"
+  },
+  "title": "Maximum Star Sum of a Graph",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-star-sum-of-a-graph/",
+  "number": "2497. Maximum Star Sum of a Graph",
+  "number-accepted": "12.3K",
+  "number-submitted": "32K",
+  "tags": [
+    "array",
+    "greedy",
+    "graph",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473829539"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf8e"
+  },
+  "title": "Maximum Value of a String in an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-value-of-a-string-in-an-array/",
+  "number": "2496. Maximum Value of a String in an Array",
+  "number-accepted": "25.3K",
+  "number-submitted": "35.1K",
+  "tags": [
+    "array",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473830784"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf90"
+  },
+  "title": "Divide Nodes Into the Maximum Number of Groups",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups/",
+  "number": "2493. Divide Nodes Into the Maximum Number of Groups",
+  "number-accepted": "5.1K",
+  "number-submitted": "13.8K",
+  "tags": [
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473832122"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf92"
+  },
+  "title": "Minimum Score of a Path Between Two Cities",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/",
+  "number": "2492. Minimum Score of a Path Between Two Cities",
+  "number-accepted": "70.3K",
+  "number-submitted": "121.3K",
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473833398"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf94"
+  },
+  "title": "Divide Players Into Teams of Equal Skill",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/",
+  "number": "2491. Divide Players Into Teams of Equal Skill",
+  "number-accepted": "23.7K",
+  "number-submitted": "40.3K",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473834664"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf96"
+  },
+  "title": "Circular Sentence",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/circular-sentence/",
+  "number": "2490. Circular Sentence",
+  "number-accepted": "27.7K",
+  "number-submitted": "43.2K",
+  "tags": [
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473835946"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf98"
+  },
+  "title": "Count Subarrays With Median K",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-subarrays-with-median-k/",
+  "number": "2488. Count Subarrays With Median K",
+  "number-accepted": "8.6K",
+  "number-submitted": "20.1K",
+  "tags": [
+    "array",
+    "hash-table",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473837300"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf9a"
+  },
+  "title": "Remove Nodes From Linked List",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/remove-nodes-from-linked-list/",
+  "number": "2487. Remove Nodes From Linked List",
+  "number-accepted": "28.6K",
+  "number-submitted": "42.3K",
+  "tags": [
+    "linked-list",
+    "stack",
+    "recursion",
+    "monotonic-stack"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473838525"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf9c"
+  },
+  "title": "Append Characters to String to Make Subsequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/append-characters-to-string-to-make-subsequence/",
+  "number": "2486. Append Characters to String to Make Subsequence",
+  "number-accepted": "20.8K",
+  "number-submitted": "32.7K",
+  "tags": [
+    "two-pointers",
+    "string",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473839741"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cf9e"
+  },
+  "title": "Find the Pivot Integer",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-the-pivot-integer/",
+  "number": "2485. Find the Pivot Integer",
+  "number-accepted": "35.2K",
+  "number-submitted": "43.9K",
+  "tags": [
+    "math",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473841248"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfa0"
+  },
+  "title": "Count Palindromic Subsequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-palindromic-subsequences/",
+  "number": "2484. Count Palindromic Subsequences",
+  "number-accepted": "5.1K",
+  "number-submitted": "15.5K",
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473842452"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfa2"
+  },
+  "title": "Minimum Penalty for a Shop",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-penalty-for-a-shop/",
+  "number": "2483. Minimum Penalty for a Shop",
+  "number-accepted": "13.2K",
+  "number-submitted": "23.7K",
+  "tags": [
+    "string",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473843610"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfa4"
+  },
+  "title": "Difference Between Ones and Zeros in Row and Column",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/",
+  "number": "2482. Difference Between Ones and Zeros in Row and Column",
+  "number-accepted": "18K",
+  "number-submitted": "22.6K",
+  "tags": [
+    "array",
+    "matrix",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473844809"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfa6"
+  },
+  "title": "Minimum Cuts to Divide a Circle",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-cuts-to-divide-a-circle/",
+  "number": "2481. Minimum Cuts to Divide a Circle",
+  "number-accepted": "21.1K",
+  "number-submitted": "40.1K",
+  "tags": [
+    "math",
+    "geometry"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473846074"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfa8"
+  },
+  "title": "Number of Beautiful Partitions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-beautiful-partitions/",
+  "number": "2478. Number of Beautiful Partitions",
+  "number-accepted": "7.6K",
+  "number-submitted": "25K",
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473847254"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfaa"
+  },
+  "title": "Minimum Fuel Cost to Report to the Capital",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-fuel-cost-to-report-to-the-capital/",
+  "number": "2477. Minimum Fuel Cost to Report to the Capital",
+  "number-accepted": "54.6K",
+  "number-submitted": "81.1K",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473848571"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfac"
+  },
+  "title": "Closest Nodes Queries in a Binary Search Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/",
+  "number": "2476. Closest Nodes Queries in a Binary Search Tree",
+  "number-accepted": "15.3K",
+  "number-submitted": "37.5K",
+  "tags": [
+    "array",
+    "binary-search",
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473849792"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfae"
+  },
+  "title": "Number of Unequal Triplets in Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-unequal-triplets-in-array/",
+  "number": "2475. Number of Unequal Triplets in Array",
+  "number-accepted": "27K",
+  "number-submitted": "38K",
+  "tags": [
+    "array",
+    "hash-table"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473851106"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfb0"
+  },
+  "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/",
+  "number": "2472. Maximum Number of Non-overlapping Palindrome Substrings",
+  "number-accepted": "9.5K",
+  "number-submitted": "24.9K",
+  "tags": [
+    "string",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473852325"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfb2"
+  },
+  "title": "Minimum Number of Operations to Sort a Binary Tree by Level",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-number-of-operations-to-sort-a-binary-tree-by-level/",
+  "number": "2471. Minimum Number of Operations to Sort a Binary Tree by Level",
+  "number-accepted": "16.1K",
+  "number-submitted": "25.8K",
+  "tags": [
+    "tree",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473853516"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfb4"
+  },
+  "title": "Number of Subarrays With LCM Equal to K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/",
+  "number": "2470. Number of Subarrays With LCM Equal to K",
+  "number-accepted": "18.3K",
+  "number-submitted": "47.8K",
+  "tags": [
+    "array",
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473854742"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfb6"
+  },
+  "title": "Convert the Temperature",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/convert-the-temperature/",
+  "number": "2469. Convert the Temperature",
+  "number-accepted": "78.4K",
+  "number-submitted": "88.1K",
+  "tags": [
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473855934"
+    }
+  },
+  "sample-submissions": "936120754"
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfb8"
+  },
+  "title": "Split Message Based on Limit",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/split-message-based-on-limit/",
+  "number": "2468. Split Message Based on Limit",
+  "number-accepted": "3.8K",
+  "number-submitted": "8.4K",
+  "tags": [
+    "string",
+    "binary-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473857118"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfba"
+  },
+  "title": "Most Profitable Path in a Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-profitable-path-in-a-tree/",
+  "number": "2467. Most Profitable Path in a Tree",
+  "number-accepted": "7.3K",
+  "number-submitted": "15.2K",
+  "tags": [
+    "array",
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473858313"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfbc"
+  },
+  "title": "Count Ways To Build Good Strings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-ways-to-build-good-strings/",
+  "number": "2466. Count Ways To Build Good Strings",
+  "number-accepted": "11.6K",
+  "number-submitted": "27.6K",
+  "tags": [
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473859509"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfbe"
+  },
+  "title": "Number of Distinct Averages",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-distinct-averages/",
+  "number": "2465. Number of Distinct Averages",
+  "number-accepted": "27.2K",
+  "number-submitted": "46.7K",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473860694"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfc0"
+  },
+  "title": "Minimum Total Distance Traveled",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-total-distance-traveled/",
+  "number": "2463. Minimum Total Distance Traveled",
+  "number-accepted": "6.2K",
+  "number-submitted": "15.3K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473861980"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfc2"
+  },
+  "title": "Total Cost to Hire K Workers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/total-cost-to-hire-k-workers/",
+  "number": "2462. Total Cost to Hire K Workers",
+  "number-accepted": "14.4K",
+  "number-submitted": "38.6K",
+  "tags": [
+    "array",
+    "two-pointers",
+    "heap-priority-queue",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473863232"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfc4"
+  },
+  "title": "Maximum Sum of Distinct Subarrays With Length K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/",
+  "number": "2461. Maximum Sum of Distinct Subarrays With Length K",
+  "number-accepted": "24.4K",
+  "number-submitted": "71.1K",
+  "tags": [
+    "array",
+    "hash-table",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473864436"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfc6"
+  },
+  "title": "Apply Operations to an Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/apply-operations-to-an-array/",
+  "number": "2460. Apply Operations to an Array",
+  "number-accepted": "36.9K",
+  "number-submitted": "55K",
+  "tags": [
+    "array",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473865645"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfc8"
+  },
+  "title": "Height of Binary Tree After Subtree Removal Queries",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries/",
+  "number": "2458. Height of Binary Tree After Subtree Removal Queries",
+  "number-accepted": "9.1K",
+  "number-submitted": "24.4K",
+  "tags": [
+    "array",
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473866818"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfca"
+  },
+  "title": "Minimum Addition to Make Integer Beautiful",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful/",
+  "number": "2457. Minimum Addition to Make Integer Beautiful",
+  "number-accepted": "15.6K",
+  "number-submitted": "42.2K",
+  "tags": [
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473868019"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfcc"
+  },
+  "title": "Most Popular Video Creator",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/most-popular-video-creator/",
+  "number": "2456. Most Popular Video Creator",
+  "number-accepted": "18K",
+  "number-submitted": "41.3K",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473869223"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfce"
+  },
+  "title": "Average Value of Even Numbers That Are Divisible by Three",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/",
+  "number": "2455. Average Value of Even Numbers That Are Divisible by Three",
+  "number-accepted": "36.5K",
+  "number-submitted": "61.5K",
+  "tags": [
+    "array",
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473870503"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfd0"
+  },
+  "title": "Next Greater Element IV",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/next-greater-element-iv/",
+  "number": "2454. Next Greater Element IV",
+  "number-accepted": "6.6K",
+  "number-submitted": "16.9K",
+  "tags": [
+    "array",
+    "binary-search",
+    "stack",
+    "sorting",
+    "heap-priority-queue",
+    "monotonic-stack"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473871778"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfd2"
+  },
+  "title": "Destroy Sequential Targets",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/destroy-sequential-targets/",
+  "number": "2453. Destroy Sequential Targets",
+  "number-accepted": "11.8K",
+  "number-submitted": "31.3K",
+  "tags": [
+    "array",
+    "hash-table",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473873008"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfd4"
+  },
+  "title": "Words Within Two Edits of Dictionary",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/",
+  "number": "2452. Words Within Two Edits of Dictionary",
+  "number-accepted": "16K",
+  "number-submitted": "26.6K",
+  "tags": [
+    "array",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473874249"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfd6"
+  },
+  "title": "Odd String Difference",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/odd-string-difference/",
+  "number": "2451. Odd String Difference",
+  "number-accepted": "20.8K",
+  "number-submitted": "34.9K",
+  "tags": [
+    "hash-table",
+    "math",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473875452"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfd8"
+  },
+  "title": "Minimum Number of Operations to Make Arrays Similar",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-number-of-operations-to-make-arrays-similar/",
+  "number": "2449. Minimum Number of Operations to Make Arrays Similar",
+  "number-accepted": "9.3K",
+  "number-submitted": "14.7K",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473876659"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfda"
+  },
+  "title": "Minimum Cost to Make Array Equal",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-cost-to-make-array-equal/",
+  "number": "2448. Minimum Cost to Make Array Equal",
+  "number-accepted": "12.4K",
+  "number-submitted": "35.7K",
+  "tags": [
+    "array",
+    "binary-search",
+    "greedy",
+    "sorting",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473877880"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfdc"
+  },
+  "title": "Number of Subarrays With GCD Equal to K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-subarrays-with-gcd-equal-to-k/",
+  "number": "2447. Number of Subarrays With GCD Equal to K",
+  "number-accepted": "19.8K",
+  "number-submitted": "40.8K",
+  "tags": [
+    "array",
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473879050"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfde"
+  },
+  "title": "Determine if Two Events Have Conflict",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/determine-if-two-events-have-conflict/",
+  "number": "2446. Determine if Two Events Have Conflict",
+  "number-accepted": "28.9K",
+  "number-submitted": "57.8K",
+  "tags": [
+    "array",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473880218"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfe0"
+  },
+  "title": "Count Subarrays With Fixed Bounds",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-subarrays-with-fixed-bounds/",
+  "number": "2444. Count Subarrays With Fixed Bounds",
+  "number-accepted": "56.3K",
+  "number-submitted": "91K",
+  "tags": [
+    "array",
+    "queue",
+    "sliding-window",
+    "monotonic-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473881382"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfe2"
+  },
+  "title": "Sum of Number and Its Reverse",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-number-and-its-reverse/",
+  "number": "2443. Sum of Number and Its Reverse",
+  "number-accepted": "28.3K",
+  "number-submitted": "61.9K",
+  "tags": [
+    "math",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473882593"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfe4"
+  },
+  "title": "Count Number of Distinct Integers After Reverse Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/",
+  "number": "2442. Count Number of Distinct Integers After Reverse Operations",
+  "number-accepted": "37.4K",
+  "number-submitted": "47.6K",
+  "tags": [
+    "array",
+    "hash-table",
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473883802"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfe6"
+  },
+  "title": "Largest Positive Integer That Exists With Its Negative",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/",
+  "number": "2441. Largest Positive Integer That Exists With Its Negative",
+  "number-accepted": "39.3K",
+  "number-submitted": "57.8K",
+  "tags": [
+    "array",
+    "hash-table"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473885138"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfe8"
+  },
+  "title": "Create Components With Same Value",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/create-components-with-same-value/",
+  "number": "2440. Create Components With Same Value",
+  "number-accepted": "4.5K",
+  "number-submitted": "8.3K",
+  "tags": [
+    "array",
+    "math",
+    "tree",
+    "depth-first-search",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473886385"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfea"
+  },
+  "title": "Minimize Maximum of Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-maximum-of-array/",
+  "number": "2439. Minimize Maximum of Array",
+  "number-accepted": "66.8K",
+  "number-submitted": "141K",
+  "tags": [
+    "array",
+    "binary-search",
+    "dynamic-programming",
+    "greedy",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473887642"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfec"
+  },
+  "title": "Range Product Queries of Powers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/range-product-queries-of-powers/",
+  "number": "2438. Range Product Queries of Powers",
+  "number-accepted": "13.4K",
+  "number-submitted": "34.4K",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473888967"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cfee"
+  },
+  "title": "Number of Valid Clock Times",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-valid-clock-times/",
+  "number": "2437. Number of Valid Clock Times",
+  "number-accepted": "18.5K",
+  "number-submitted": "42.8K",
+  "tags": [
+    "string",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473890258"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448ca1dc768bd1fe387cff0"
+  },
+  "title": "Paths in Matrix Whose Sum Is Divisible by K",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/",
+  "number": "2435. Paths in Matrix Whose Sum Is Divisible by K",
+  "number-accepted": "15.7K",
+  "number-submitted": "37.7K",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682473891490"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448d83fc768bd1fe387d5fe"
+  },
+  "title": "Using a Robot to Print the Lexicographically Smallest String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/",
+  "number": "2434",
+  "number-accepted": "1.42e+04",
+  "number-submitted": "3.70e+04",
+  "tags": [
+    "hash-table",
+    "string",
+    "stack",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682477469053"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448d83fc768bd1fe387d600"
+  },
+  "title": "Find The Original Array of Prefix Xor",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-the-original-array-of-prefix-xor/",
+  "number": "2433",
+  "number-accepted": "3.31e+04",
+  "number-submitted": "3.88e+04",
+  "tags": [
+    "array",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682477470563"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448d83fc768bd1fe387d602"
+  },
+  "title": "The Employee That Worked on the Longest Task",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/the-employee-that-worked-on-the-longest-task/",
+  "number": "2432",
+  "number-accepted": "2.77e+04",
+  "number-submitted": "5.59e+04",
+  "tags": [
+    "array"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682477472129"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448d83fc768bd1fe387d604"
+  },
+  "title": "Maximum Deletions on a String",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-deletions-on-a-string/",
+  "number": "2430",
+  "number-accepted": "1.05e+04",
+  "number-submitted": "3.27e+04",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "rolling-hash",
+    "string-matching",
+    "hash-function"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682477473496"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448d83fc768bd1fe387d606"
+  },
+  "title": "Minimize XOR",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimize-xor/",
+  "number": "2429",
+  "number-accepted": "1.78e+04",
+  "number-submitted": "4.19e+04",
+  "tags": [
+    "greedy",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682477474863"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "6448e972c768bd1fe387df2c"
+  },
+  "title": "Count Collisions of Monkeys on a Polygon",
+  "sample-submissions": "512"
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f178e"
+  },
+  "title": "Maximum Sum of an Hourglass",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-sum-of-an-hourglass/",
+  "number": "2428",
+  "number-accepted": "2.79e+04",
+  "number-submitted": "3.76e+04",
+  "tags": [
+    "array",
+    "matrix",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519214562"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1790"
+  },
+  "title": "Number of Common Factors",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-common-factors/",
+  "number": "2427",
+  "number-accepted": "4.86e+04",
+  "number-submitted": "6.11e+04",
+  "tags": [
+    "math",
+    "enumeration",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519216497"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1792"
+  },
+  "title": "Number of Pairs Satisfying Inequality",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-pairs-satisfying-inequality/",
+  "number": "2426",
+  "number-accepted": "9.50e+03",
+  "number-submitted": "2.18e+04",
+  "tags": [
+    "array",
+    "binary-search",
+    "divide-and-conquer",
+    "binary-indexed-tree",
+    "segment-tree",
+    "merge-sort",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519218066"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1794"
+  },
+  "title": "Bitwise XOR of All Pairings",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/bitwise-xor-of-all-pairings/",
+  "number": "2425",
+  "number-accepted": "1.47e+04",
+  "number-submitted": "2.52e+04",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "brainteaser"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519219484"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1796"
+  },
+  "title": "Longest Uploaded Prefix",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-uploaded-prefix/",
+  "number": "2424",
+  "number-accepted": "1.54e+04",
+  "number-submitted": "2.85e+04",
+  "tags": [
+    "binary-search",
+    "union-find",
+    "design",
+    "binary-indexed-tree",
+    "segment-tree",
+    "heap-priority-queue",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519220928"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1798"
+  },
+  "title": "Remove Letter To Equalize Frequency",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+  "number": "2423",
+  "number-accepted": "2.62e+04",
+  "number-submitted": "1.47e+05",
+  "tags": [
+    "hash-table",
+    "string",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519222368"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f179a"
+  },
+  "title": "Number of Good Paths",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-good-paths/",
+  "number": "2421",
+  "number-accepted": "4.85e+04",
+  "number-submitted": "8.45e+04",
+  "tags": [
+    "array",
+    "tree",
+    "union-find",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519223720"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f179c"
+  },
+  "title": "Find All Good Indices",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-all-good-indices/",
+  "number": "2420",
+  "number-accepted": "1.86e+04",
+  "number-submitted": "4.94e+04",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519225055"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f179e"
+  },
+  "title": "Longest Subarray With Maximum Bitwise AND",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/",
+  "number": "2419",
+  "number-accepted": "2.17e+04",
+  "number-submitted": "4.51e+04",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "brainteaser"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519226407"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17a0"
+  },
+  "title": "Sort the People",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/sort-the-people/",
+  "number": "2418",
+  "number-accepted": "7.32e+04",
+  "number-submitted": "9.05e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519227823"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17a2"
+  },
+  "title": "Sum of Prefix Scores of Strings",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/sum-of-prefix-scores-of-strings/",
+  "number": "2416",
+  "number-accepted": "2.01e+04",
+  "number-submitted": "4.58e+04",
+  "tags": [
+    "array",
+    "string",
+    "trie",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519229204"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17a4"
+  },
+  "title": "Reverse Odd Levels of Binary Tree",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reverse-odd-levels-of-binary-tree/",
+  "number": "2415",
+  "number-accepted": "3.35e+04",
+  "number-submitted": "4.35e+04",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519230563"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17a6"
+  },
+  "title": "Length of the Longest Alphabetical Continuous Substring",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/",
+  "number": "2414",
+  "number-accepted": "3.31e+04",
+  "number-submitted": "5.88e+04",
+  "tags": [
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519231898"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17a8"
+  },
+  "title": "Smallest Even Multiple",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/smallest-even-multiple/",
+  "number": "2413",
+  "number-accepted": "8.48e+04",
+  "number-submitted": "9.67e+04",
+  "tags": [
+    "math",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519233219"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17aa"
+  },
+  "title": "Minimum Money Required Before Transactions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-money-required-before-transactions/",
+  "number": "2412",
+  "number-accepted": "8.60e+03",
+  "number-submitted": "2.17e+04",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519234527"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ac"
+  },
+  "title": "Smallest Subarrays With Maximum Bitwise OR",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or/",
+  "number": "2411",
+  "number-accepted": "9.70e+03",
+  "number-submitted": "2.33e+04",
+  "tags": [
+    "array",
+    "binary-search",
+    "bit-manipulation",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519235907"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ae"
+  },
+  "title": "Maximum Matching of Players With Trainers",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-matching-of-players-with-trainers/",
+  "number": "2410",
+  "number-accepted": "2.43e+04",
+  "number-submitted": "3.96e+04",
+  "tags": [
+    "array",
+    "two-pointers",
+    "greedy",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519237452"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17b0"
+  },
+  "title": "Count Days Spent Together",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-days-spent-together/",
+  "number": "2409",
+  "number-accepted": "1.74e+04",
+  "number-submitted": "3.98e+04",
+  "tags": [
+    "math",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519238810"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17b2"
+  },
+  "title": "Longest Increasing Subsequence II",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-increasing-subsequence-ii/",
+  "number": "2407",
+  "number-accepted": "8.40e+03",
+  "number-submitted": "3.83e+04",
+  "tags": [
+    "array",
+    "divide-and-conquer",
+    "dynamic-programming",
+    "binary-indexed-tree",
+    "segment-tree",
+    "queue",
+    "monotonic-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519240085"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17b4"
+  },
+  "title": "Divide Intervals Into Minimum Number of Groups",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/",
+  "number": "2406",
+  "number-accepted": "2.14e+04",
+  "number-submitted": "4.64e+04",
+  "tags": [
+    "array",
+    "two-pointers",
+    "greedy",
+    "sorting",
+    "heap-priority-queue",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519241593"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17b6"
+  },
+  "title": "Optimal Partition of String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/optimal-partition-of-string/",
+  "number": "2405",
+  "number-accepted": "1.11e+05",
+  "number-submitted": "1.39e+05",
+  "tags": [
+    "hash-table",
+    "string",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519243040"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17b8"
+  },
+  "title": "Most Frequent Even Element",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/most-frequent-even-element/",
+  "number": "2404",
+  "number-accepted": "4.85e+04",
+  "number-submitted": "9.53e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519244340"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ba"
+  },
+  "title": "Meeting Rooms III",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/meeting-rooms-iii/",
+  "number": "2402",
+  "number-accepted": "1.72e+04",
+  "number-submitted": "5.14e+04",
+  "tags": [
+    "array",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519245686"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17bc"
+  },
+  "title": "Longest Nice Subarray",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-nice-subarray/",
+  "number": "2401",
+  "number-accepted": "2.10e+04",
+  "number-submitted": "4.27e+04",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519247074"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17be"
+  },
+  "title": "Number of Ways to Reach a Position After Exactly k Steps",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/",
+  "number": "2400",
+  "number-accepted": "2.16e+04",
+  "number-submitted": "6.55e+04",
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "combinatorics"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519248455"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17c0"
+  },
+  "title": "Check Distances Between Same Letters",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-distances-between-same-letters/",
+  "number": "2399",
+  "number-accepted": "3.56e+04",
+  "number-submitted": "5.03e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519249765"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17c2"
+  },
+  "title": "Maximum Number of Robots Within Budget",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-number-of-robots-within-budget/",
+  "number": "2398",
+  "number-accepted": "1.52e+04",
+  "number-submitted": "4.60e+04",
+  "tags": [
+    "array",
+    "binary-search",
+    "queue",
+    "sliding-window",
+    "heap-priority-queue",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519251104"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17c4"
+  },
+  "title": "Maximum Rows Covered by Columns",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-rows-covered-by-columns/",
+  "number": "2397",
+  "number-accepted": "1.21e+04",
+  "number-submitted": "2.28e+04",
+  "tags": [
+    "array",
+    "backtracking",
+    "bit-manipulation",
+    "matrix",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519252434"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17c6"
+  },
+  "title": "Strictly Palindromic Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/strictly-palindromic-number/",
+  "number": "2396",
+  "number-accepted": "5.03e+04",
+  "number-submitted": "5.74e+04",
+  "tags": [
+    "math",
+    "two-pointers",
+    "brainteaser"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519253805"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17c8"
+  },
+  "title": "Find Subarrays With Equal Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/find-subarrays-with-equal-sum/",
+  "number": "2395",
+  "number-accepted": "3.56e+04",
+  "number-submitted": "5.53e+04",
+  "tags": [
+    "array",
+    "hash-table"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519255193"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ca"
+  },
+  "title": "Build a Matrix With Conditions",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/build-a-matrix-with-conditions/",
+  "number": "2392",
+  "number-accepted": "1.12e+04",
+  "number-submitted": "1.89e+04",
+  "tags": [
+    "array",
+    "graph",
+    "topological-sort",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519256635"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17cc"
+  },
+  "title": "Minimum Amount of Time to Collect Garbage",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-amount-of-time-to-collect-garbage/",
+  "number": "2391",
+  "number-accepted": "3.42e+04",
+  "number-submitted": "4.08e+04",
+  "tags": [
+    "array",
+    "string",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519258000"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ce"
+  },
+  "title": "Removing Stars From a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/removing-stars-from-a-string/",
+  "number": "2390",
+  "number-accepted": "1.23e+05",
+  "number-submitted": "1.70e+05",
+  "tags": [
+    "string",
+    "stack",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519259359"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17d0"
+  },
+  "title": "Longest Subsequence With Limited Sum",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/longest-subsequence-with-limited-sum/",
+  "number": "2389",
+  "number-accepted": "8.14e+04",
+  "number-submitted": "1.13e+05",
+  "tags": [
+    "array",
+    "binary-search",
+    "greedy",
+    "sorting",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519260794"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17d2"
+  },
+  "title": "Find the K-Sum of an Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/find-the-k-sum-of-an-array/",
+  "number": "2386",
+  "number-accepted": "7.10e+03",
+  "number-submitted": "1.87e+04",
+  "tags": [
+    "array",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519262168"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17d4"
+  },
+  "title": "Amount of Time for Binary Tree to Be Infected",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/",
+  "number": "2385",
+  "number-accepted": "2.43e+04",
+  "number-submitted": "4.28e+04",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519263526"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17d6"
+  },
+  "title": "Largest Palindromic Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/largest-palindromic-number/",
+  "number": "2384",
+  "number-accepted": "2.09e+04",
+  "number-submitted": "6.67e+04",
+  "tags": [
+    "hash-table",
+    "string",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519264906"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17d8"
+  },
+  "title": "Minimum Hours of Training to Win a Competition",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/",
+  "number": "2383",
+  "number-accepted": "2.58e+04",
+  "number-submitted": "6.31e+04",
+  "tags": [
+    "array",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519266293"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17da"
+  },
+  "title": "Maximum Segment Sum After Removals",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-segment-sum-after-removals/",
+  "number": "2382",
+  "number-accepted": "6.50e+03",
+  "number-submitted": "1.37e+04",
+  "tags": [
+    "array",
+    "union-find",
+    "prefix-sum",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519267688"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17dc"
+  },
+  "title": "Shifting Letters II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/shifting-letters-ii/",
+  "number": "2381",
+  "number-accepted": "1.50e+04",
+  "number-submitted": "4.27e+04",
+  "tags": [
+    "array",
+    "string",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519269263"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17de"
+  },
+  "title": "Time Needed to Rearrange a Binary String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string/",
+  "number": "2380",
+  "number-accepted": "2.28e+04",
+  "number-submitted": "4.66e+04",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519270611"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17e0"
+  },
+  "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/",
+  "number": "2379",
+  "number-accepted": "3.31e+04",
+  "number-submitted": "5.72e+04",
+  "tags": [
+    "string",
+    "sliding-window"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519271971"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17e2"
+  },
+  "title": "Count Special Integers",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-special-integers/",
+  "number": "2376",
+  "number-accepted": "8.80e+03",
+  "number-submitted": "2.42e+04",
+  "tags": [
+    "math",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519273328"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17e4"
+  },
+  "title": "Construct Smallest Number From DI String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/construct-smallest-number-from-di-string/",
+  "number": "2375",
+  "number-accepted": "2.25e+04",
+  "number-submitted": "3.01e+04",
+  "tags": [
+    "string",
+    "backtracking",
+    "stack",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519274672"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17e6"
+  },
+  "title": "Node With Highest Edge Score",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/node-with-highest-edge-score/",
+  "number": "2374",
+  "number-accepted": "2.61e+04",
+  "number-submitted": "5.61e+04",
+  "tags": [
+    "hash-table",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519276122"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17e8"
+  },
+  "title": "Largest Local Values in a Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/largest-local-values-in-a-matrix/",
+  "number": "2373",
+  "number-accepted": "3.61e+04",
+  "number-submitted": "4.33e+04",
+  "tags": [
+    "array",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519277490"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ea"
+  },
+  "title": "Longest Ideal Subsequence",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-ideal-subsequence/",
+  "number": "2370",
+  "number-accepted": "1.91e+04",
+  "number-submitted": "5.06e+04",
+  "tags": [
+    "hash-table",
+    "string",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519278757"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ec"
+  },
+  "title": "Check if There is a Valid Partition For The Array",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/",
+  "number": "2369",
+  "number-accepted": "1.93e+04",
+  "number-submitted": "4.81e+04",
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519280310"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17ee"
+  },
+  "title": "Reachable Nodes With Restrictions",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/reachable-nodes-with-restrictions/",
+  "number": "2368",
+  "number-accepted": "3.29e+04",
+  "number-submitted": "5.71e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "tree",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519281791"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17f0"
+  },
+  "title": "Number of Arithmetic Triplets",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-arithmetic-triplets/",
+  "number": "2367",
+  "number-accepted": "7.07e+04",
+  "number-submitted": "8.46e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "two-pointers",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519283126"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17f2"
+  },
+  "title": "Minimum Replacements to Sort the Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-replacements-to-sort-the-array/",
+  "number": "2366",
+  "number-accepted": "9.80e+03",
+  "number-submitted": "2.41e+04",
+  "tags": [
+    "array",
+    "math",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519284475"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17f4"
+  },
+  "title": "Task Scheduler II",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/task-scheduler-ii/",
+  "number": "2365",
+  "number-accepted": "1.81e+04",
+  "number-submitted": "3.87e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519285717"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17f6"
+  },
+  "title": "Count Number of Bad Pairs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-number-of-bad-pairs/",
+  "number": "2364",
+  "number-accepted": "2.31e+04",
+  "number-submitted": "5.65e+04",
+  "tags": [
+    "array",
+    "hash-table"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519287325"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17f8"
+  },
+  "title": "Merge Similar Items",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/merge-similar-items/",
+  "number": "2363",
+  "number-accepted": "3.69e+04",
+  "number-submitted": "4.88e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519288756"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17fa"
+  },
+  "title": "Longest Cycle in a Graph",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/longest-cycle-in-a-graph/",
+  "number": "2360",
+  "number-accepted": "6.20e+04",
+  "number-submitted": "1.22e+05",
+  "tags": [
+    "depth-first-search",
+    "graph",
+    "topological-sort"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519290136"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17fc"
+  },
+  "title": "Find Closest Node to Given Two Nodes",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/find-closest-node-to-given-two-nodes/",
+  "number": "2359",
+  "number-accepted": "6.70e+04",
+  "number-submitted": "1.45e+05",
+  "tags": [
+    "depth-first-search",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519291489"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f17fe"
+  },
+  "title": "Maximum Number of Groups Entering a Competition",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-number-of-groups-entering-a-competition/",
+  "number": "2358",
+  "number-accepted": "2.94e+04",
+  "number-submitted": "4.35e+04",
+  "tags": [
+    "array",
+    "math",
+    "binary-search",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519292871"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1800"
+  },
+  "title": "Make Array Zero by Subtracting Equal Amounts",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/",
+  "number": "2357",
+  "number-accepted": "6.63e+04",
+  "number-submitted": "9.15e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy",
+    "sorting",
+    "heap-priority-queue",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519294283"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1802"
+  },
+  "title": "Number of Unique Subjects Taught by Each Teacher",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/",
+  "number": "2356",
+  "number-accepted": "7.80e+03",
+  "number-submitted": "8.70e+03",
+  "tags": [
+    "database"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519295502"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1804"
+  },
+  "title": "Number of Excellent Pairs",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-excellent-pairs/",
+  "number": "2354",
+  "number-accepted": "1.20e+04",
+  "number-submitted": "2.62e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "binary-search",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519296759"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1806"
+  },
+  "title": "Design a Food Rating System",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-a-food-rating-system/",
+  "number": "2353",
+  "number-accepted": "1.65e+04",
+  "number-submitted": "4.75e+04",
+  "tags": [
+    "hash-table",
+    "design",
+    "heap-priority-queue",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519298254"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1808"
+  },
+  "title": "Equal Row and Column Pairs",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/equal-row-and-column-pairs/",
+  "number": "2352",
+  "number-accepted": "3.49e+04",
+  "number-submitted": "4.94e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "matrix",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519300213"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f180a"
+  },
+  "title": "First Letter to Appear Twice",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/first-letter-to-appear-twice/",
+  "number": "2351",
+  "number-accepted": "7.13e+04",
+  "number-submitted": "9.55e+04",
+  "tags": [
+    "hash-table",
+    "string",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519301481"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f180c"
+  },
+  "title": "Shortest Impossible Sequence of Rolls",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/shortest-impossible-sequence-of-rolls/",
+  "number": "2350",
+  "number-accepted": "1.19e+04",
+  "number-submitted": "1.75e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "greedy"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519302836"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f180e"
+  },
+  "title": "Design a Number Container System",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/design-a-number-container-system/",
+  "number": "2349",
+  "number-accepted": "1.88e+04",
+  "number-submitted": "4.13e+04",
+  "tags": [
+    "hash-table",
+    "design",
+    "heap-priority-queue",
+    "ordered-set"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519304275"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1810"
+  },
+  "title": "Number of Zero-Filled Subarrays",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-zero-filled-subarrays/",
+  "number": "2348",
+  "number-accepted": "1.06e+05",
+  "number-submitted": "1.59e+05",
+  "tags": [
+    "array",
+    "math"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519305634"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1812"
+  },
+  "title": "Best Poker Hand",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/best-poker-hand/",
+  "number": "2347",
+  "number-accepted": "3.18e+04",
+  "number-submitted": "5.26e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519307031"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1814"
+  },
+  "title": "Minimum Deletions to Make Array Divisible",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-deletions-to-make-array-divisible/",
+  "number": "2344",
+  "number-accepted": "2.35e+04",
+  "number-submitted": "4.14e+04",
+  "tags": [
+    "array",
+    "math",
+    "sorting",
+    "heap-priority-queue",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519308408"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1816"
+  },
+  "title": "Query Kth Smallest Trimmed Number",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/query-kth-smallest-trimmed-number/",
+  "number": "2343",
+  "number-accepted": "2.12e+04",
+  "number-submitted": "5.13e+04",
+  "tags": [
+    "array",
+    "string",
+    "divide-and-conquer",
+    "sorting",
+    "heap-priority-queue",
+    "radix-sort",
+    "quickselect"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519309617"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1818"
+  },
+  "title": "Max Sum of a Pair With Equal Sum of Digits",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/",
+  "number": "2342",
+  "number-accepted": "3.28e+04",
+  "number-submitted": "6.17e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519311213"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f181a"
+  },
+  "title": "Maximum Number of Pairs in Array",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/maximum-number-of-pairs-in-array/",
+  "number": "2341",
+  "number-accepted": "4.86e+04",
+  "number-submitted": "6.41e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "counting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519312541"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f181c"
+  },
+  "title": "Count the Number of Ideal Arrays",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-the-number-of-ideal-arrays/",
+  "number": "2338",
+  "number-accepted": "4.90e+03",
+  "number-submitted": "1.86e+04",
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "combinatorics",
+    "number-theory"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519313824"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f181e"
+  },
+  "title": "Move Pieces to Obtain a String",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/move-pieces-to-obtain-a-string/",
+  "number": "2337",
+  "number-accepted": "2.15e+04",
+  "number-submitted": "4.49e+04",
+  "tags": [
+    "two-pointers",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519315175"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1820"
+  },
+  "title": "Minimum Amount of Time to Fill Cups",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/minimum-amount-of-time-to-fill-cups/",
+  "number": "2335",
+  "number-accepted": "3.48e+04",
+  "number-submitted": "6.16e+04",
+  "tags": [
+    "array",
+    "greedy",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519316527"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1822"
+  },
+  "title": "Subarray With Elements Greater Than Varying Threshold",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/subarray-with-elements-greater-than-varying-threshold/",
+  "number": "2334",
+  "number-accepted": "6.10e+03",
+  "number-submitted": "1.49e+04",
+  "tags": [
+    "array",
+    "stack",
+    "union-find",
+    "monotonic-stack"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519317853"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1824"
+  },
+  "title": "Minimum Sum of Squared Difference",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-sum-of-squared-difference/",
+  "number": "2333",
+  "number-accepted": "1.13e+04",
+  "number-submitted": "4.43e+04",
+  "tags": [
+    "array",
+    "math",
+    "sorting",
+    "heap-priority-queue"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519319237"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1826"
+  },
+  "title": "The Latest Time to Catch a Bus",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/the-latest-time-to-catch-a-bus/",
+  "number": "2332",
+  "number-accepted": "1.41e+04",
+  "number-submitted": "5.93e+04",
+  "tags": [
+    "array",
+    "two-pointers",
+    "binary-search",
+    "sorting"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519320610"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1828"
+  },
+  "title": "Evaluate Boolean Binary Tree",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/evaluate-boolean-binary-tree/",
+  "number": "2331",
+  "number-accepted": "4.62e+04",
+  "number-submitted": "5.89e+04",
+  "tags": [
+    "tree",
+    "depth-first-search",
+    "binary-tree"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519321956"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f182a"
+  },
+  "title": "Number of Increasing Paths in a Grid",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-increasing-paths-in-a-grid/",
+  "number": "2328",
+  "number-accepted": "1.71e+04",
+  "number-submitted": "3.60e+04",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "depth-first-search",
+    "breadth-first-search",
+    "graph",
+    "topological-sort",
+    "memoization",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519323348"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f182c"
+  },
+  "title": "Number of People Aware of a Secret",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/number-of-people-aware-of-a-secret/",
+  "number": "2327",
+  "number-accepted": "1.72e+04",
+  "number-submitted": "3.84e+04",
+  "tags": [
+    "dynamic-programming",
+    "queue",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519324601"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f182e"
+  },
+  "title": "Spiral Matrix IV",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/spiral-matrix-iv/",
+  "number": "2326",
+  "number-accepted": "2.71e+04",
+  "number-submitted": "3.63e+04",
+  "tags": [
+    "array",
+    "linked-list",
+    "matrix",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519326157"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1830"
+  },
+  "title": "Decode the Message",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/decode-the-message/",
+  "number": "2325",
+  "number-accepted": "5.72e+04",
+  "number-submitted": "6.77e+04",
+  "tags": [
+    "hash-table",
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519327601"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1832"
+  },
+  "title": "Minimum Score After Removals on a Tree",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/minimum-score-after-removals-on-a-tree/",
+  "number": "2322",
+  "number-accepted": "5.50e+03",
+  "number-submitted": "1.09e+04",
+  "tags": [
+    "array",
+    "bit-manipulation",
+    "tree",
+    "depth-first-search"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519328977"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1834"
+  },
+  "title": "Maximum Score Of Spliced Array",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/maximum-score-of-spliced-array/",
+  "number": "2321",
+  "number-accepted": "1.57e+04",
+  "number-submitted": "2.82e+04",
+  "tags": [
+    "array",
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519330364"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1836"
+  },
+  "title": "Count Number of Ways to Place Houses",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-number-of-ways-to-place-houses/",
+  "number": "2320",
+  "number-accepted": "2.22e+04",
+  "number-submitted": "5.45e+04",
+  "tags": [
+    "dynamic-programming"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519331678"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1838"
+  },
+  "title": "Check if Matrix Is X-Matrix",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/check-if-matrix-is-x-matrix/",
+  "number": "2319",
+  "number-accepted": "3.82e+04",
+  "number-submitted": "5.74e+04",
+  "tags": [
+    "array",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519333039"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f183a"
+  },
+  "title": "Number of Distinct Roll Sequences",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/number-of-distinct-roll-sequences/",
+  "number": "2318",
+  "number-accepted": "8.60e+03",
+  "number-submitted": "1.54e+04",
+  "tags": [
+    "dynamic-programming",
+    "memoization"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519334400"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f183c"
+  },
+  "title": "Maximum XOR After Operations",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/maximum-xor-after-operations/",
+  "number": "2317",
+  "number-accepted": "1.78e+04",
+  "number-submitted": "2.24e+04",
+  "tags": [
+    "array",
+    "math",
+    "bit-manipulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519335878"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f183e"
+  },
+  "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+  "number": "2316",
+  "number-accepted": "7.21e+04",
+  "number-submitted": "1.42e+05",
+  "tags": [
+    "depth-first-search",
+    "breadth-first-search",
+    "union-find",
+    "graph"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519337295"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1840"
+  },
+  "title": "Count Asterisks",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/count-asterisks/",
+  "number": "2315",
+  "number-accepted": "4.49e+04",
+  "number-submitted": "5.47e+04",
+  "tags": [
+    "string"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519338716"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1842"
+  },
+  "title": "Selling Pieces of Wood",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/selling-pieces-of-wood/",
+  "number": "2312",
+  "number-accepted": "8.20e+03",
+  "number-submitted": "1.67e+04",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "memoization"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519340110"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1844"
+  },
+  "title": "Longest Binary Subsequence Less Than or Equal to K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/",
+  "number": "2311",
+  "number-accepted": "1.86e+04",
+  "number-submitted": "5.01e+04",
+  "tags": [
+    "string",
+    "dynamic-programming",
+    "greedy",
+    "memoization"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519341462"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1846"
+  },
+  "title": "Sum of Numbers With Units Digit K",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/sum-of-numbers-with-units-digit-k/",
+  "number": "2310",
+  "number-accepted": "2.17e+04",
+  "number-submitted": "8.40e+04",
+  "tags": [
+    "math",
+    "dynamic-programming",
+    "greedy",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519342829"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1848"
+  },
+  "title": "Greatest English Letter in Upper and Lower Case",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/greatest-english-letter-in-upper-and-lower-case/",
+  "number": "2309",
+  "number-accepted": "3.93e+04",
+  "number-submitted": "5.72e+04",
+  "tags": [
+    "hash-table",
+    "string",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519344132"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f184a"
+  },
+  "title": "Naming a Company",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/naming-a-company/",
+  "number": "2306",
+  "number-accepted": "5.51e+04",
+  "number-submitted": "1.17e+05",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "bit-manipulation",
+    "enumeration"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519345459"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f184c"
+  },
+  "title": "Fair Distribution of Cookies",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/fair-distribution-of-cookies/",
+  "number": "2305",
+  "number-accepted": "2.33e+04",
+  "number-submitted": "3.78e+04",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "backtracking",
+    "bit-manipulation",
+    "bitmask"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519346869"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f184e"
+  },
+  "title": "Minimum Path Cost in a Grid",
+  "difficulty": "Medium",
+  "link": "https://leetcode.com/problems/minimum-path-cost-in-a-grid/",
+  "number": "2304",
+  "number-accepted": "2.19e+04",
+  "number-submitted": "3.32e+04",
+  "tags": [
+    "array",
+    "dynamic-programming",
+    "matrix"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519348283"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1850"
+  },
+  "title": "Calculate Amount Paid in Taxes",
+  "difficulty": "Easy",
+  "link": "https://leetcode.com/problems/calculate-amount-paid-in-taxes/",
+  "number": "2303",
+  "number-accepted": "2.95e+04",
+  "number-submitted": "4.61e+04",
+  "tags": [
+    "array",
+    "simulation"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519349678"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1852"
+  },
+  "title": "Count Subarrays With Score Less Than K",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/count-subarrays-with-score-less-than-k/",
+  "number": "2302",
+  "number-accepted": "1.67e+04",
+  "number-submitted": "3.19e+04",
+  "tags": [
+    "array",
+    "binary-search",
+    "sliding-window",
+    "prefix-sum"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519351009"
+    }
+  }
+},{
+  "_id": {
+    "$oid": "64497b95f835413edc1f1854"
+  },
+  "title": "Match Substring After Replacement",
+  "difficulty": "Hard",
+  "link": "https://leetcode.com/problems/match-substring-after-replacement/",
+  "number": "2301",
+  "number-accepted": "1.15e+04",
+  "number-submitted": "2.92e+04",
+  "tags": [
+    "array",
+    "hash-table",
+    "string",
+    "string-matching"
+  ],
+  "update-time": {
+    "$date": {
+      "$numberLong": "1682519352470"
+    }
+  }
+}]
