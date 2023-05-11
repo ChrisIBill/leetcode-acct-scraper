@@ -19,45 +19,47 @@ Leetcode Problem DB Format:
     "number-submitted": Number of submissions,
     "number-accepted": Number of accepted submissions,
     "update-time": db value last update time,
-            "sample-submissions": {
-                Required to poll for performance distribution info
-                "python3-id":
-                "javascript-id":
-                "typescript-id":
-            }
     "problem-data": 
     {
+        lang1-data: {
         "runtime-distribution": 
-        {
-            "mode":
-            "mean":
-            "q1": First Quartile,
-            "q2":
-            "q3":Third Quartile,
-            "minimum":
-            "maximum":
+            {
+                "mode":
+                "mean":
+                "q1": First Quartile,
+                "q2":
+                "q3":Third Quartile,
+                "minimum":
+                "maximum":
+            },
+            "memory-distribution": 
+            {
+                "mode":
+                "mean":
+                "q1": First Quartile,
+                "q2":
+                "q3":Third Quartile,
+                "minimum":
+                "maximum":
+            },
         },
-        "memory-distribution": 
-        {
-            "mode":
-            "mean":
-            "q1": First Quartile,
-            "q2":
-            "q3":Third Quartile,
-            "minimum":
-            "maximum":
-        },
-    }
+    },
 }
 User Data DB Format:
 {
 "_id": username,
-"submissions": list of id's of user submissions
+"solved-problems": {
+    {
+        "problem-title": ,
+        "lang1-submissions": [...submissions],
+        "lang2-submissions": [...submissions]
+    }
 }
-
-Submissions DB Format:
+            
+Submissions2 DB Format:
 {
-    _id: submission id
+    username:
+    submission-id: 
     problem-title:
     problem-number:
     runtime:
