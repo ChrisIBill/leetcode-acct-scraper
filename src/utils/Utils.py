@@ -104,10 +104,13 @@ def formatProblemSet(probsDict, time):
 
     df = pandas.DataFrame.from_dict(
         probsDict['data']['problemsetQuestionList']['questions'])
+    #Reorienting stats for db
     df = pandas.concat([df.drop(['stats'], axis=1), df['stats'].map(
         eval).apply(pandas.Series)], axis=1)
+    #@TODO
     df = pandas.concat([df.drop(['topicTags'], axis=1), pandas.DataFrame(
         df['topicTags'].map(lambda x: [y['name'] for y in x] if x else []))], axis=1)
+    #raw numbers make these unneeded
     df.drop(['totalAccepted', 'totalSubmission',
             'titleSlug'], axis=1, inplace=True)
     df = df.rename(columns={'totalAcceptedRaw': 'totalAccepted',
@@ -119,3 +122,13 @@ def formatProblemSet(probsDict, time):
     df.set_index('title', inplace=True)
     df['problemNumber'] = df['problemNumber'].astype(int)
     return df.to_dict(orient='index')
+
+def formatSubmissionsJSON(subs, username):
+    print(subs)
+    
+    df = pandas.DataFrame.from_dict(
+        subs['data']['recentAcSubmissionList']
+    )
+    df.insert(0, 'username', username)
+    df.set_index('id')
+    return df

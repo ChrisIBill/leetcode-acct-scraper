@@ -2,8 +2,8 @@ import time
 import pandas as pd
 import numpy as np
 import utils.leetcodeRequests as leetcodeRequests
-from utils.Utils import formatProblemSet, getCurrentTime
-from utils.dbHandler import getCollectionMetaData, getProblemDataFromTitle, getProblemsCollection, getUsersFromCollection, writeProblemsToDB
+from utils.Utils import formatProblemSet, formatSubmissionsJSON, getCurrentTime
+from utils.dbHandler import getCollectionMetaData, getProblemDataFromTitle, getProblemsCollection, getSubmissionsCollection, getUserdataCollection, getUsersFromCollection, writeProblemsToDB
 
 
 def handleNewSubmissions(submissionsDict):
@@ -38,11 +38,14 @@ def updateProblemsSetCollection():
 
 def updateUserDataCollection():
     CURRENT_TIME = getCurrentTime()
-    usernames = getUsersFromCollection()
-    submissions = []
-    for user in usernames:
-        submissions.append(leetcodeRequests.getUserSubmissionsJSON(user))
-        time.sleep(5)
+    meta = getCollectionMetaData(getSubmissionsCollection())
+    submissions = {}
+    for user in meta['tracked-users']:
+        print(user)
+        #handles remaking data for better handling
+        userdata = leetcodeRequests.getUserSubmissionsJSON(user)
+        subsDF = formatSubmissionsJSON(userdata, user)
+        #@TODO
     return submissions
 
 

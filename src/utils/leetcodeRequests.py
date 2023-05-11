@@ -2,32 +2,49 @@ import requests
 
 URL = "https://leetcode.com/graphql"
 
-PROBLEM_SET_HTTP_QUERY = """
-    query problemsetQuestionList($categorySlug: String, $limit: Int, $skip: Int, $filters: QuestionListFilterInput) {
+PROBLEM_SET_HTTP_QUERY = '''
+    query problemsetQuestionList(
+        $categorySlug: String,
+        $limit: Int,
+        $skip: Int,
+        $filters: QuestionListFilterInput
+    ) {
         problemsetQuestionList: questionList(
-            categorySlug: $categorySlug
-            limit: $limit
-            skip: $skip
-            filters: $filters
+            categorySlug: $categorySlug,
+            limit: $limit,
+            skip: $skip,
+            filters: $filters,
         ) {
-            total: totalNum
+            total: totalNum,
             questions: data {
-                difficulty
-                likes
-                dislikes
-                stats
-                frontendQuestionId: questionFrontendId
-                paidOnly: isPaidOnly
-                title
-                titleSlug
+                difficulty,
+                likes,
+                dislikes,
+                stats,
+                frontendQuestionId: questionFrontendId,
+                paidOnly: isPaidOnly,
+                title,
+                titleSlug,
                 topicTags {
-                    name
-                    id
-                    slug
-                }
-            }
-        }
-    }"""
+                    name,
+                    id,
+                    slug,
+                },
+            },
+        },
+    }
+'''
+
+"""
+    query recentAcSubmissions($username: String!, $limit: Int!) {
+  recentAcSubmissionList(username: $username, limit: $limit) {
+    id
+    title
+    titleSlug
+    timestamp
+  }
+}
+"""
 
 AC_SUBMISSIONS_HTTP_QUERY = """
     query recentAcSubmissions($username: String!, $limit: Int!) {
@@ -39,6 +56,46 @@ AC_SUBMISSIONS_HTTP_QUERY = """
         }
     }"""
 
+SUBMISSION_DETAILS_HTTP_QUERY = '''
+    query submissionDetails($submissionId: Int!) {
+        submissionDetails(submissionId: $submissionId) {
+            runtime,
+            runtimeDisplay,
+            runtimePercentile,
+            runtimeDistribution,
+            memory,
+            memoryDisplay,
+            memoryPercentile,
+            memoryDistribution,
+            code,
+            timestamp,
+            statusCode,
+            user {
+                username,
+                profile {
+                    realName,
+                    userAvatar,
+                },
+            },
+            lang {
+                name,
+                verboseName,
+            },
+            question {
+                questionId,
+            },
+            notes,
+            topicTags {
+                tagId,
+                slug,
+                name,
+            },
+            runtimeError,
+            compileError,
+            lastTestcase,
+        },
+    }
+'''
 
 def getProblemSetQuestionListJSON(skip):
     if not 0 <= skip <= 2400:  # 2400 is the max
@@ -67,3 +124,6 @@ def getUserSubmissionsJSON(username):
         "query": AC_SUBMISSIONS_HTTP_QUERY,
         "variables": variables,
     }).json()
+# @TODO
+# def getSubmissionData(submissionID, submissionTitle):
+    

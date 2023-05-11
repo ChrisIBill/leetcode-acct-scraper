@@ -18,9 +18,11 @@ def getDatabase() -> MongoClient:
     return client['leetcode']
 
 
-def getSubmissionsCollection() -> Collection:
-    return getDatabase()['submissions']
+# def getSubmissionsCollection() -> Collection:
+#     return getDatabase()['submissions']
 
+def getSubmissionsCollection() -> Collection:
+    return getDatabase()['submissions2']
 
 def getProblemsCollection() -> Collection:
     return getDatabase()['problems2']
