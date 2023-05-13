@@ -40,13 +40,16 @@ def updateUserDataCollection():
     CURRENT_TIME = getCurrentTime()
     meta = getCollectionMetaData(getSubmissionsCollection())
     submissions = {}
+    subsDict = {}
     for user in meta['tracked-users']:
         print(user)
         #handles remaking data for better handling
         userdata = leetcodeRequests.getUserSubmissionsJSON(user)
-        subsDF = formatSubmissionsJSON(userdata, user)
+        userdata = userdata['data']['recentAcSubmissionList']
+        subsDict.update({user: userdata})
+        #subsDF.append(formatSubmissionsJSON(userdata, user))
         #@TODO
-    return submissions
+    return subsDict
 
 
 def DBManager():
