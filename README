@@ -68,3 +68,12 @@ Submissions2 DB Format:
     runtime-percentile:
     memory-percentile:
 }
+
+Sample-Submissions DB:
+{
+    problem-title:
+    problem-id:
+    update-time:
+    lang1-sample-submission:
+    lang2-sample-submission:
+}

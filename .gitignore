@@ -1,4 +1,4 @@
-venv/
+.venv/
 config.ini
 *.ini
 *.csv
@@ -6,3 +6,4 @@ config.ini
 *.~lock.*
 src/__pycache__/dbHandler.cpython-39.pyc
 .gitignore
+.vscode/

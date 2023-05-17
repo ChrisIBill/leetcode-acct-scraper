@@ -5,6 +5,7 @@ import utils.leetcodeRequests as leetcodeRequests
 from utils.Utils import formatProblemSet, formatSubmissionsJSON, getCurrentTime
 from utils.dbHandler import getCollectionMetaData, getProblemDataFromTitle, getProblemsCollection, getSubmissionsCollection, getUserdataCollection, getUsersFromCollection, writeProblemsToDB
 
+NUM_TO_SCRAPE = 100
 
 def handleNewSubmissions(submissionsDict):
     import pandas as pd
@@ -22,9 +23,12 @@ def updateProblemsSetCollection():
     meta = getCollectionMetaData(probsCollection)
     skip = meta['current-scrape']
     probsDict = leetcodeRequests.getProblemSetQuestionListJSON(skip)
-    df = formatProblemSet(probsDict, CURRENT_TIME)
+    df, total_problems = formatProblemSet(probsDict, CURRENT_TIME)
+    skip += NUM_TO_SCRAPE
+    if total_problems < skip:
+        skip = 0
     meta = {
-        'current-scrape': skip + 100,
+        'current-scrape': skip,
         'last-update': CURRENT_TIME
     }
     writeProblemsToDB(df, meta)
@@ -54,4 +58,4 @@ def updateUserDataCollection():
 
 def DBManager():
     # return updateProblemsSetCollection()
-    return updateUserDataCollection()
+    # return updateUserDataCollection()

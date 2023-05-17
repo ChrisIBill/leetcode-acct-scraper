@@ -101,7 +101,7 @@ def expandNumber(numString: str):
 
 def formatProblemSet(probsDict, time):
     print(probsDict)
-
+    total = probsDict['data']['problemsetQuestionList']['total']
     df = pandas.DataFrame.from_dict(
         probsDict['data']['problemsetQuestionList']['questions'])
     #Reorienting stats for db
@@ -121,7 +121,7 @@ def formatProblemSet(probsDict, time):
     df.insert(0, 'update-time', time)
     df.set_index('title', inplace=True)
     df['problemNumber'] = df['problemNumber'].astype(int)
-    return df.to_dict(orient='index')
+    return df.to_dict(orient='index'), total
 
 def formatSubmissionsJSON(subs, username):
     print(subs)

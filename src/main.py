@@ -1,4 +1,7 @@
 import scrapers
+from fastapi import FastAPI
+app = FastAPI()
 
-if __name__ == 'main':
-    print("Hello")
+@app.get("/{username}")
+async def root(username: str):
+    return {"Hello ", username}

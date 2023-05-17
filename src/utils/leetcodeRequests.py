@@ -25,6 +25,7 @@ PROBLEM_SET_HTTP_QUERY = '''
                 paidOnly: isPaidOnly,
                 title,
                 titleSlug,
+                langs,
                 topicTags {
                     name,
                     id,
@@ -52,6 +53,7 @@ AC_SUBMISSIONS_HTTP_QUERY = """
             id
             title
             titleSlug
+            lang
             timestamp
         }
     }"""
@@ -104,7 +106,7 @@ def getProblemSetQuestionListJSON(skip):
 		    "categorySlug": "",
 		    "filters": {{
 		    	"orderBy": "FRONTEND_ID",
-		    	"sortOrder": "DESCENDING"
+		    	"sortOrder": "ASCENDING",
 		    }},
 		    "limit": "100",
 		    "skip": {skip}
